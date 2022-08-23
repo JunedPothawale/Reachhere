@@ -17,26 +17,7 @@
   <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-      <div class="carousel-item active">
-          <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h3>Welcome To</h3>
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Reach Here
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt.
-                  </p>
-                  <a href="./contact.php" class="btn btn-primary py-3 px-5">Contact us</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-      <div class="carousel-item">
+        <div class="carousel-item">
           <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
@@ -54,7 +35,25 @@
             </div>
           </div>
         </div>
-        
+        <div class="carousel-item active">
+          <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h3>Welcome To</h3>
+                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
+                    Reach Here
+                  </h1>
+                  <p class="fs-5 text-body mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt.
+                  </p>
+                  <a href="./contact.php" class="btn btn-primary py-3 px-5">Contact us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev" style="width: 5rem;">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -86,8 +85,8 @@
         </div>
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="h-100">
-            <h1 class="display-6 mb-5">
-              We're Here To Assist You With Exploring Protection
+            <h1 class="display-6 mb-5 text--color">
+             Our Experience
             </h1>
             <p class="fs-5 text-primary mb-4">
               Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
@@ -160,7 +159,7 @@
     <div class="container">
       <div class="row g-5">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <h1 class="display-6 mb-5">Few Reasons Why People Choosing Us!</h1>
+          <h1 class="display-6 mb-5 text--color">Few Reasons Why People Choosing Us!</h1>
           <p class="mb-4">
             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
             diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
@@ -171,7 +170,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                  <h5 class="mb-0">Easy Process</h5>
+                  <h5 class="mb-0">Security</h5>
                 </div>
               </div>
             </div>
@@ -179,7 +178,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                  <h5 class="mb-0">Fast Delivery</h5>
+                  <h5 class="mb-0">Safty</h5>
                 </div>
               </div>
             </div>
@@ -187,7 +186,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                  <h5 class="mb-0">Policy Controlling</h5>
+                  <h5 class="mb-0">Trust</h5>
                 </div>
               </div>
             </div>
@@ -195,7 +194,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                  <h5 class="mb-0">Money Saving</h5>
+                  <h5 class="mb-0">Values</h5>
                 </div>
               </div>
             </div>
@@ -215,48 +214,19 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5">
-          We Provide professional Insurance Services
+        <h1 class="display-6 mb-5 text--color">
+          We Provide professional Services 
         </h1>
       </div>
       <div class="row g-4 justify-content-center">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-10-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Life Insurance</h4>
-            </div>
-            <p class="mb-4">
-              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-              sit clita duo justo erat amet
-            </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-01-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Health Insurance</h4>
-            </div>
-            <p class="mb-4">
-              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-              sit clita duo justo erat amet
-            </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+     
+        <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item rounded h-100 p-5">
             <div class="d-flex align-items-center ms-n5 mb-4">
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Home Insurance</h4>
+              <h4 class="mb-0">Home Service </h4>
             </div>
             <p class="mb-4">
               Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -265,28 +235,13 @@
             <a class="btn btn-light px-3" href="">Read More</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-08-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Vehicle Insurance</h4>
-            </div>
-            <p class="mb-4">
-              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-              sit clita duo justo erat amet
-            </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item rounded h-100 p-5">
             <div class="d-flex align-items-center ms-n5 mb-4">
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Business Insurance</h4>
+              <h4 class="mb-0">Consultant Services</h4>
             </div>
             <p class="mb-4">
               Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -295,21 +250,7 @@
             <a class="btn btn-light px-3" href="">Read More</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-06-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Property Insurance</h4>
-            </div>
-            <p class="mb-4">
-              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-              sit clita duo justo erat amet
-            </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
-          </div>
-        </div>
+       
       </div>
     </div>
   </div>
@@ -321,7 +262,7 @@
       <div class="row g-5">
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
           <h1 class="display-6 text-white mb-5 text-primary">
-            We're Award Winning Insurance Company
+            We're Award Winning Service Company
           </h1>
           <p class="text-white mb-5">
             Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
