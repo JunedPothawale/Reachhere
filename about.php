@@ -3,7 +3,7 @@
 <?php include("components/header.php");?>
 
 
-  <body>
+  <body style="overflow-x: hidden;">
     <!-- Spinner Start -->
     <div
       id="spinner"
@@ -27,18 +27,36 @@
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
             <li class="breadcrumb-item active" aria-current="page">About</li>
           </ol>
         </nav>
       </div>
     </div>
     <!-- Page Header End -->
+<div class=" col-12 col-lg-6 bg--primary text-white px-5 py-5 rounded mx-auto">
+  <div class="text-center mb-3">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="118.000000pt" height="80.000000pt" viewBox="0 0 118.000000 110.000000"
+ preserveAspectRatio="xMidYMid meet">
 
+<g transform="translate(0.000000,110.000000) scale(0.100000,-0.100000)"
+fill="rgba(255, 255, 255, 0.5)
+" stroke="none">
+<path d="M3 798 c6 -345 14 -397 77 -526 49 -99 117 -171 215 -230 80 -48 68
+-53 137 58 l38 60 -38 19 c-59 30 -121 97 -153 165 -31 67 -59 177 -59 239 l0
+37 110 0 110 0 0 240 0 240 -221 0 -222 0 6 -302z"/>
+<path d="M712 778 c5 -354 9 -380 71 -508 39 -81 148 -193 231 -237 l60 -31
+48 76 c43 69 47 78 32 87 -136 81 -209 205 -221 378 l-6 77 107 0 106 0 0 240
+0 240 -216 0 -216 0 4 -322z"/>
+</g>
+</svg></div>
+  <h1 class="text-center text-white">You have two hands. One to help yourself, and one to help others.”</h1>
+  <p class="fst-italic text-end">By Audrey Hepburn</p>
+</div>
     <!-- About Start -->
     <div class="container-xxl py-5">
       <div class="container">
-        <div class="row g-5">
+        <div class="row jutify-content-center align-items-center g-5">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div
               class="position-relative overflow-hidden rounded ps-5 pt-5 h-100"
@@ -46,7 +64,7 @@
             >
               <img
                 class="position-absolute w-100 h-100"
-                src="img/about.jpg"
+                src="img/carousel-2.jpg"
                 alt=""
                 style="object-fit: cover"
               />
@@ -57,48 +75,17 @@
                 <div
                   class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3"
                 >
-                  <h1 class="text-white mb-0">25</h1>
-                  <h2 class="text-white">Years</h2>
-                  <h5 class="text-white mb-0">Experience</h5>
+                  <h1 class="text-white mb-0">3000+</h1>
+                  <h2 class="text-white">Happy</h2>
+                  <h5 class="text-white mb-0">Family</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="h-100">
-              <h1 class="display-6 mb-5">
-                We're Here To Assist You With Exploring Protection
-              </h1>
               <p class="fs-5 text-primary mb-4">
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
-                lorem sit clita duo justo erat amet
-              </p>
-              <div class="row g-4 mb-4">
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center">
-                    <img
-                      class="flex-shrink-0 me-3"
-                      src="img/icon/icon-04-primary.png"
-                      alt=""
-                    />
-                    <h5 class="mb-0">Flexible Insurance Plans</h5>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="d-flex align-items-center">
-                    <img
-                      class="flex-shrink-0 me-3"
-                      src="img/icon/icon-03-primary.png"
-                      alt=""
-                    />
-                    <h5 class="mb-0">Money Back Guarantee</h5>
-                  </div>
-                </div>
-              </div>
-              <p class="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              Caregiving often calls us to lean into love we didn’t know possible. We as human beings, need care, assistance and backing, with compassion, at every stage of life. Reach Here is an inimitable concept providing instantaneous assistance through REACHERS (Assistants) on an hourly/contractual basis to address the requirements of senior citizens, domestic help and children.
               </p>
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex align-items-center">
@@ -107,7 +94,7 @@
                     src="img/profile.jpg"
                     alt=""
                   />
-                  <h5 class="mb-0">Call Us: +012 345 6789</h5>
+                  <h5 class="mb-0">Call Us: 9511819165</h5>
                 </div>
               </div>
             </div>
@@ -116,170 +103,74 @@
       </div>
     </div>
     <!-- About End -->
+<!-- ------- -->
+<div class="row g-3 justify-content-center" style="overflow-x: hidden !important;">
+     
+     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+             <img class="img-fluid" src="img/icon/icons8-star-50.png" alt="" />
+           </div>
+           <h4 class="mb-0">DIFFERENTIATOR </h4>
+         </div>
+         <p class="mb-4">
+         All our Reachers are trained to provide services in professional manner. Their backgrounds have been verified and have undergone requisite training
+         </p>
+         <a class="btn btn-light px-3" href="home.php">Read More</a>
+       </div>
+     </div>
+     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+             <img class="img-fluid" src="img/icon/icons8-vision-64.png" alt="" />
+           </div>
+           <h4 class="mb-0">OUR VISION </h4>
+         </div>
+         <p class="mb-4">
+         To Reach and assist every home on the globe with a Smile.
+         </p>
+         <a class="btn btn-light px-3" href="home.php">Read More</a>
+       </div>
+     </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+             <img class="img-fluid" src="img/icon/icons8-aim-64.png" alt="" />
+           </div>
+           <h4 class="mb-0">OUR MISSION</h4>
+         </div>
+         <p class="mb-4">
+         We strive to send trained Reachers to your loving home on hourly basis to assist senior citizens, young kids and for domestic help, at your doorstep
+         </p>
+         <a class="btn btn-light px-3" href="home.php">Read More</a>
+       </div>
+     </div>
+    
+   </div>
 
-    <!-- Facts Start -->
-    <div class="container-fluid overflow-hidden my-5 px-lg-0">
-      <div class="container facts px-lg-0">
-        <div class="row g-0 mx-lg-0">
-          <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
-            <div class="h-100 px-4 ps-lg-0">
-              <h1 class="text-white mb-4">For Individuals And Organisations</h1>
-              <p class="text-light mb-5">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
-              </p>
-              <a href="" class="align-self-start btn btn-secondary py-3 px-5"
-                >More Details</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
-            <div class="h-100 px-4 pe-lg-0">
-              <div class="row g-5">
-                <div class="col-sm-6">
-                  <h1 class="display-5" data-toggle="counter-up">1234</h1>
-                  <p class="fs-5 text-primary">Happy Clients</p>
-                </div>
-                <div class="col-sm-6">
-                  <h1 class="display-5" data-toggle="counter-up">1234</h1>
-                  <p class="fs-5 text-primary">Projects Succeed</p>
-                </div>
-                <div class="col-sm-6">
-                  <h1 class="display-5" data-toggle="counter-up">1234</h1>
-                  <p class="fs-5 text-primary">Awards Achieved</p>
-                </div>
-                <div class="col-sm-6">
-                  <h1 class="display-5" data-toggle="counter-up">1234</h1>
-                  <p class="fs-5 text-primary">Team Members</p>
-                </div>
+<!-- --------- -->
+    <!-- Appointment Start -->
+    <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="bg-white rounded p-5">
+            <h1 class="text--color">OUR CORE VALUES</h1>
+            <div class="mt-3">
+                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Earn Trust</p>
+                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Committed to Operational Excellence</p>
+                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Innovate and Simplify</p>
+                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Safety First</p>
+                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Building a caring community</p>
               </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Facts End -->
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center mx-auto" style="max-width: 500px">
-          <h1 class="display-6 mb-5">Meet Our Professional Team Members</h1>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="team-item rounded">
-              <img class="img-fluid" src="img/team-1.jpg" alt="" />
-              <div class="text-center p-4">
-                <h5>Full Name</h5>
-                <span>Designation</span>
-              </div>
-              <div class="team-text text-center bg-white p-4">
-                <h5>Full Name</h5>
-                <p>Designation</p>
-                <div class="d-flex justify-content-center">
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="team-item rounded">
-              <img class="img-fluid" src="img/team-2.jpg" alt="" />
-              <div class="text-center p-4">
-                <h5>Full Name</h5>
-                <span>Designation</span>
-              </div>
-              <div class="team-text text-center bg-white p-4">
-                <h5>Full Name</h5>
-                <p>Designation</p>
-                <div class="d-flex justify-content-center">
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="team-item rounded">
-              <img class="img-fluid" src="img/team-3.jpg" alt="" />
-              <div class="text-center p-4">
-                <h5>Full Name</h5>
-                <span>Designation</span>
-              </div>
-              <div class="team-text text-center bg-white p-4">
-                <h5>Full Name</h5>
-                <p>Designation</p>
-                <div class="d-flex justify-content-center">
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-            <div class="team-item rounded">
-              <img class="img-fluid" src="img/team-4.jpg" alt="" />
-              <div class="text-center p-4">
-                <h5>Full Name</h5>
-                <span>Designation</span>
-              </div>
-              <div class="team-text text-center bg-white p-4">
-                <h5>Full Name</h5>
-                <p>Designation</p>
-                <div class="d-flex justify-content-center">
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                  <a class="btn btn-square btn-light m-1" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Team End -->
+  </div>
+  <!-- Appointment End -->  
 
     <!-- Footer Start -->
     <?php require('components/sections/common/footer.php')  ?>
