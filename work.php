@@ -22,12 +22,11 @@
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
-        <h1 class="display-4 animated slideInDown mb-4">Services</h1>
+        <h1 class="display-4 animated slideInDown mb-4">Work</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Services</li>
+            <li class="breadcrumb-item active" aria-current="page">Work</li>
           </ol>
         </nav>
       </div>
@@ -38,24 +37,25 @@
     <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px">
-          <h1 class="display-6 mb-5">
-            We Provide professional Insurance Services
+          <h1 class="display-6 mb-5 text--color">
+           ALL Services Types Of We Provide 
           </h1>
         </div>
         <div class="row g-4 justify-content-center">
+          <h3 class="text--color">Home Service</h3>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item rounded h-100 p-5">
               <div class="d-flex align-items-center ms-n5 mb-4">
                 <div
                   class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
                 >
-                  <img
+                <img
                     class="img-fluid"
-                    src="img/icon/icon-10-light.png"
+                    src="img/icon/icon-05-light.png"
                     alt=""
                   />
                 </div>
-                <h4 class="mb-0">Life Insurance</h4>
+                <h4 class="mb-0">Home Assist</h4>
               </div>
               <p class="mb-4">
                 Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -76,7 +76,7 @@
                     alt=""
                   />
                 </div>
-                <h4 class="mb-0">Health Insurance</h4>
+                <h4 class="mb-0">Child Assist</h4>
               </div>
               <p class="mb-4">
                 Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -91,13 +91,14 @@
                 <div
                   class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
                 >
+               
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-05-light.png"
+                    src="img/icon/icon-10-light.png"
                     alt=""
                   />
                 </div>
-                <h4 class="mb-0">Home Insurance</h4>
+                <h4 class="mb-0">Senior Assist</h4>
               </div>
               <p class="mb-4">
                 Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -106,6 +107,7 @@
               <a class="btn btn-light px-3" href="">Read More</a>
             </div>
           </div>
+          <h3 class="text--color">Consultant Service</h3>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item rounded h-100 p-5">
               <div class="d-flex align-items-center ms-n5 mb-4">
@@ -118,7 +120,7 @@
                     alt=""
                   />
                 </div>
-                <h4 class="mb-0">Vehicle Insurance</h4>
+                <h4 class="mb-0">HR recruitment services</h4>
               </div>
               <p class="mb-4">
                 Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
@@ -127,48 +129,7 @@
               <a class="btn btn-light px-3" href="">Read More</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div
-                  class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
-                >
-                  <img
-                    class="img-fluid"
-                    src="img/icon/icon-07-light.png"
-                    alt=""
-                  />
-                </div>
-                <h4 class="mb-0">Business Insurance</h4>
-              </div>
-              <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-              <div class="d-flex align-items-center ms-n5 mb-4">
-                <div
-                  class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
-                >
-                  <img
-                    class="img-fluid"
-                    src="img/icon/icon-06-light.png"
-                    alt=""
-                  />
-                </div>
-                <h4 class="mb-0">Property Insurance</h4>
-              </div>
-              <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
-              </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
