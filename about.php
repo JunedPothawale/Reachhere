@@ -33,7 +33,7 @@
       </div>
     </div>
     <!-- Page Header End -->
-<div class="col-6 bg--primary text-white px-5 py-5 rounded mx-auto">
+<div class=" col-12 col-lg-6 bg--primary text-white px-5 py-5 rounded mx-auto">
   <div class="text-center mb-3">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="118.000000pt" height="80.000000pt" viewBox="0 0 118.000000 110.000000"
