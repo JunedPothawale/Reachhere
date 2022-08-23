@@ -48,7 +48,7 @@
                   <p class="fs-5 text-body mb-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt.
                   </p>
-                  <a href="./contact.php" class="btn btn-primary py-3 px-5">Contact us</a>
+                  <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@
           <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
             <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover" />
             <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
-              <div class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3">
+              <div class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
                 <h1 class="text-white mb-0">25</h1>
                 <h2 class="text-white">Years</h2>
                 <h5 class="text-white mb-0">Experience</h5>
@@ -92,20 +92,6 @@
               Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
               lorem sit clita duo justo erat amet
             </p>
-            <div class="row g-4 mb-4">
-              <div class="col-sm-6">
-                <div class="d-flex align-items-center">
-                  <img class="flex-shrink-0 me-3" src="img/icon/icon-04-primary.png" alt="" />
-                  <h5 class="mb-0">Flexible Insurance Plans</h5>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="d-flex align-items-center">
-                  <img class="flex-shrink-0 me-3" src="img/icon/icon-03-primary.png" alt="" />
-                  <h5 class="mb-0">Money Back Guarantee</h5>
-                </div>
-              </div>
-            </div>
             <p class="mb-4">
               Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
               Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
@@ -125,9 +111,9 @@
   <!-- About End -->
 
   <!-- Facts Start -->
-  <div class="container-fluid overflow-hidden my-5 px-lg-0">
+  <div class="container-fluid  overflow-hidden my-5 px-lg-0">
     <div class="container facts px-lg-0">
-      <div class="row g-0 mx-lg-0">
+      <div class="row g-0 mx-lg-0 ">
         <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
           <div class="h-100 px-4 ps-lg-0">
             <h1 class="text-white mb-4">Our Happy Client</h1>
@@ -136,7 +122,7 @@
               Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
               sed stet lorem sit clita duo justo magna dolore erat amet
             </p>
-            <a href="" class="align-self-start btn btn-secondary py-3 px-5">More Details</a>
+            <a href="" class="align-self-start btn btn-light py-3 px-5">More Details</a>
           </div>
         </div>
         <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
@@ -215,7 +201,7 @@
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
         <h1 class="display-6 mb-5 text--color">
-          We Provide professional Services 
+          We Provide Services Like
         </h1>
       </div>
       <div class="row g-4 justify-content-center">
@@ -232,7 +218,7 @@
               Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
               sit clita duo justo erat amet
             </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
+            <a class="btn btn-light px-3" href="home.php">Read More</a>
           </div>
         </div>
         <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -247,7 +233,7 @@
               Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
               sit clita duo justo erat amet
             </p>
-            <a class="btn btn-light px-3" href="">Read More</a>
+            <a class="btn btn-light px-3" href="consaltant.php">Read More</a>
           </div>
         </div>
        
@@ -272,7 +258,7 @@
             clita duo justo magna.
           </p>
           <div class="bg-white rounded p-3">
-            <div class="d-flex align-items-center bg-primary rounded p-3">
+            <div class="d-flex align-items-center bg--primary rounded p-3">
               <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
               <h5 class="text-white mb-0">Call Us: +012 345 6789</h5>
             </div>
@@ -313,7 +299,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary py-3 px-5" type="submit">
+                  <button class="btn bg--primary text-white py-3 px-5" type="submit">
                     Get Appointment
                   </button>
                 </div>

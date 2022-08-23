@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+<div class="container-fluid bg-primary text-white py-2 px-0 d-none d-lg-block">
     <div class="row gx-0 align-items-center">
       <div class="col-lg-7 px-5 text-start">
         <div class="h-100 d-inline-flex align-items-center me-4">
@@ -14,12 +14,12 @@
           <small>Mon - Fri : 09 AM - 09 PM</small>
         </div>
       </div>
-      <div class="col-lg-5 px-5 text-end">
+      <div class="col-lg-5 px-5 text-end ">
         <div class="h-100 d-inline-flex align-items-center">
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-facebook-f"></i></a>
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-twitter"></i></a>
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
-          <a class="text-white-50 ms-4" href=""><i class="fab fa-instagram"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
   <!-- Topbar End -->
 
   <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg bg-primary navbar-light sticky-top px-4 px-lg-5">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
     <a href="index.php" class="navbar-brand d-flex align-items-center">
       <h1 class="m-0">
         <img class="img-fluid me-3" src="img/logo.png" alt="" />
@@ -52,5 +52,5 @@
         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
       </div>
     </div>
-    <a href="" class="btn btn-light text--color fw-bold px-3 d-none d-lg-block">Enquiry</a>
+    <a href="contact.php" class="btn btn-light text--color fw-bold px-3 d-none d-lg-block">Enquiry</a>
   </nav>
