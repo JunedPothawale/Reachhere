@@ -17,25 +17,7 @@
   <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Our Services
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor
-                  </p>
-                  <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
+      <div class="carousel-item active">
           <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
@@ -53,7 +35,26 @@
               </div>
             </div>
           </div>
+        </div>  
+      <div class="carousel-item">
+          <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
+                    Our Services
+                  </h1>
+                  <p class="fs-5 text-body mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor
+                  </p>
+                  <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev" style="width: 5rem;">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -319,7 +320,7 @@
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-          <h1 class="display-6 text-white mb-5">
+          <h1 class="display-6 text-white mb-5 text-primary">
             We're Award Winning Insurance Company
           </h1>
           <p class="text-white mb-5">
@@ -388,19 +389,19 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5">Meet Our Professional Team Members</h1>
+        <h1 class="display-6 mb-5 text-primary">Meet Our Professional Team Members</h1>
       </div>
       <div class="row g-4">
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-1.jpg" alt="" />
+            <img class="img-fluid" src="img\team-4.jpg" alt="" />
             <div class="text-center p-4">
-              <h5>Full Name</h5>
-              <span>Designation</span>
+              <h5>Durgesh Panday</h5>
+              <span>Lead Manager</span>
             </div>
             <div class="team-text text-center bg-white p-4">
-              <h5>Full Name</h5>
-              <p>Designation</p>
+            <h5>Durgesh Panday</h5>
+              <span>Lead Manager</span>
               <div class="d-flex justify-content-center">
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -412,14 +413,14 @@
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-2.jpg" alt="" />
+            <img class="img-fluid" src="img\team-4.jpg" alt="" />
             <div class="text-center p-4">
-              <h5>Full Name</h5>
-              <span>Designation</span>
+              <h5>Junad Memon</h5>
+              <span>Software developer</span>
             </div>
             <div class="team-text text-center bg-white p-4">
-              <h5>Full Name</h5>
-              <p>Designation</p>
+            <h5>Junad Memon</h5>
+              <span>Software developer</span>
               <div class="d-flex justify-content-center">
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -431,14 +432,14 @@
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-3.jpg" alt="" />
+            <img class="img-fluid" src="img\team-4.jpg" alt="" />
             <div class="text-center p-4">
-              <h5>Full Name</h5>
-              <span>Designation</span>
+            <h5>Ranjeet Poojari</h5>
+              <span>Software developer</span>
             </div>
             <div class="team-text text-center bg-white p-4">
-              <h5>Full Name</h5>
-              <p>Designation</p>
+            <h5>Ranjeet Poojari</h5>
+              <span>Software developer</span>
               <div class="d-flex justify-content-center">
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -450,14 +451,14 @@
         </div>
         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
           <div class="team-item rounded">
-            <img class="img-fluid" src="img/team-4.jpg" alt="" />
+            <img class="img-fluid" src="img\team-4.jpg" alt="" />
             <div class="text-center p-4">
-              <h5>Full Name</h5>
-              <span>Designation</span>
+            <h5>Shalil jaiswar </h5>
+              <p>Software developer</p>
             </div>
             <div class="team-text text-center bg-white p-4">
-              <h5>Full Name</h5>
-              <p>Designation</p>
+            <h5>Shalil jaiswar </h5>
+              <p>Software developer</p>
               <div class="d-flex justify-content-center">
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -476,7 +477,7 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5">What They Say About Our Insurance</h1>
+        <h1 class="display-6 text-primary mb-5">What They Say About There Success Story</h1>
       </div>
       <div class="row g-5">
         <div class="col-lg-3 d-none d-lg-block">
@@ -489,14 +490,14 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-1.jpg" alt="" />
+              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
               <p class="fs-5">
                 Dolores sed duo clita tempor justo dolor et stet lorem kasd
                 labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
                 et labore et tempor diam tempor erat.
               </p>
-              <h5>Client Name</h5>
-              <span>Profession</span>
+              <h5>Durgesh Panday</h5>
+              <span>Lead Manager</span>
             </div>
             <div class="testimonial-item text-center">
               <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
@@ -505,8 +506,8 @@
                 labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
                 et labore et tempor diam tempor erat.
               </p>
-              <h5>Client Name</h5>
-              <span>Profession</span>
+              <h5>Shalil jaiswar</h5>
+              <span>Software developer</span>
             </div>
             <div class="testimonial-item text-center">
               <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-3.jpg" alt="" />
@@ -515,8 +516,8 @@
                 labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
                 et labore et tempor diam tempor erat.
               </p>
-              <h5>Client Name</h5>
-              <span>Profession</span>
+              <h5>Junad Memon</h5>
+              <span>Software developer</span>
             </div>
           </div>
         </div>

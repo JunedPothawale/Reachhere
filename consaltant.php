@@ -26,7 +26,7 @@
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item"><a href="#">Our Services</a></li>
             <li class="breadcrumb-item active" aria-current="page">Features</li>
           </ol>
         </nav>
