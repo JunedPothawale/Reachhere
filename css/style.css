@@ -405,7 +405,10 @@
     width: 100px;
     height: 100px;
 }
-
+.testimonial-carousel .client img {
+    width: 300px;
+    height: 300px; 
+}
 .testimonial-carousel .owl-nav {
     margin-top: 30px;
     display: flex;
@@ -432,7 +435,12 @@
     background: var(--secondary);
 }
 
+/* ------- */
 
+
+.form-control:disabled, .form-control:read-only {background-color: white;    height: calc(3.5rem + 2px);
+    padding: 1rem 0.75rem;}
+/* ------- */
 /*** Footer ***/
 .footer {
     color: #A7A8B4;

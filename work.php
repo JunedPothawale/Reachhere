@@ -41,7 +41,7 @@
            ALL Services Types Of We Provide 
           </h1>
         </div>
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4 justify-content-start">
           <h3 class="text--color">Home Service</h3>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="service-item rounded h-100 p-5">
