@@ -157,9 +157,6 @@
 
 
 /*** Header ***/
-.carousel-inner{
-    height: 80vh !important;
-}
 .carousel-caption {
     top: 0;
     left: 0;
@@ -169,7 +166,6 @@
     align-items: center;
     text-align: start;
     z-index: 1;
-    height: 80vh !important;
 }
 
 .carousel-control-prev,
@@ -288,6 +284,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* box-shadow: 1px 1px 1px 1px white !important; */
+    -webkit-box-shadow: 2px 4px 22px -4px rgba(0,0,0,0.53) !important; 
+    box-shadow: 2px 4px 22px -4px rgba(0,0,0,0.53) !important;
+}
+.shadow-50{
+    -webkit-box-shadow: 2px 4px 22px -4px rgba(0,0,0,0.53) !important; 
+    box-shadow: 2px 4px 22px -4px rgba(0,0,0,0.53) !important;
 }
 
 .service-item .service-icon img {
