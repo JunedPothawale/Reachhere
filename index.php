@@ -18,37 +18,37 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner" style="height: 85vh !important;">
         <div class="carousel-item">
-          <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+          <img class="w-100" src="img\banner3.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
                 <div class="col-12 col-lg-6">
                   <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Our Services
+                    <!-- Our Services -->
                   </h1>
                   <p class="fs-5 text-body mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor
+                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor -->
                   </p>
-                  <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a>
+                  <!-- <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="carousel-item active">
-          <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+          <img class="w-100" src="img\banner3.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
                 <div class="col-12 col-lg-6">
-                  <h3>Welcome To</h3>
+                  <!-- <h3>Welcome To</h3> -->
                   <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    Reach Here
+                    <!-- Reach Here -->
                   </h1>
                   <p class="fs-5 text-body mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt.
+                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt. -->
                   </p>
-                  <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a>
+                  <!-- <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a> -->
                 </div>
               </div>
             </div>
@@ -313,7 +313,7 @@
  
 
   <!-- Team Start -->
-  <div class="container-xxl py-5">
+  <!-- <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
         <h1 class="display-6 mb-5 text-primary">Meet Our Professional Team Members</h1>
@@ -397,7 +397,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Team End -->
 
   <!-- Testimonial Start -->
