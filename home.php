@@ -21,20 +21,40 @@
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
-        <h1 class="display-4 animated slideInDown mb-4">Appointment</h1>
+        <h1 class="display-4 animated slideInDown mb-4">Home Service</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
             <li class="breadcrumb-item active" aria-current="page">
-              Appointment
+              Home Service
             </li>
           </ol>
         </nav>
       </div>
     </div>
     <!-- Page Header End -->
-
+<!-- ------- -->
+<div class="container  my-5">
+  <h1 class="text-center fw-bold ">HOME ASSIST SERVICE INCLUDES</h1>
+  <div class="row g-4 justify-content-center mt-3">
+  <div class="col-3 bg--primary text-white rounded py-1">
+<p class="fs-4 text-center" style="margin-bottom: 0;">Mopping & Sweeping</p>
+  </div>
+  <div class="col-3 bg--primary text-white rounded py-1 ms-2">
+<p class="fs-4 text-center" style="margin-bottom: 0;">Washing vessels</p>
+  </div>
+  <div class="col-3 bg--primary text-white rounded py-1 ms-2">
+<p class="fs-4 text-center" style="margin-bottom: 0;">Laundry and Drying</p>
+  </div>
+  <div class="col-3 bg--primary text-white rounded py-1 ">
+<p class="fs-4 text-center" style="margin-bottom: 0;">Dusting & Cleaning</p>
+  </div>
+  <div class="col-3 bg--primary text-white rounded py-1 ms-2">
+<p class="fs-4 text-center" style="margin-bottom: 0;">Bathroom Cleaning</p>
+  </div>
+  </div>
+</div>
+<!-- -------- -->
     <!-- Appointment Start -->
     <div class="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
       <div class="container">

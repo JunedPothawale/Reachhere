@@ -157,6 +157,9 @@
 
 
 /*** Header ***/
+.carousel-inner{
+    height: 80vh !important;
+}
 .carousel-caption {
     top: 0;
     left: 0;
@@ -166,6 +169,7 @@
     align-items: center;
     text-align: start;
     z-index: 1;
+    height: 80vh !important;
 }
 
 .carousel-control-prev,
