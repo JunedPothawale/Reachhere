@@ -16,7 +16,7 @@
   <!-- Carousel Start -->
   <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner" style="height: 85vh !important;">
         <div class="carousel-item">
           <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
           <div class="carousel-caption">
@@ -282,19 +282,7 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="cname" placeholder="Child Name" />
-                    <label for="cname">Your Mobile</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
-                    <label for="cage">Service Type</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
+                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
                     <label for="message">Message</label>
                   </div>
                 </div>
@@ -310,7 +298,19 @@
       </div>
     </div>
   </div>
-  <!-- Appointment End -->
+  <!-- Appointment End -->                  <input type="text" class="form-control" id="cname" placeholder="Child Name" />
+                    <label for="cname">Your Mobile</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                    <label for="cage">Service Type</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+ 
 
   <!-- Team Start -->
   <div class="container-xxl py-5">
