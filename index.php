@@ -267,139 +267,76 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="bg-white rounded p-5">
             <form>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                    <label for="gname">Your Name</label>
+            <div class="row g-3">
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="gname"
+                        placeholder="Gurdian Name"
+                      />
+                      <label for="gname">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="gmail"
+                        placeholder="Gurdian Email"
+                      />
+                      <label for="gmail">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cname"
+                        placeholder="Child Name"
+                      />
+                      <label for="cname">Your Mobile</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cage"
+                        placeholder="Child Age"
+                      />
+                      <label for="cage">Service Type</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style="height: 80px"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary py-3 px-5" type="submit">
+                      Get Appointment
+                    </button>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input type="email" class="form-control" id="gmail" placeholder="Gurdian Email" />
-                    <label for="gmail">Your Email</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn bg--primary text-white py-3 px-5" type="submit">
-                    Get Appointment
-                  </button>
-                </div>
-              </div>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Appointment End -->                  <input type="text" class="form-control" id="cname" placeholder="Child Name" />
-                    <label for="cname">Your Mobile</label>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
-                    <label for="cage">Service Type</label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-floating">
+  <!-- Appointment End -->          
  
-
-  <!-- Team Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5 text-primary">Meet Our Professional Team Members</h1>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-              <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-              <h5>Junad Memon</h5>
-              <span>Software developer</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Junad Memon</h5>
-              <span>Software developer</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-            <h5>Ranjeet Poojari</h5>
-              <span>Software developer</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Ranjeet Poojari</h5>
-              <span>Software developer</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-            <h5>Shalil jaiswar </h5>
-              <p>Software developer</p>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Shalil jaiswar </h5>
-              <p>Software developer</p>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Team End -->
-
   <!-- Testimonial Start -->
   <div class="container-xxl py-5">
     <div class="container">
