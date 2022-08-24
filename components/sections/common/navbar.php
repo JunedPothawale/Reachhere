@@ -43,7 +43,7 @@
         <div class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
           <div class="dropdown-menu bg-light border-0 m-0">
-            <a href="home.php" class="dropdown-item">Home</a>
+            <a href="#" class="dropdown-item">Home</a>
             <a href="consaltant.php" class="dropdown-item">Consaltant</a>
           </div>
         </div>
