@@ -16,7 +16,7 @@
   <!-- Carousel Start -->
   <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" style="height: 85vh !important;">
+      <div class="carousel-inner">
         <div class="carousel-item">
           <img class="w-100" src="img\banner3.png" alt="Image" />
           <div class="carousel-caption">
@@ -267,74 +267,50 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="bg-white rounded p-5">
             <form>
-            <div class="row g-3">
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="gname"
-                        placeholder="Gurdian Name"
-                      />
-                      <label for="gname">Your Name</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="gmail"
-                        placeholder="Gurdian Email"
-                      />
-                      <label for="gmail">Your Email</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="cname"
-                        placeholder="Child Name"
-                      />
-                      <label for="cname">Your Mobile</label>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="cage"
-                        placeholder="Child Age"
-                      />
-                      <label for="cage">Service Type</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-floating">
-                      <textarea
-                        class="form-control"
-                        placeholder="Leave a message here"
-                        id="message"
-                        style="height: 80px"
-                      ></textarea>
-                      <label for="message">Message</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary py-3 px-5" type="submit">
-                      Get Appointment
-                    </button>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
+                    <label for="gname">Your Name</label>
                   </div>
                 </div>
-
-            </form>
-
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="gmail" placeholder="Gurdian Email" />
+                    <label for="gmail">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="cname" placeholder="Child Name" />
+                    <label for="cname">Your Mobile</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                    <label for="cage">Service Type</label>
+                  </div>
+                </div>
                 <div class="col-12">
                   <div class="form-floating">
- 
+                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn bg--primary text-white py-3 px-5" type="submit">
+                    Get Appointment
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Appointment End -->
 
   <!-- Team Start -->
   <!-- <div class="container-xxl py-5">
@@ -417,16 +393,10 @@
                 <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
-  </div>
-  <!-- Appointment End -->          
- 
-
   </div> -->
   <!-- Team End -->
 

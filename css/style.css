@@ -16,12 +16,15 @@
 .bg--primary{background:#3E4898 ;}
 .text-primary{color:#3E4898 ;}
 
-.back-to-top {
+.back-to-top,.whatsapp {
     position: fixed;
     display: none;
     right: 30px;
     bottom: 30px;
     z-index: 99;
+}
+.whatsapp{
+    left:30px;
 }
 
 
