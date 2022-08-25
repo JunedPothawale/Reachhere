@@ -48,7 +48,7 @@
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
           <div class="dropdown-menu bg-light border-0 m-0">
 
-          <a href="senior-assist" class="dropdown-item">Senior Service</a>
+          <a href="senior-assist.php" class="dropdown-item">Senior Service</a>
             <a href="child-assist.php" class="dropdown-item">Child Service</a>
             <a href="home-assist.php" class="dropdown-item">Home Service</a>
 
@@ -146,7 +146,7 @@
                   <div class="border-top mt-4 pt-4">
                     <div class="d-flex align-items-center">
                       <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                      <h5 class="mb-0">Call Us: +012 345 6789</h5>
+                      <h5 class="mb-0">Call Us:+91 7777 80 3030</h5>
                     </div>
                   </div>
                 </div>
@@ -164,6 +164,7 @@
       <div class="row g-4 justify-content-center">
      
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+        
           <div class="service-item rounded h-100 p-5">
             <div class="d-flex align-items-center ms-n5 mb-4">
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
@@ -173,9 +174,11 @@
             </div>
             <p class="mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptas, ullam quibusdam cumque voluptates ut iusto deserunt est libero. Sequi, ratione quis? Eligendi et asperiores cumque error reiciendis architecto quia.
-            </p>
+            </p><a class="btn btn-light px-3" href="senior-assist.php">Read More</a>
+
             <!-- <a class="btn btn-light px-3" href="home.php">Read More</a> -->
           </div>
+       
         </div>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div class="service-item rounded h-100 p-5">
@@ -188,6 +191,7 @@
             <p class="mb-4">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum saepe distinctio magnam, aliquid placeat ducimus recusandae? Cum delectus sequi fugit odio, placeat, amet earum officia error ipsa dolor iure?
             </p>
+            <a class="btn btn-light px-3" href="child-assist.php">Read More</a>
             <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
         </div>
         </div>
@@ -203,6 +207,7 @@
             <p class="mb-4">
            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus veniam provident saepe? Commodi eveniet, blanditiis eum molestiae est necessitatibus nesciunt repellat eius doloribus cupiditate? Quae ullam enim excepturi facere alias!
             </p>
+            <a class="btn btn-light px-3" href="home-assist.php">Read More</a>
             <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
           </div>
         </div>
