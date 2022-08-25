@@ -87,16 +87,17 @@
                   Recruiting Solutions From Reach Here
                   </h1>
                   <p class="fs-5 text-primary mb-4">
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
-                    lorem sit clita duo justo erat amet
+                  Get the Support You Need with Professional Hr Services!
                   </p>
                   <p class="mb-4">
-                  We are a niche HR consulting firm offering strategic human resource management solutions to multiple industries and across verticals. Whether you are a start-up, SME, MSME, or a well-spread firm of more than 2000 people – we cater to diverse business and wide-ranging sectors. Keeping up with the changing dynamics, we identify and address challenges to increase the effectiveness of organizations. We aim at understanding your existing business model to align your brand with the best HR practices. Our services range from Performance Management, Individual Development Plans, Talent Management, Employee Onboarding, Exit Interviews, Policy Design, Learning & Development, Rewards, and Compensation, HR operations, etc. We help organizations create a strong talent pipeline by identifying, attracting, and recruiting the best talent who are cultural and values fit.
+                  In order for a corporation to succeed, the human resources department is essential. As a result, it's crucial to identify qualified candidates to fill openings in your human resources department. Reachers is a great partner to assist you in doing this. Whether you're looking for HR generalists, experts in compensation and benefits, change management specialists, or your next HR director, we have the broad network and in-depth knowledge to help you find the perfect match <br><br>
+                  With their expertise in human resources, many of our recruitment consultants are able to quickly identify the key positions that need to be filled as well as the people who are best suited to fill them. We can aid in your search for mid- to senior-level employees from HR Managers to Directors.
                   </p>
+
                   <div class="border-top mt-4 pt-4">
                     <div class="d-flex align-items-center">
                       <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                      <h5 class="mb-0">Call Us: +012 345 6789</h5>
+                      <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
                     </div>
                   </div>
                 </div>

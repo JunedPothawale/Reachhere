@@ -22,11 +22,11 @@
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
-        <h1 class="display-4 animated slideInDown mb-4">Contact Us</h1>
+        <h1 class="display-4 animated slideInDown mb-4 text--color">Contact Us</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">
+            <li class="breadcrumb-item active " aria-current="page">
               Contact Us
             </li>
           </ol>
@@ -43,12 +43,7 @@
             <h1 class="display-6 mb-5">
               If You Have Any Query, Please Contact Us
             </h1>
-            <p class="mb-4">
-              The contact form is currently inactive. Get a functional and
-              working contact form with Ajax & PHP in a few minutes. Just copy
-              and paste the files, add a little code and you're done.
-              <a href="https://htmlcodex.com/contact-form">Download Now</a>.
-            </p>
+         
             <form>
               <div class="row g-3">
                 <div class="col-md-6">

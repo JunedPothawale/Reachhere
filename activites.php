@@ -22,11 +22,11 @@
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
-        <h1 class="display-4 animated slideInDown mb-4">Work</h1>
+        <h1 class="display-4 animated slideInDown mb-4">Activites</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Work</li>
+            <li class="breadcrumb-item active" aria-current="page">Activites</li>
           </ol>
         </nav>
       </div>
@@ -58,10 +58,10 @@
                 <h4 class="mb-0">Home Assist</h4>
               </div>
               <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
+              Stay safe and independent in your own home with our home assistance service. We provide personalized care and support to help you live comfortably and securely in your own home. <br>
+            We are here to help. Want to learn more about our services
               </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
+              <a class="btn btn-light px-3" href="home-assist.php">More Details</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -79,10 +79,10 @@
                 <h4 class="mb-0">Child Assist</h4>
               </div>
               <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
+              Need help caring for your children? Our Child Assistance program can provide the assistance you need.
+           <br> We are here to help. Want to learn more about our services
               </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
+              <a class="btn btn-light px-3" href="child-assist.php">More Details</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -101,10 +101,11 @@
                 <h4 class="mb-0">Senior Assist</h4>
               </div>
               <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
+              Our offer provides the support seniors need to maintain their independence and live with dignity.
+            <br>
+            We are here to help. Want to learn more about our services
               </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
+              <a class="btn btn-light px-3" href="senior-assist.php">More Details</a>
             </div>
           </div>
           <h3 class="text--color">Consultant Service</h3>
@@ -123,10 +124,9 @@
                 <h4 class="mb-0">HR recruitment services</h4>
               </div>
               <p class="mb-4">
-                Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
-                sit clita duo justo erat amet
+              Looking for an easy way to improve your HR processes? HR Assist is here to help! Our software makes it simple to track employee performance, manage HR records, and more. Plus, our team of experts is always available to help you get the most out of our software. Contact us today to learn more!
               </p>
-              <a class="btn btn-light px-3" href="">Read More</a>
+              <a class="btn btn-light px-3" href="consaltant.php">More Details</a>
             </div>
           </div>
          

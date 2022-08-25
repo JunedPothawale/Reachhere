@@ -46,7 +46,7 @@
 
           </div>
         </div>
-        <a href="work.php" class="nav-item nav-link">Work</a>
+        <a href="activites.php" class="nav-item nav-link">Activites</a>
 
         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
       </div>

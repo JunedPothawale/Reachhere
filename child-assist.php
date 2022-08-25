@@ -7,7 +7,7 @@
     <div class="spinner-grow text-primary" role="status"></div>
   </div>
   <!-- Spinner End -->
-  <div class="container-fluid bg-primary text-white py-2 px-0 d-none d-lg-block">
+  <!-- <div class="container-fluid bg-primary text-white py-2 px-0 d-none d-lg-block">
     <div class="row gx-0 align-items-center">
       <div class="col-lg-7 px-5 text-start">
         <div class="h-100 d-inline-flex align-items-center me-4">
@@ -28,10 +28,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Topbar End -->
   <!-- Topbar Start -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
+  <!-- <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
     <a href="index.php" class="navbar-brand d-flex align-items-center">
       <h1 class="m-0">
         <img class="img-fluid me-3" src="img/logo.png" alt="" />
@@ -60,7 +60,8 @@
       </div>
     </div>
     <a href="contact.php" class="btn btn-light text--color fw-bold px-3 d-none d-lg-block">Enquiry</a>
-  </nav>
+  </nav> -->
+  <?php require('components/sections/common/navbar.php') ?>
   <!-- Navbar End -->
 
   <!-- Carousel Start -->
