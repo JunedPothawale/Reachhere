@@ -131,30 +131,6 @@ fill="rgba(255, 255, 255, 0.5)
          <p class="mb-4">
          To Reach and assist every home on the globe with a Smile.
          </p>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
          <a class="btn btn-light px-3" href="home.php">Read More</a>
        </div>
      </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -189,6 +165,17 @@ fill="rgba(255, 255, 255, 0.5)
                 <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Safety First</p>
                 <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Building a caring community</p>
               </div>
+             
+          </div>
+        </div>
+        
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="bg-white rounded p-5">
+            <h1 class="text--color">About Company</h1>
+            <div class="mt-3">
+             
+              </div>
+              <span class="fs-1 text--color">R</span>eachhere is a company that provides home assistance services for seniors, children, and families. They also offer HR consulting services to help businesses find and retain the best employees. Reachhere is a family-owned and operated business, and they take pride in their commitment to customer service. They believe that every family should have access to the best possible care, and they are dedicated to making their services affordable and accessible. Reachhere is a trusted resource for family.
           </div>
         </div>
       </div>
