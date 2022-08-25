@@ -48,8 +48,8 @@
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
           <div class="dropdown-menu bg-light border-0 m-0">
 
-          <a href="senior-assist" class="dropdown-item">Senior Service</a>
-            <a href="child-assist.php" class="dropdown-item">Child Service</a>
+            <a href="senior-assist.php" class="dropdown-item">Senior Service</a>
+            <a href="child-assist.php" class="dropdown-item">Child  Service</a>
             <a href="home-assist.php" class="dropdown-item">Home Service</a>
 
           </div>
@@ -116,118 +116,127 @@
     </div>
   </div>
   <!-- Carousel End -->
-  <div class="container-xxl py-5">
-          <div class="container">
-            <div class="row g-5">
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-                  <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover" />
-                  <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
-                    <div class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
-                      <h1 class="text-white mb-0">25</h1>
-                      <h2 class="text-white">Years</h2>
-                      <h5 class="text-white mb-0">Experience</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="h-100">
-                  <h1 class="display-6 mb-5 text--color">
-                  Recruiting Solutions From Reach Here
-                  </h1>
-                  <p class="fs-5 text-primary mb-4">
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
-                    lorem sit clita duo justo erat amet
-                  </p>
-                  <p class="mb-4">
-                  We are a niche HR consulting firm offering strategic human resource management solutions to multiple industries and across verticals. Whether you are a start-up, SME, MSME, or a well-spread firm of more than 2000 people – we cater to diverse business and wide-ranging sectors. Keeping up with the changing dynamics, we identify and address challenges to increase the effectiveness of organizations. We aim at understanding your existing business model to align your brand with the best HR practices. Our services range from Performance Management, Individual Development Plans, Talent Management, Employee Onboarding, Exit Interviews, Policy Design, Learning & Development, Rewards, and Compensation, HR operations, etc. We help organizations create a strong talent pipeline by identifying, attracting, and recruiting the best talent who are cultural and values fit.
-                  </p>
-                  <div class="border-top mt-4 pt-4">
-                    <div class="d-flex align-items-center">
-                      <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                      <h5 class="mb-0">Call Us: +012 345 6789</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+ 
+ 
+ 
+ 
+ <!-- ----------- -->
+  <div class="container  my-5">
+  <div class="row g-4 justify-content-between mt-5 rounded ">
+    <div class="col-12 d-lg-flex justify-content-between align-items-center ">
+        <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
+          <img src="./img/hiring-cleaning-services.png" alt="" class="rounded py-3 px-3">
         </div>
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5 text--color">
-        Our Offerings
-        </h1>
-      </div>
-      <div class="row g-4 justify-content-center">
-     
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Senior Assist</h4>
-            </div>
-            <p class="mb-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptas, ullam quibusdam cumque voluptates ut iusto deserunt est libero. Sequi, ratione quis? Eligendi et asperiores cumque error reiciendis architecto quia.
-            </p>
-            <!-- <a class="btn btn-light px-3" href="home.php">Read More</a> -->
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                  <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">Child Assist</h4>
-            </div>
-            <p class="mb-4">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum saepe distinctio magnam, aliquid placeat ducimus recusandae? Cum delectus sequi fugit odio, placeat, amet earum officia error ipsa dolor iure?
-            </p>
-            <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
-        </div>
-        </div>
-       
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item rounded h-100 p-5">
-            <div class="d-flex align-items-center ms-n5 mb-4">
-              <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
-              </div>
-              <h4 class="mb-0">House Assist</h4>
-            </div>
-            <p class="mb-4">
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus veniam provident saepe? Commodi eveniet, blanditiis eum molestiae est necessitatibus nesciunt repellat eius doloribus cupiditate? Quae ullam enim excepturi facere alias!
-            </p>
-            <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
-          </div>
-        </div>
-        
+        <div class="col-12 col-lg-6  my-5 px-5">
+          <h1>HOME ASSIST SERVICE</h1>
+          <ul class="list-group mt-4 ms-5">
+  <li class="list-group-item">Mopping & Sweeping</li>
+  <li class="list-group-item">Washing vessels</li>
+  <li class="list-group-item">Laundry and Drying</li>
+  <li class="list-group-item">Dusting & Cleaning</li>
+  <li class="list-group-item">Bathroom Cleaning</li>
 
-       
-      </div>
+</ul>
+        </div>
     </div>
   </div>
+  <div class="my-5">
+  
+    <h2 class="text-center text--color text-capitalize">RATE CARD FOR CHILD ASSIST</h2>
+    <p class="text-center"> The decision whether to accept the extension completely lies with the Company.<br>
+Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
 
-  <!-- About Start -->
-  <!-- About End -->
 
-  <!-- Facts Start -->
 
-  <!-- Facts End -->
+<div class="row g-3 justify-content-center my-2 bg-transparent " yt3le="overflow-x: hidden !important;">
+     
+     <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+             <img class="img-fluid" src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" />
+           </div>
+           <div>
+           <h1 style="color: #E95197;">₹300</h1>
+           <p class="text-center fw-bold fs-5">Per 1 Hour</p>
 
-  <!-- Features Start -->
+           </div>
+          </div>
+          <div>
+         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <p class="mt-3 text-center">
+         Extra ₹250 Per Hours
+         </p>
+       </div>
+     </div>
+   </div>
 
-  <!-- Features End -->
+   <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+             <img class="img-fluid" src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" />
+           </div>
+           <div>
+           <h1 style="color: #E95197;">₹550</h1>
+           <p class="text-center fw-bold fs-5">Per 2 Hour</p>
 
-  <!-- Service Start -->
- 
-  <!-- Service End -->
+           </div>
+          </div>
+          <div>
+         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <p class="mt-3 text-center">
+         Extra ₹250 Per Hours
+         </p>
+       </div>
+     </div>
+   </div>
 
+   <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+             <img class="img-fluid" src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" />
+           </div>
+           <div>
+           <h1 style="color: #E95197;">₹800</h1>
+           <p class="text-center fw-bold fs-5">Per 3 Hour</p>
+
+           </div>
+          </div>
+          <div>
+         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <p class="mt-3 text-center">
+         Extra ₹250 Per Hours
+         </p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+       <div class="service-item rounded h-100 p-5">
+         <div class="d-flex align-items-center ms-n5 mb-4">
+           <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+             <img class="img-fluid" src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" />
+           </div>
+           <div>
+           <h1 style="color: #E95197;">₹1400</h1>
+           <p class="text-center fw-bold fs-5">Per 4 Hour</p>
+
+           </div>
+          </div>
+          <div>
+         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <p class="mt-3 text-center">
+         Extra ₹250 Per Hours
+         </p>
+       </div>
+     </div>
+   </div>
+
+</div>
+  </div>
+</div>
   <!-- Appointment Start -->
   <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -317,12 +326,21 @@
     </div>
   </div>
   <!-- Appointment End -->
+<style>
+      .home-service-img {
+    height: 30rem !important;
+    overflow: hidden;
+  }
+  .home-service-img img{
+   background-position: center center !important;
+   background-size: contain !important;
+   background-repeat: no-repeat;
 
-  <!-- Team Start -->
-  <!-- Team End -->
 
-  <!-- Footer Start -->
-  <?php require('components/sections/common/footer.php')  ?>
+
+  }
+</style>
+<?php require('components/sections/common/footer.php')  ?>
   <!-- Footer End -->
 
   <!-- Back to Top -->
