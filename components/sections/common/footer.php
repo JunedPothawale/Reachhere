@@ -6,12 +6,12 @@
             <img class="img-fluid me-3" src="img\footer_logo.png" alt="" />
           </h1>
           <p>
-            Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-            ipsum et lorem et sit, sed stet lorem sit clita
+            <!-- Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+            ipsum et lorem et sit, sed stet lorem sit clita -->
           </p>
           <div class="d-flex pt-2">
             <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square me-1" href="https://www.facebook.com/Reach-Here-Pvt-Ltd-101334729053950"><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
             <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
@@ -30,7 +30,7 @@
           <a class="btn btn-link" href="#">Contact Us</a>
           <a class="btn btn-link" href="#">Our Services</a>
           <a class="btn btn-link" href="#">Terms & Conditions|Privacy Policy</a>
-          <a class="btn btn-link" href="#">Powered By Yellow Panther</a>
+          <a class="btn btn-link" href="http://www.whizzactsolutions.com/">Powered By Whizzact Solution</a>
         </div>
         <!-- <div class="col-lg-3 col-md-6">
           <h5 class="text-light mb-4">Newsletter</h5>

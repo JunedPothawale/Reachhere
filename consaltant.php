@@ -18,7 +18,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="w-100" src="img\banner3.png" alt="Image" />
+          <img class="w-100" src="img\banners\HR-Recuritment.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="carousel-item active">
-          <img class="w-100" src="img\banner3.png" alt="Image" />
+          <img class="w-100" src="img\banners\HR-Recuritment.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">

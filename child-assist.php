@@ -69,7 +69,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="w-100" src="img\banner3.png" alt="Image" />
+          <img class="w-100" src="img\banners\Child-assist.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -80,14 +80,14 @@
                   <p class="fs-5 text-body mb-5">
                     <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor -->
                   </p>
-                  <!-- <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a> -->
+                  <!-- <a href="./about.php" class="btn btn-primary py-3 px-5">KNow More</a> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="carousel-item active">
-          <img class="w-100" src="img\banner3.png" alt="Image" />
+          <img class="w-100" src="img\banners\Child-assist.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -161,7 +161,7 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
            </div>
           </div>
           <div>
-         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <a class="btn btn-light px-3 text-center w-100" href="#contactform">Book Now</a>
          <p class="mt-3 text-center">
          Extra ₹250 Per Hours
          </p>
@@ -182,7 +182,7 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
            </div>
           </div>
           <div>
-         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <a class="btn btn-light px-3 text-center w-100" href="#contactform">Book Now</a>
          <p class="mt-3 text-center">
          Extra ₹250 Per Hours
          </p>
@@ -203,7 +203,7 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
            </div>
           </div>
           <div>
-         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <a class="btn btn-light px-3 text-center w-100" href="#contactform">Book Now</a>
          <p class="mt-3 text-center">
          Extra ₹250 Per Hours
          </p>
@@ -224,7 +224,7 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
            </div>
           </div>
           <div>
-         <a class="btn btn-light px-3 text-center w-100" href="home.php">Book NoW</a>
+         <a class="btn btn-light px-3 text-center w-100" href="#contactform">Book Now</a>
          <p class="mt-3 text-center">
          Extra ₹250 Per Hours
          </p>
@@ -238,7 +238,7 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
 
 
   <!-- Appointment Start -->
-  <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="contactform">
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
