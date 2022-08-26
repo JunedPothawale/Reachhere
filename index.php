@@ -18,7 +18,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="w-100" src="img\banners\banner4.png" alt="Image" />
+          <img class="img-responsive w-100" src="img\banners\banner4.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="carousel-item active">
-          <img class="w-100" src="img\banners\banner4.png" alt="Image" />
+          <img class="img-responsive w-100" src="img\banners\banner4.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -115,7 +115,7 @@
           <div class="h-100 px-4 ps-lg-0">
             <h1 class="text-white mb-4">Our Happy Client</h1>
             <p class="text-light mb-5">
-              The front desk has always been so helpful, even when I've had to call multiple times in one day. They are always cheerful and polite, and I really appreciate their assistance. <br><br> - Rachel P.
+              The front desk has always been so helpful, even when I've had to call multiple times in one day. They are always cheerful and polite, and I really appreciate their assistance.
             </p>
             <a href="#happyclient" class="align-self-start btn btn-light py-3 px-5">More Details</a>
           </div>
