@@ -5,10 +5,6 @@
           <h1 class="text-white mb-4">
             <img class="img-fluid me-3" src="img\footer_logo.png" alt="" />
           </h1>
-          <p>
-            <!-- Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-            ipsum et lorem et sit, sed stet lorem sit clita -->
-          </p>
           <div class="d-flex pt-2">
             <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
             <a class="btn btn-square me-1" href="https://www.facebook.com/Reach-Here-Pvt-Ltd-101334729053950"><i class="fab fa-facebook-f"></i></a>
