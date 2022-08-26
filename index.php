@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php"); ?>
+<?php include("components/header.php");?>
 
 <body>
   <!-- Spinner Start -->
@@ -10,7 +10,7 @@
   <!-- Spinner End -->
 
   <!-- Topbar Start -->
-  <?php require('components/sections/common/navbar.php') ?>
+ <?php require('components/sections/common/navbar.php') ?>
   <!-- Navbar End -->
 
   <!-- Carousel Start -->
@@ -18,7 +18,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="img-responsive w-100" src="img\banners\banner4.png" alt="Image" />
+          <img class="w-100 img-fluid" src="img\banners\banner4.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="carousel-item active">
-          <img class="img-responsive w-100" src="img\banners\banner4.png" alt="Image" />
+          <img class="w-100 img-fluid " src="img\banners\banner4.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -59,7 +59,7 @@
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next" style="width: 5rem;">
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next"style="width: 5rem;">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -86,18 +86,21 @@
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="h-100">
             <h1 class="display-6 mb-5 text--color">
-              Our Experience
+             Our Experience
             </h1>
             <p class="fs-5 text-primary mb-4">
-            Need help? Our team has the experience and resources to provide assistance.
+              Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed stet
+              lorem sit clita duo justo erat amet
             </p>
             <p class="mb-4">
-            We provide assistance to families who need help with their loved ones. We have the experience and knowledge to help families through difficult times.
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+              sed stet lorem sit clita duo justo magna dolore erat amet
             </p>
             <div class="border-top mt-4 pt-4">
               <div class="d-flex align-items-center">
                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
+                <h5 class="mb-0">Call Us: +012 345 6789</h5>
               </div>
             </div>
           </div>
@@ -115,9 +118,11 @@
           <div class="h-100 px-4 ps-lg-0">
             <h1 class="text-white mb-4">Our Happy Client</h1>
             <p class="text-light mb-5">
-              The front desk has always been so helpful, even when I've had to call multiple times in one day. They are always cheerful and polite, and I really appreciate their assistance.
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+              sed stet lorem sit clita duo justo magna dolore erat amet
             </p>
-            <a href="#happyclient" class="align-self-start btn btn-light py-3 px-5">More Details</a>
+            <a href="" class="align-self-start btn btn-light py-3 px-5">More Details</a>
           </div>
         </div>
         <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
@@ -142,7 +147,9 @@
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <h1 class="display-6 mb-5 text--color">Few Reasons Why People Choosing Us!</h1>
           <p class="mb-4">
-            If you are looking for a top quality assistance that is offered at a low price with great customer service , then you should choose us!
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+            lorem sit clita duo justo magna dolore erat amet
           </p>
           <div class="row g-3">
             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -198,7 +205,7 @@
         </h1>
       </div>
       <div class="row g-4 justify-content-center">
-
+     
         <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div class="service-item rounded h-100 p-5">
             <div class="d-flex align-items-center ms-n5 mb-4">
@@ -208,7 +215,8 @@
               <h4 class="mb-0">Home Service </h4>
             </div>
             <p class="mb-4">
-            A service that provides help for homeowners who need assistance with everyday tasks.
+              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
+              sit clita duo justo erat amet
             </p>
             <a class="btn btn-light px-3" href="home.php">Read More</a>
           </div>
@@ -222,12 +230,13 @@
               <h4 class="mb-0">Consultant Services</h4>
             </div>
             <p class="mb-4">
-            Get help with your HR needs with the help of a professional consultant.
+              Aliqu diam amet eos erat ipsum et lorem et sit, sed stet lorem
+              sit clita duo justo erat amet
             </p>
             <a class="btn btn-light px-3" href="consaltant.php">Read More</a>
           </div>
         </div>
-
+       
       </div>
     </div>
   </div>
@@ -242,12 +251,16 @@
             We're Award Winning Service Company
           </h1>
           <p class="text-white mb-5">
-          Get the help you need, when you need it, with our on-demand assistance services.
+            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
+            stet lorem sit clita duo justo magna dolore erat amet. Tempor erat
+            elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+            clita duo justo magna.
           </p>
           <div class="bg-white rounded p-3">
             <div class="d-flex align-items-center bg--primary rounded p-3">
               <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-              <h5 class="text-white mb-0">Call Us: +91 7777803030</h5>
+              <h5 class="text-white mb-0">Call Us: +012 345 6789</h5>
             </div>
           </div>
         </div>
@@ -388,7 +401,7 @@
   <!-- Team End -->
 
   <!-- Testimonial Start -->
-  <div class="container-xxl py-5" id="happyclient">
+  <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
         <h1 class="display-6 text-primary mb-5">What They Say About There Success Story</h1>
@@ -404,34 +417,28 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
               <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              My parents are quite old needed a Reacher to escart them to pathology for sonography .The Reacher was on time and was with my parents from the time they left home for pathology till they returned .Dad was happy that while L could not support. Thank you Reach Here for making our day</span>
               </p>
-              <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
+              <h5>Swapnil</h5>
+              <span>Mumbai ,India</span>
             </div>
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
               <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              Reachers reach on demand & that's what Liked about them. I booked their service time as always it has been great experience. </span>
               </p>
-              <h5>Shalil jaiswar</h5>
-              <span>Software developer</span>
+              <h5>Gunjan Parikh</h5>
+              <span>Khar, Mumbai, India</span>
             </div>
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-3.jpg" alt="" />
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
               <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              <span>On hearing of this new concept, we booked for Home Assist service in the month of June for 2 hours and were super happy  with Reacher coming on time and executing the kitchen cleaning and laundary work within time . The behaviour was absolutely profession, will ecommend to families and friends</span>
               </p>
-              <h5>Junad Memon</h5>
-              <span>Software developer</span>
+              <h5>Jasleen Sachdeva</h5>
+              <span>Mumbai ,India</span>
             </div>
           </div>
         </div>

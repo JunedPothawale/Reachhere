@@ -42,7 +42,7 @@
           <div class="dropdown-menu bg-light border-0 m-0">
 
             <a href="home.php" class="dropdown-item">Home</a>
-            <a href="consaltant.php" class="dropdown-item">Consaltant</a>
+            <a href="consultant.php" class="dropdown-item">Consaltant</a>
 
           </div>
         </div>
