@@ -10,56 +10,20 @@
   <?php require('components/sections/common/navbar.php') ?>
 
   <!-- Carousel Start -->
-  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img class="w-100" src="img\Untitled.png" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-              <div class="col-12 col-lg-6">
-                    <h></h3>
-                    <h1 class="display-3 text-white mb-4 animated slideInDown">
-                    Home Services
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt. -->
-                  </p>
-                  <!-- <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img class="w-100" src="img\Untitled.png" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h></h3>
-                    <h1 class="display-3 text-white mb-4 animated slideInDown">
-                    Home Services
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt. -->
-                  </p>
-                  <!-- <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a> -->
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev" style="width: 5rem;">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next"style="width: 5rem;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <div class="container-fluid">
+    <div class="banner_container d-flex">
+      <div class="banner ">
+        <a href="home-assist.php"><img class="w-100" src="img\banners\Slice 8.png" alt="" srcset=""></a>
+       
+      </div>
+      <div class="banner">
+        <a href="child-assist.php"><img class="w-100" src="img\banners\Slice 11.png" alt="" srcset=""></a>
+       
+      </div>
+      <div class="banner">
+        <a href="senior-assist.php"><img class="w-100" src="img\banners\Slice 12.png" alt="" srcset=""></a>
+       
+      </div>
     </div>
   </div>
   <!-- Carousel End -->
@@ -87,7 +51,7 @@
                   Home, Child, and Senior Assistance Plans
                   </p>
                   <p class="mb-4">
-                  Get the peace of mind you need knowing that you and your loved ones have help when you need it most. Our Home, Child, and Senior Assistance plans provide the coverage you need for assistance when you need it <br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;  Get the peace of mind you need knowing that you and your loved ones have help when you need it most. Our Home, Child, and Senior Assistance plans provide the coverage you need for assistance when you need it <br><br>
                   Plus, our affordable rates make it easy to get the coverage you need. <br>
                 
                   </p>
@@ -114,7 +78,7 @@
      
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         
-          <div class="service-item rounded h-100 p-5">
+          <div class="service-item rounded h-100 p-5 po">
             <div class="d-flex align-items-center ms-n5 mb-4">
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
@@ -124,7 +88,7 @@
             <p class="mb-4">
             Stay safe and independent in your own home with our home assistance service. We provide personalized care and support to help you live comfortably and securely in your own home. <br>
             We are here to help. Want to learn more about our services
-            </p><a class="btn btn-light px-3" href="home-assist.php">More Details</a>
+            </p><a class="btn btn-light px-3 position-absolute top-90 start-35" href="home-assist.php">More Details</a>
 
             <!-- <a class="btn btn-light px-3" href="home.php">Read More</a> -->
           </div>
@@ -142,12 +106,12 @@
             Need help caring for your children? Our Child Assistance program can provide the assistance you need.
            <br> We are here to help. Want to learn more about our services
             </p>
-            <a class="btn btn-light px-3"  href="child-assist.php">More Details</a>
+            <a class="btn btn-light px-3 position-absolute top-90 start-35"  href="child-assist.php">More Details</a>
             <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
         </div>
         </div>
        
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-lg-4 col-md-6 wow fadeInUp position-relative" data-wow-delay="0.3s">
             <div class="service-item rounded h-100 p-5">
             <div class="d-flex align-items-center ms-n5 mb-4">
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
@@ -160,7 +124,7 @@
             <br>
             We are here to help. Want to learn more about our services
             </p>
-            <a class="btn btn-light px-3" href="senior-assist.php">More Details</a>
+            <a class="btn btn-light px-3 position-absolute top-90 start-35" href="senior-assist.php">More Details</a>
             <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
           </div>
         </div>
@@ -176,9 +140,9 @@
         <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
           <div class="bg-white rounded p-5 text-center">
             <img src="img\cote.png" alt="" srcset="" class="m-auto">
-           <H1 class=" text--color">INDIA'S FIRST PROFESSIONAL COMPANY PROVIDING ASSISTANCE ON DEMAND</H1>
-        <p>Reach Here is a unique concept providing assistance through REACHERS (Assistants) on hourly / contract basis for senior assistance, home assistance (domestic help) and child assistance.</p>
-        <p>All our Reachers are trained to provide services in professional manner.</p>
+           <H1 class=" text--color ">INDIA'S FIRST PROFESSIONAL COMPANY PROVIDING ASSISTANCE ON DEMAND</H1>
+        <p class="text-center">Reach Here is a unique concept providing assistance through REACHERS (Assistants) on hourly / contract basis for senior assistance, home assistance (domestic help) and child assistance.</p>
+        <p class="text-center">All our Reachers are trained to provide services in professional manner.</p>
           </div>
         </div>
       </div>
@@ -196,77 +160,11 @@
   <!-- Features End -->
 
   <!-- Client Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5 text-primary">SUCCESS STORIES</h1>
-      </div>
-      <div class="row g-4 justify-content-around">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\demo.jpeg" alt="" />
-            <div class="text-center p-4">
-              <h5>Swapnil</h5>
-              <span>Mumbai ,India </span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Swapnil</h5>
-              <span>My parents are quite old needed a Reacher to escart them to pathology for sonography .The Reacher was on time and was with my parents from the time they left home for pathology till they returned .Dad was happy that while L could not support. Thank you Reach Here for making our day</span>
-              <div class="d-flex justify-content-center">
-                <!-- <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\demo.jpeg" alt="" />
-            <div class="text-center p-4">
-              <h5>Gunjan Parikh</h5>
-              <span> Khar, Mumbai, India</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Gunjan Parikh</h5>
-              <span> Reachers reach on demand & that's what Liked about them. I booked their service time as always it has been great experience. </span>
-              <div class="d-flex justify-content-center">
-                <!-- <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.5s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\demo.jpeg" alt="" />
-            <div class="text-center p-4">
-            <h5>Jasleen Sachdeva</h5>
-              <span>Mumbai ,India</span>
-            </div>
-            <div class="team-text text-center bg-white p-4 " >
-            <h5>Jasleen Sachdeva</h5>
-              <span>On hearing of this new concept, we booked for Home Assist service in the month of June for 2 hours and were super happy  with Reacher coming on time and executing the kitchen cleaning and laundary work within time . The behaviour was absolutely profession, will ecommend to families and friends</span>
-              <div class="d-flex justify-content-center">
-                <!-- <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </div>s
+  
   <!-- Client End -->
 
   <!-- Appointment Start -->
-  <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="container-fluid appointment mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
@@ -284,7 +182,9 @@
                 <div class="form-floating">
                 <div class="form-group">
                   <select class="form-control" id="exampleFormControlSelect1">
-                    <option>HR Consaltant</option>
+                    <option>Home Assist</option>
+                    <option>Child Assist</option>
+                    <option>Senior Assist</option>
                     
                   </select>
 

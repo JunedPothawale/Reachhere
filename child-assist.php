@@ -129,11 +129,20 @@
           <img src="./img/Babysitting-Mobile.jpg" alt="" class="rounded py-3 px-3">
         </div>
         <div class="col-12 col-lg-6  my-5 px-5">
-          <h1>CHILD ASSIST SERVICE</h1>
+          <h1 class="text--color">CHILD ASSIST SERVICE</h1>
           <ul class="list-group mt-4 ms-5">
   <li class="list-group-item">Picking and dropping </li>
   <li class="list-group-item">Baby sitting</li>
   <li class="list-group-item">Escorting to tutorials/tuitions</li>
+</ul>
+          Choose from the best babysitters in town <br>
+             who, 
+<ul class="list-group mt-4 ms-5">
+  <li class="list-group-item">Understand the comfort of kids </li>
+  <li class="list-group-item">Gentle and caring </li>
+  <li class="list-group-item">Prepared for active kids</li>
+  <li class="list-group-item">Organized and well-informed</li>
+  <li class="list-group-item">Ensure rules are followed as set by parents </li>
 </ul>
         </div>
     </div>
@@ -255,9 +264,10 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
                 <div class="col-md-6">
                 <div class="form-floating">
                 <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>HR Consaltant</option>
-                    
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>HOME ASSIST</option>
+                    <option>CHILD ASSIST</option>
+                    <option>SENIOR ASSIST</option>
                   </select>
 
                 </div>

@@ -129,13 +129,24 @@
           <img src="./img/senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt="" class="rounded py-3 px-3">
         </div>
         <div class="col-12 col-lg-6  my-5 px-5">
-          <h1>SENIOR ASSIST SERVICE INCLUDES</h1>
+          <h1 class="text--color">SENIOR ASSIST SERVICE INCLUDES</h1>
+          <p>Need support with your elderly loved one? We do it with care and empathy as you would do! </p>
           <ul class="list-group mt-4 ms-5">
-  <li class="list-group-item">Spending time / Providing company</li>
-  <li class="list-group-item">Escorting to pathology</li>
-  <li class="list-group-item">Escorting to garden</li>
-  <li class="list-group-item">Escorting for shopping</li>
+  <li class="list-group-item">Accompany your parents</li>
+  <li class="list-group-item">Escort them to pathology</li>
+  <li class="list-group-item">Escort them to garden</li>
+  <li class="list-group-item">Escort them to shopping</li>
+  
 
+</ul>
+<p>Choose from a pool of evaluated caregivers</p>
+          <ul class="list-group mt-4 ms-5">
+  <li class="list-group-item">Empathize </li>
+  <li class="list-group-item">Are committed and reliable </li>
+  <li class="list-group-item">Take charge when needed</li>
+  <li class="list-group-item">Maintain composure </li>
+  <li class="list-group-item">Communicate well </li>
+  <li class="list-group-item">Alert and mature </li>
 </ul>
         </div>
     </div>
@@ -255,9 +266,10 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
                 <div class="col-md-6">
                 <div class="form-floating">
                 <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>HR Consaltant</option>
-                    
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>HOME ASSIST</option>
+                    <option>CHILD ASSIST</option>
+                    <option>SENIOR ASSIST</option>
                   </select>
 
                 </div>

@@ -88,9 +88,7 @@
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="service-item rounded h-100 p-5">
               <div class="d-flex align-items-center ms-n5 mb-4">
-                <div
-                  class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
-                >
+                <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                
                   <img
                     class="img-fluid"

@@ -126,10 +126,12 @@
   <div class="row g-4 justify-content-between mt-5 rounded ">
     <div class="col-12 d-lg-flex justify-content-between align-items-center ">
         <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
-          <img src="./img/hiring-cleaning-services.png" alt="" class="rounded py-3 px-3">
+          <img src="./img/hiring-cleaning-services.png" alt="" class="rounded py-3 px-1">
         </div>
         <div class="col-12 col-lg-6  my-5 px-5">
-          <h1>HOME ASSIST SERVICE</h1>
+          <h1 class="text--color">HOME ASSIST SERVICE</h1>
+          <p>A helpful hand for all your domestic help! Find the experienced home care service givers 
+ </p>
           <ul class="list-group mt-4 ms-5">
   <li class="list-group-item">Mopping & Sweeping</li>
   <li class="list-group-item">Washing vessels</li>
@@ -137,6 +139,13 @@
   <li class="list-group-item">Dusting & Cleaning</li>
   <li class="list-group-item">Bathroom Cleaning</li>
 
+</ul>
+<p>Choose from a pool of evaluated caregivers</p>
+          <ul class="list-group mt-4 ms-5">
+  <li class="list-group-item">Learn quickly and execute it in chores </li>
+  <li class="list-group-item">Are trustworthy enough to know basic values </li>
+  <li class="list-group-item">Committed to offering end-to-end service </li>
+  <li class="list-group-item">And flexible to take responsibility as required </li>
 </ul>
         </div>
     </div>
@@ -256,9 +265,10 @@ Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
                 <div class="col-md-6">
                 <div class="form-floating">
                 <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>HR Consaltant</option>
-                    
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>HOME ASSIST</option>
+                    <option>CHILD ASSIST</option>
+                    <option>SENIOR ASSIST</option>  
                   </select>
 
                 </div>

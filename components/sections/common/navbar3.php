@@ -1,5 +1,5 @@
 <div class="container-fluid bg-primary text-white py-2 px-0 d-none d-lg-block">
-    <div class="row gx-0 align-items-center">
+<div class="row gx-0 align-items-center">
       <div class="col-lg-7 px-5 text-start">
         <div class="h-100 d-inline-flex align-items-center me-4">
           <small class="fa fa-phone-alt me-2"></small>
@@ -23,7 +23,6 @@
     </div>
   </div>
   <!-- Topbar End -->
-
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
     <a href="index.php" class="navbar-brand d-flex align-items-center">
@@ -32,19 +31,15 @@
       </h1>
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon text-white"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarCollapse">
       <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
         <a href="index.php" class="nav-item nav-link active">Home</a>
-        <a href="home-assist.php" class="nav-item nav-link">Home Assist</a>
-        <a href="child-assist.php" class="nav-item nav-link">Child Assist</a>
-        <a href="senior-assist.php" class="nav-item nav-link">Senior Assist</a>
-        
-        
+        <!-- <a href="about.php" class="nav-item nav-link">About Us</a> -->
+        <a href="home.php" class="nav-item nav-link">Home Services</a>
+        <a href="consultant.php" class="nav-item nav-link">Consulting Services</a>
         <!-- <a href="activites.php" class="nav-item nav-link">Activites</a> -->
-        <a href="about.php" class="nav-item nav-link">About Us</a>
-
         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
       </div>
     </div>

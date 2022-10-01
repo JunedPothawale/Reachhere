@@ -1,5 +1,5 @@
-<div class="container-fluid bg-dark footer  py-1 pt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-1">
+<div class="container-fluid bg-dark footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
       <div class="row g-5">
         <div class="col-lg-4 col-md-6">
           <h1 class="text-white mb-4">
@@ -17,8 +17,8 @@
           <p>
             <i class="fa fa-map-marker-alt me-3"></i>Yashodeep Heights, Amrut Dham, Gothivali Village, Sector 30, Rabale, Navi Mumbai, Maharashtra 400701
           </p>
-          <p><i class="fa fa-phone-alt me-3"></i>m: +91 7777 80 3030</p>
-          <p><i class="fa fa-envelope me-3"></i>e: info@reachhere.in</p>
+          <p><i class="fa fa-phone-alt me-3"></i>m: +91 9322 243 019</p>
+          <p><i class="fa fa-envelope me-3"></i>e: taranjit@reachhere.in</p>
         </div>
         <div class="col-lg-4 col-md-6">
           <h5 class="text-light display-6 mb-4">Quick Links</h5>
@@ -28,11 +28,11 @@
           <a class="btn btn-link" href="#">Terms & Conditions</a>
           <a class="btn btn-link" href="#">Privacy Policy</a>
         </div>
+      
       </div>
-      <hr>
     </div>
     <div class="copy-right mt-1 mb-4">
+      <hr>
       <a class="btn btn-link text-center" href="http://www.whizzactsolutions.com/">	&#169;&nbsp;Design By Whizzact Solution</a>
     </div>
-    
   </div>  

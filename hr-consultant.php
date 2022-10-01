@@ -10,7 +10,7 @@
   <!-- Spinner End -->
 
   <!-- Topbar Start -->
- <?php require('components/sections/common/navbar.php') ?>
+ <?php require('components/sections/common/navbar2.php') ?>
   <!-- Navbar End -->
 
   <!-- Carousel Start -->
@@ -18,7 +18,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item">
-          <img class="w-100" src="img\banners\HR-Recuritment.png" alt="Image" />
+          <img class="w-100" src="img/banners/HR-Recuritment.png" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -532,11 +532,13 @@
   <!-- Testimonial End -->
 
   <!-- Footer Start -->
-  <?php require('components/sections/common/footer.php')  ?>
+  <?php require('components/sections/common/footer2.php')  ?>
   <!-- Footer End -->
 
   <!-- Back to Top -->
-  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </a>
 
   <?php require('components/scripts.php')  ?>
 </body>

@@ -4,65 +4,27 @@
 
 <body>
   <!-- Spinner Start -->
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-  </div>
+  <!--<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">-->
+  <!--  <div class="spinner-grow text-primary" role="status"></div>-->
+  <!--</div>-->
   <!-- Spinner End -->
 
   <!-- Topbar Start -->
-  <?php require('components/sections/common/navbar.php') ?>
+  <?php include('components/sections/common/navbar3.php') ?>
   <!-- Navbar End -->
 
   <!-- Carousel Start -->
-  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item">
-          <img class="w-100" src="img\banners\banner4.png" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    <!-- Our Services -->
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veritatis magnam exercitationem obcaecati pariatur fugiat labore illum praesentium quidem dolor -->
-                  </p>
-                  <!-- <a href="./about.php" class="btn btn-primary py-3 px-5">Know More</a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img class="w-100" src="img\banners\banner4.png" alt="Image" />
-          <div class="carousel-caption">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <!-- <h3>Welcome To</h3> -->
-                  <h1 class="display-3 text-dark mb-4 animated slideInDown">
-                    <!-- Reach Here -->
-                  </h1>
-                  <p class="fs-5 text-body mb-5">
-                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque facilis. Unde ratione tenetur laborum commodi, perspiciatis error velit rem at neque optio, aliquid ipsum! Nobis possimus aperiam sequi sunt. -->
-                  </p>
-                  <!-- <a href="/contact.php" class="btn bg--primary text-white py-3 px-5">Contact us</a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="container-fluid">
+    <div class="banner_container d-flex justify-content-center">
+      <div class="banner">
+        <a href="consultant.php"><img class="w-100" src="img\banners\indexconsulting.png" alt="" srcset=""></a>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev" style="width: 5rem;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next" style="width: 5rem;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="banner">
+        <a href="home.php"><img class="w-100" src="img\banners\indexhome.png" alt="" srcset=""></a>
+        
+        
+       
+      </div>
     </div>
   </div>
   <!-- Carousel End -->
@@ -76,9 +38,9 @@
             <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover" />
             <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3" style="width: 200px; height: 200px">
               <div class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
-                <h1 class="text-white mb-0">25</h1>
-                <h2 class="text-white">Years</h2>
-                <h5 class="text-white mb-0">Experience</h5>
+                <h2 class="text-white mb-0">Legacy of</h2>
+                <h3 class="text-white mb-0">25 +</h3>
+                <h3 class="text-white">Years</h3>
               </div>
             </div>
           </div>
@@ -88,11 +50,15 @@
             <h1 class="display-6 mb-5 text--color">
               Our Experience
             </h1>
-            <p class="fs-5 text-primary mb-4">
-            Need help? Our team has the experience and resources to provide assistance.
+            <p class="fs-5  mb-4">
+            With Reach Here, regain your better life through our quality services of senior assist, child assist and home assist. With over 25+ years of rich experience supporting seniors and children, the platform carries forward the legacy of extending a trustworthy hand for all your home care needs. 
+
             </p>
+            <p class="fs-5">For our thousands of clients from different backgrounds and needs, ‘Reach Here is a relief.’ We have been the wonted aide to hundreds of seniors around India, adding dignified hours and gentle smiles in their days. 
+</p>
             <p class="mb-4">
-            We provide assistance to families who need help with their loved ones. We have the experience and knowledge to help families through difficult times.
+            ‘Our per-hour packages’ have made it a hassle-free experience for clients to get prompt and quality assistance at their convenience. Hear from our clients who attest to our figures and best-in-class service. 
+
             </p>
             <div class="border-top mt-4 pt-4">
               <div class="d-flex align-items-center">
@@ -113,20 +79,43 @@
       <div class="row g-0 mx-lg-0 ">
         <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
           <div class="h-100 px-4 ps-lg-0">
-            <h1 class="text-white mb-4">Our Happy Client</h1>
+            <h1 class="text-white mb-4">Brief Reach Here </h1>
             <p class="text-light mb-5">
-              The front desk has always been so helpful, even when I've had to call multiple times in one day. They are always cheerful and polite, and I really appreciate their assistance.
+              
+
+
+Think of Reach Here as the most approachable platform to support you just when you are in need of home services and caretakers for your loved ones. 
+
+Why Reach Here? 
+<ul class="text-light">
+  <li>Cost-effectiveness through pay-per-hour service</li>
+  <li>Immediate access to a pool of trained resources </li>
+  <li>Flexibility for hourly usage with no commitment</li>
+  <li>  Flexibility of usage for a variety of services</li>
+  <li>  Any day, any time*</li>
+  <li> Quality service in the least time</li>
+</ul>
+<span class="fs-5 text-light text-end m-4">-- Business hours 9 am to 9 pm</span>
             </p>
-            <a href="#happyclient" class="align-self-start btn btn-light py-3 px-5">More Details</a>
+          
           </div>
         </div>
         <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
           <div class="h-100 px-4 pe-lg-0">
-            <div class="row g-5 mx-auto">
-              <div class="col-12 mx-auto text-center">
-                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">356</h1>
-                <p class="fs-5 text-primary">Happy Clients</p>
+            <div class="row g-5 mx-auto d-flex">
+              <div class="col-12 col-sm-6 mx-auto text-center">
+                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">100</h1>
+                <p class="fs-5 text-primary text-center">Seniors Helped</p>
               </div>
+              <div class="col-12 col-sm-6 mx-auto text-center">
+                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">45</h1>
+                <p class="fs-5 text-primary text-center">Children Helped</p>
+              </div>
+              <div class="col-12 mx-auto text-center">
+                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">42</h1>
+                <p class="fs-5 text-primary text-center">Recruitments</p>
+              </div>
+             
             </div>
           </div>
         </div>
@@ -140,16 +129,16 @@
     <div class="container">
       <div class="row g-5">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <h1 class="display-6 mb-5 text--color">Few Reasons Why People Choosing Us!</h1>
+          <h1 class="display-6 mb-5 text--color">How are we different?</h1>
           <p class="mb-4">
-            If you are looking for a top quality assistance that is offered at a low price with great customer service , then you should choose us!
+          The promised security, safety and our imbibed values while lending support at a per-hour rate make us stand tall in society. 
           </p>
           <div class="row g-3">
             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                  <h5 class="mb-0">Security</h5>
+                  <h5 class="mb-0">Prompt, hassle-free hiring</h5>
                 </div>
               </div>
             </div>
@@ -157,7 +146,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                  <h5 class="mb-0">Safty</h5>
+                  <h5 class="mb-0">Pay as you require</h5>
                 </div>
               </div>
             </div>
@@ -165,7 +154,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                  <h5 class="mb-0">Trust</h5>
+                  <h5 class="mb-0">Trusted by thousands</h5>
                 </div>
               </div>
             </div>
@@ -173,7 +162,7 @@
               <div class="bg-light rounded h-100 p-3">
                 <div class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                   <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                  <h5 class="mb-0">Values</h5>
+                  <h5 class="mb-0">Dignified and trained professionals</h5>
                 </div>
               </div>
             </div>
@@ -210,7 +199,7 @@
             <p class="mb-4">
             A service that provides help for homeowners who need assistance with everyday tasks.
             </p>
-            <a class="btn btn-light px-3" href="home.php">Read More</a>
+            <a class="btn btn-light px-3" href="home.php">More Details</a>
           </div>
         </div>
         <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -219,12 +208,12 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Consultant Services</h4>
+              <h4 class="mb-0">Consultancy Services</h4>
             </div>
             <p class="mb-4">
-            Get help with your HR needs with the help of a professional consultant.
+            Get help with your HR needs with the help of a professional Consultancy.
             </p>
-            <a class="btn btn-light px-3" href="consaltant.php">Read More</a>
+            <a class="btn btn-light px-3" href="consultant.php">More Details</a>
           </div>
         </div>
 
@@ -273,12 +262,20 @@
                     <label for="cname">Your Mobile</label>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="form-floating">
-                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
-                    <label for="cage">Service Type</label>
+                <div class="col-md-6">
+                <div class="form-floating">
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Section Types...</option>
+                    <option>Home Assist</option>
+                    <option>Chid Assist</option>
+                    <option>Senior Assist</option>
+                    <option>HR Consulant Services</option>
+                    
+                  </select>
                   </div>
-                </div>
+                 </div>
+              </div>
                 <div class="col-12">
                   <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 80px"></textarea>
@@ -300,98 +297,14 @@
   <!-- Appointment End -->
 
   <!-- Team Start -->
-  <!-- <div class="container-xxl py-5">
-    <div class="container">
-      <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5 text-primary">Meet Our Professional Team Members</h1>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-              <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-              <h5>Junad Memon</h5>
-              <span>Software developer</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Junad Memon</h5>
-              <span>Software developer</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-            <h5>Ranjeet Poojari</h5>
-              <span>Software developer</span>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Ranjeet Poojari</h5>
-              <span>Software developer</span>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-          <div class="team-item rounded">
-            <img class="img-fluid" src="img\team-4.jpg" alt="" />
-            <div class="text-center p-4">
-            <h5>Shalil jaiswar </h5>
-              <p>Software developer</p>
-            </div>
-            <div class="team-text text-center bg-white p-4">
-            <h5>Shalil jaiswar </h5>
-              <p>Software developer</p>
-              <div class="d-flex justify-content-center">
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  
   <!-- Team End -->
 
   <!-- Testimonial Start -->
   <div class="container-xxl py-5" id="happyclient">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 text-primary mb-5">What They Say About There Success Story</h1>
+        <h1 class="display-6 text-primary mb-5">What They Say About Their Success Story</h1>
       </div>
       <div class="row g-5">
         <div class="col-lg-3 d-none d-lg-block">
@@ -404,34 +317,28 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
-              <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+              <p class="fs-5 p-3 text-center">
+              My parents are quite old needed a Reacher to escart them to pathology for sonography .The Reacher was on time and was with my parents from the time they left home for pathology till they returned .Dad was happy that while I could not come personally.I sent a Reacher to support. Thank you Reach Here for making our day</span>
               </p>
-              <h5>Durgesh Panday</h5>
-              <span>Lead Manager</span>
+              <h5>Swapnil</h5>
+              <span>Mumbai ,India</span>
             </div>
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-2.jpg" alt="" />
-              <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+              <p class="fs-5 p-3 text-center">
+              Reachers reach on demand & that's what Liked about them. I booked their service time as always it has been great experience. </span>
               </p>
-              <h5>Shalil jaiswar</h5>
-              <span>Software developer</span>
+              <h5>Gunjan Parikh</h5>
+              <span>Khar, Mumbai, India</span>
             </div>
             <div class="testimonial-item text-center">
-              <img class="img-fluid rounded mx-auto mb-4" src="img/testimonial-3.jpg" alt="" />
-              <p class="fs-5">
-                Dolores sed duo clita tempor justo dolor et stet lorem kasd
-                labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy
-                et labore et tempor diam tempor erat.
+              <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+              <p class="fs-5 p-3 text-center">
+              <span>On hearing of this new concept, we booked for Home Assist service in the month of June for 2 hours and were super happy  with Reacher coming on time and executing the kitchen cleaning and laundary work within time . The behaviour was absolutely profession, will recommend to families and friends</span>
               </p>
-              <h5>Junad Memon</h5>
-              <span>Software developer</span>
+              <h5>Jasleen Sachdeva</h5>
+              <span>Mumbai ,India</span>
             </div>
           </div>
         </div>
