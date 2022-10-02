@@ -37,13 +37,13 @@ h1,h2,h3,h4,h5{font-family:'futurabold';}
 .top-70 {
     top: 70% !important
 }.top-90 {
-    top: 85% !important
+    top: 87% !important
 }
 .start-20 {
     left: 20% !important
 }
 .start-35 {
-    left: 35% !important
+    left: 33% !important
 }
 .start-40 {
     left: 40% !important
@@ -72,7 +72,14 @@ h1,h2,h3,h4,h5{font-family:'futurabold';}
     visibility: visible;
     opacity: 1;
 }
-
+.terms-conditions h1{
+    font-size: 32px;
+    color: #000000;
+    position: relative;
+    font-family: 'futurabold';
+    position: relative;
+    text-transform: uppercase;
+}
 
 /*** Button ***/
 .btn {
@@ -194,11 +201,12 @@ h1,h2,h3,h4,h5{font-family:'futurabold';}
 /********* Banner Container end**************/
 .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: auto;
 }
+.banner_con{padding-right: 0px; padding-left:0px;}
 .industry-expertise .card{width: 220px;}
 .industry-expertise .card img{border-radius: 50%; height: 150px; width: 150px;}
 /*** Header ***/

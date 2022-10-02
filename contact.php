@@ -41,7 +41,8 @@
         <div class="row g-5">
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
             <h1 class="display-6 mb-5">
-              If You Have Any Query, Please Contact Us
+            It’s okay to ask for help, to Reach Here. We’re with you!
+
             </h1>
          
             <form>

@@ -116,7 +116,7 @@ fill="rgba(255, 255, 255, 0.5)
            <h4 class="mb-0">DIFFERENTIATOR </h4>
          </div>
          <p class="mb-4">
-         At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service. 
+         At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service
          </p>
         
        </div>
@@ -130,7 +130,8 @@ fill="rgba(255, 255, 255, 0.5)
            <h4 class="mb-0">OUR VISION </h4>
          </div>
          <p class="mb-4">
-         To Reach and assist every home on the globe with a Smile.
+         To reach and assist needful homes around the world with a smile. Be it home services or newly added consulting services, offering quality solutions is never compromised. Our vision is to be unparalleled in all our solutions. We aim to become the bridge for our clients, helping them reach a path that leads to a better life. 
+
          </p>
         
        </div>
@@ -144,6 +145,7 @@ fill="rgba(255, 255, 255, 0.5)
          </div>
          <p class="mb-4">
          Our mission is to build a strong foundation for hourly caregiver and home services. With trained Reachers coming to your loving home, we commit to offering the best assistance for you and your loved ones. 
+
          </p>
        </div>
      </div>
