@@ -130,7 +130,7 @@
         <div class="row g-4 justify-content-between mt-5 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
                 <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
-                    <img src="./img/Babysitting-Mobile.jpg" alt="" class="rounded py-3 px-3">
+                    <img src="./img/Babysitting-Mobile.jpg" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
                 <div class="col-12 col-lg-6  my-5 px-5">
                     <h1 class="text--color text-uppercase">CHILD ASSIST SERVICE</h1>
@@ -155,7 +155,7 @@
 
             <h2 class="text-center text--color text-uppercase"> Pay as required! Starting from INR 250* per hour!</h2>
             <p class="text-center"> A reliable source to support you with childcare and healthy living<br>
-             
+
 
             </p>
 
@@ -163,209 +163,209 @@
 
             <div class="row g-3 justify-content-center my-2 bg-transparent " yt3le="overflow-x: hidden !important;">
 
-<div class="col-lg-3 col-md-6" style="height: 18rem !important;">
-    <div class="service-item rounded h-100 p-5">
-        <div class="d-flex align-items-center ms-n5 mb-4">
-            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                <img class="img-fluid"
-                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                    alt="" />
-            </div>
-            <div>
-                <h1 style="color: #E95197;">₹300</h1>
-                <p class="text-center fw-bold fs-5">Per 1 Hour</p>
-            </div>
-        </div>
-        <div>
-            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Book Now</a>
-            <p class="mt-3 text-center">
-                Extra ₹250 Per Hours
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6" style="height: 18rem !important;">
-    <div class="service-item rounded h-100 p-5">
-        <div class="d-flex align-items-center ms-n5 mb-4">
-            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                <img class="img-fluid"
-                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                    alt="" />
-            </div>
-            <div>
-                <h1 style="color: #E95197;">₹550</h1>
-                <p class="text-center fw-bold fs-5">Per 2 Hour</p>
-
-            </div>
-        </div>
-        <div>
-            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Book Now</a>
-            <p class="mt-3 text-center">
-                Extra ₹250 Per Hours
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6" style="height: 18rem !important;">
-    <div class="service-item rounded h-100 p-5">
-        <div class="d-flex align-items-center ms-n5 mb-4">
-            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                <img class="img-fluid"
-                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                    alt="" />
-            </div>
-            <div>
-                <h1 style="color: #E95197;">₹800</h1>
-                <p class="text-center fw-bold fs-5">Per 3 Hour</p>
-
-            </div>
-        </div>
-        <div>
-            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Book Now</a>
-            <p class="mt-3 text-center">
-                Extra ₹250 Per Hours
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6" style="height: 18rem !important;">
-    <div class="service-item rounded h-100 p-5">
-        <div class="d-flex align-items-center ms-n5 mb-4">
-            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                <img class="img-fluid"
-                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                    alt="" />
-            </div>
-            <div>
-                <h1 style="color: #E95197;">₹1000</h1>
-                <p class="text-center fw-bold fs-5">Per 4 Hour</p>
-
-            </div>
-        </div>
-        <div>
-            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Book Now</a>
-            <p class="mt-3 text-center">
-                Extra ₹250 Per Hours
-            </p>
-        </div>
-    </div>
-</div>
-<p class="text-center"> The decision whether to accept the extension completely lies with the
-    Company.<br>
-    Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
-</div>
-</div>
-</div>
-
-<!-- Button trigger modal -->
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-    <h5 class="modal-title" id="staticBackdropLabel">Get In Touch With Us</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-    <form>
-        <div class="row g-3">
-            <div class="col-sm-6">
-
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                    <label for="gname">Your Name</label>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-floating">
-                    <div class="form-group">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>HOME ASSIST</option>
-                            <option>CHILD ASSIST</option>
-                            <option>SENIOR ASSIST</option>
-                        </select>
-
+                <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+                    <div class="service-item rounded h-100 p-5">
+                        <div class="d-flex align-items-center ms-n5 mb-4">
+                            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+                                <img class="img-fluid"
+                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <h1 style="color: #E95197;">₹300</h1>
+                                <p class="text-center fw-bold fs-5 text-capitalize">Per 1 Hour</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Book Now</a>
+                            <p class="mt-3 text-center">
+                                Extra ₹250 Per Hour
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-            </div>
-            <div class="col-sm-6">
+                <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+                    <div class="service-item rounded h-100 p-5">
+                        <div class="d-flex align-items-center ms-n5 mb-4">
+                            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+                                <img class="img-fluid"
+                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <h1 style="color: #E95197;">₹550</h1>
+                                <p class="text-center fw-bold fs-5">Per 2 Hours</p>
 
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                    <label for="gname">Full Name</label>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Book Now</a>
+                            <p class="mt-3 text-center">
+                                Extra ₹250 Per Hour
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="gmail" placeholder="Email Address" />
-                    <label for="gmail"> Email Address</label>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="cname" placeholder="Mobile Number" />
-                    <label for="cname"> Mobile Number</label>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
-                    <label for="cage">Pincode</label>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="form-floating">
-                    <input type="date" class="form-control" id="cage" placeholder="Date" />
-                    <label for="cage">Date</label>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="form-floating">
-                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
-                    <label for="cage">Start Time</label>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="form-floating">
-                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
-                    <label for="cage">End Time</label>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                        style="height: 80px"></textarea>
-                    <label for="message">Address</label>
-                </div>
-            </div>
-        </div>
-    </form>
-    <div class="modal-footer">
 
-        <div class="col-12">
-            <button class="btn bg--primary text-white py-3 px-5 m-auto d-flex justify-content-center"
-                type="submit">
-                SUBMIT
-            </button>
+                <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+                    <div class="service-item rounded h-100 p-5">
+                        <div class="d-flex align-items-center ms-n5 mb-4">
+                            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+                                <img class="img-fluid"
+                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <h1 style="color: #E95197;">₹800</h1>
+                                <p class="text-center fw-bold fs-5">Per 3 Hours</p>
+
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Book Now</a>
+                            <p class="mt-3 text-center">
+                                Extra ₹250 Per Hour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
+                    <div class="service-item rounded h-100 p-5">
+                        <div class="d-flex align-items-center ms-n5 mb-4">
+                            <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
+                                <img class="img-fluid"
+                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
+                                    alt="" />
+                            </div>
+                            <div>
+                                <h1 style="color: #E95197;">₹1000</h1>
+                                <p class="text-center fw-bold fs-5">Per 4 Hours</p>
+
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Book Now</a>
+                            <p class="mt-3 text-center">
+                                Extra ₹250 Per Hour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center"> The decision whether to accept the extension completely lies with the
+                    Company.<br>
+                    Read our <a href="terms-conditions.php" class="fst-italic text-danger">terms & conditions*</a> </p>
+            </div>
         </div>
     </div>
-</div>
-</div>
-</div>
 
+    <!-- Button trigger modal -->
 
-</div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Get In Touch With Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
+                                    <label for="gname">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <div class="form-group">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>HOME ASSIST</option>
+                                            <option>CHILD ASSIST</option>
+                                            <option>SENIOR ASSIST</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6">
+
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="gname" placeholder="Full Name" />
+                                    <label for="gname">Full Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="gmail" placeholder="Email Address" />
+                                    <label for="gmail"> Email Address</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <label for="cname"> Mobile Number</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                    <label for="cage">Pincode</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                    <label for="cage">Date</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-floating">
+                                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                    <label for="cage">Start Time</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-floating">
+                                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                    <label for="cage">End Time</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 80px"></textarea>
+                                    <label for="message">Address</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+
+                        <div class="col-12">
+                            <button class="btn bg--primary text-white py-3 px-5 m-auto d-flex justify-content-center"
+                                type="submit">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+    </div>
+    </div>
     </div>
 
 
@@ -413,14 +413,14 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname"
+                                        <input type="number" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

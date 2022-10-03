@@ -14,9 +14,8 @@
         <div class="h-100 d-inline-flex align-items-center">
         <small class="far fa-envelope-open me-2"></small>
           <small>info@reachhere.in</small>
-          <a class="text-white ms-4" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white ms-4" href="https://www.facebook.com/profile.php?id=100076146793455"><i class="fab fa-facebook-f"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
-          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
         </div>
       </div>

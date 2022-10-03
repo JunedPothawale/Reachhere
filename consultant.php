@@ -176,12 +176,18 @@
                         <div class="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="bg-light rounded h-100 p-3">
                                 <div
-                                    class="bg-white d-flex flex-row justify-content-center text-center rounded h-100 py-4 px-3">
+                                    class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center  text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-start my-auto vision" src="img\icon\vision1.png" alt="" />
-                                    <div class="d-flex flex-column px-5">
-                                        <h3 class="mb-0 align-self-start">Vision</h3> <br>
-                                        <p class="fs-4">
-                                            To reach and service every organization on the globe with a Smile.</p>
+                                    <div class="d-flex flex-column flex-wrap px-5">
+                                        <h3 class="mb-0 align-self-center align-self-sm-start">Vision</h3> <br>
+                                        <p class="fs-6">
+                                            To reach and assist needful homes around the world with a smile. Be it home
+                                            services or newly added consulting services, offering quality solutions is
+                                            never compromised. Our vision is to be unparalleled in all our solutions. We
+                                            aim to become the bridge for our clients, helping them reach a path that
+                                            leads to a better life.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -189,13 +195,14 @@
                         <div class="col-sm-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="bg-light rounded h-100 p-3">
                                 <div
-                                    class="bg-white d-flex flex-row justify-content-center text-center rounded h-100 py-4 px-3">
+                                    class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-start my-auto " src="img\icon\mission.png" alt="" />
                                     <div class="d-flex flex-column px-5">
-                                        <h3 class="mb-0 align-self-start">Mission</h3> <br>
-                                        <p class="fs-4">
-                                            We partner with organisations to identify and recruit the best resources in
-                                            shortest time.
+                                        <h3 class="mb-0 align-self-center align-self-sm-start">Mission</h3> <br>
+                                        <p class="fs-6">
+                                            Our mission is to build a strong foundation for hourly caregiver and home
+                                            services. With trained Reachers coming to your loving home, we commit to
+                                            offering the best assistance for you and your loved ones.
                                         </p>
                                     </div>
                                 </div>
@@ -216,7 +223,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
-                <h1 class="display-6 mb-5 text--color">
+                <h1 class="display-6 mb-5 text--color text-capitalize">
                     Our Offerings
                 </h1>
             </div>
@@ -231,16 +238,13 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\consult.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Providing hiring experts for niche industries</h4>
+                            <h4 class="mb-0 text-capitalize">Providing hiring experts for niche industries</h4>
                         </div>
                         <p class="mb-4">
                             The complex nature of niche-sector hiring demands smarter ways of hiring. Since our
                             recruitment experts are from different industries and backgrounds, we assign those who
                             understand your niche's fundamentals meant to assist you with your distinct hiring needs.
                         </p>
-
-                        <a class="btn btn-light px-3" href="#">More Details</a>
-                        <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
@@ -251,7 +255,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\interview.png" alt="" />
                             </div>
-                            <h4 class="mb-0"> Verifying candidate profiles & Interviewing </h4>
+                            <h4 class="mb-0 text-capitalize"> Verifying candidate profiles & Interviewing </h4>
                         </div>
                         <p class="mb-4">
                             Our verifying technique ensures every professional experience represented by candidates are
@@ -261,8 +265,7 @@
 
                             <br>
                         </p>
-                        <a class="btn btn-light px-3" href="hr-Consultancy.php">More Details</a>
-                        <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
+               
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
@@ -273,7 +276,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\executive-recruitment.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Additions to existing staff & replacements </h4>
+                            <h4 class="mb-0 text-capitalize">Additions to existing staff & replacements </h4>
                         </div>
                         <p class="mb-4">
                             Finding replacements is like finding the missing pieces of business. As Reach Here experts
@@ -281,8 +284,7 @@
                             becomes a breeze for you.
                         </p>
 
-                        <a class="btn btn-light px-3" href="hr-Consultancy.php">More Details</a>
-                        <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
+                       
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
@@ -293,7 +295,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\professionals.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Career coaching for professionals </h4>
+                            <h4 class="mb-0 text-capitalize">Career coaching for professionals </h4>
                         </div>
                         <p class="mb-4">
                             With our career coaching and personalized assistance to candidates, we shape their
@@ -302,8 +304,7 @@
                             candidates.
 
                         </p>
-                        <a class="btn btn-light px-3" href="hr-Consultancy.php">More Details</a>
-                        <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
+                       
                     </div>
                 </div>
             </div>
@@ -320,7 +321,7 @@
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded p-5 text-center">
                         <img src="img\cote.png" alt="" srcset="" class="m-auto">
-                        <H1 class=" text--color">INDIA'S MOST PROFESSIONAL CONSULTANCY SERVICES PROVIDING COMPANY </H1>
+                        <H1 class=" text--color text-capitalize">INDIA'S MOST PROFESSIONAL CONSULTANCY SERVICES PROVIDING COMPANY </H1>
                         <p class="text-center">Offering not only the addition to your team but to your growth. </p>
                         <p class="text-center">With Reach Here, tap into hidden markets and smartly hire the best talent
                             from the market while you save time in your recruitment process. Reach Here is a firm with a
@@ -340,7 +341,7 @@
     <div class="container-xxl py-5">
         <div class="container-xl">
             <div class="text-center mx-auto" style="max-width: 500px">
-                <h1 class="display-6 mb-5 text--color">
+                <h1 class="display-6 mb-5 text--color text-capitalize">
                     OUR INDUSTRY EXPERTISE
                 </h1>
             </div>
@@ -349,7 +350,7 @@
                     <div class="card ">
                         <img src="img\icon\it 2.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
-                            <h5 class="text--color text-center">INFORMATION TECHNOLOGY</h5>
+                            <h5 class="text--color text-center text-uppercase">INFORMATION TECHNOLOGY</h5>
                         </div>
 
                     </div>
@@ -358,7 +359,7 @@
                     <div class="card justify-content-center">
                         <img src="img\icon\datascence1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
-                            <h5 class="text--color text-center">ANALYTICS/AI/ DATA SCIENCE</h5>
+                            <h5 class="text--color text-center text-uppercase">ANALYTICS/AI/ DATA SCIENCE</h5>
                         </div>
 
                     </div>
@@ -367,7 +368,7 @@
                     <div class="card justify-content-center">
                         <img src="img\icon\news1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
-                            <h5 class="text--color text-center">MEDIA & ENTERTAINMENT</h5>
+                            <h5 class="text--color text-center text-uppercase">MEDIA & ENTERTAINMENT</h5>
                         </div>
 
                     </div>
@@ -376,7 +377,7 @@
                     <div class="card justify-content-center">
                         <img src="img\icon\bank1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
-                            <h5 class="text--color text-center">BANKING FINANCE</h5>
+                            <h5 class="text--color text-center text-uppercase">BANKING FINANCE</h5>
                         </div>
 
                     </div>
@@ -385,7 +386,7 @@
                     <div class="card justify-content-center">
                         <img src="img\icon\industry1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
-                            <h5 class="text--color text-center">LOGISTICS INDUSTRY</h5>
+                            <h5 class="text--color text-center text-uppercase">LOGISTICS INDUSTRY</h5>
                         </div>
 
                     </div>
@@ -482,7 +483,7 @@
     <!-- Appointment Start -->
     <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="row g-5">
+            <div class="row g-5 text-capitalize">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded p-5">
                         <form>
@@ -522,14 +523,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname"
+                                        <input type="number" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

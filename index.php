@@ -17,7 +17,7 @@
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
             <div class="banner">
-                <a href="consultant.php"><img class="w-100" src="img\banners\indexconsulting.png" alt="" srcset=""></a>
+                <a href="consultant.php"><img class="w-100" src="img\banners\consultingbanner-index.png" alt="" srcset=""></a>
             </div>
             <div class="banner">
                 <a href="home.php"><img class="w-100" src="img\banners\indexhome.png" alt="" srcset=""></a>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color">
+                        <h1 class="display-6 mb-5 text--color text-capitalize">
                             Our Experience
                         </h1>
                         <p class="fs-5  mb-4">
@@ -89,7 +89,7 @@
             <div class="row g-0 mx-lg-0 ">
                 <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
                     <div class="h-100 px-4 ps-lg-0">
-                        <h1 class="text-white mb-4">Brief Reach Here </h1>
+                        <h1 class="text-white mb-4 text-capitalize">Brief Reach Here </h1>
                         <p class="text-light mb-5">
 
 
@@ -116,15 +116,15 @@
                         <div class="row g-5 mx-auto d-flex">
                             <div class="col-12 col-sm-6 mx-auto text-center">
                                 <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">100</h1>
-                                <p class="fs-5 text-primary text-center">Seniors Helped</p>
+                                <p class="fs-5 text-primary text-center text-capitalize">Seniors Helped</p>
                             </div>
                             <div class="col-12 col-sm-6 mx-auto text-center">
                                 <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">45</h1>
-                                <p class="fs-5 text-primary text-center">Children Helped</p>
+                                <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
                             </div>
                             <div class="col-12 mx-auto text-center">
                                 <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">42</h1>
-                                <p class="fs-5 text-primary text-center">Recruitments</p>
+                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
                             </div>
 
                         </div>
@@ -140,7 +140,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-5 text--color">How are we different?</h1>
+                    <h1 class="display-6 mb-5 text--color text-capitalize">How are we different?</h1>
                     <p class="mb-4">
                         The promised security, safety and our imbibed values while lending support at a per-hour rate
                         make us stand tall in society.
@@ -151,7 +151,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                                    <h5 class="mb-0">Prompt, hassle-free hiring</h5>
+                                    <h5 class="mb-0 text-capitalize">Prompt, hassle-free hiring</h5>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                                    <h5 class="mb-0">Pay as you require</h5>
+                                    <h5 class="mb-0 text-capitalize">Pay as you require</h5>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                                    <h5 class="mb-0">Trusted by thousands</h5>
+                                    <h5 class="mb-0 text-capitalize">Trusted by thousands</h5>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                                    <h5 class="mb-0">Dignified and trained professionals</h5>
+                                    <h5 class="mb-0 text-capitalize">Dignified and trained professionals</h5>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
-                <h1 class="display-6 mb-5 text--color">
+                <h1 class="display-6 mb-5 text--color text-capitalize">
                     We Provide Services Like
                 </h1>
             </div>
@@ -211,7 +211,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Home Service </h4>
+                            <h4 class="mb-0 text-capitalize">Home Service </h4>
                         </div>
                         <p class="mb-4">
                             A service that provides help for homeowners who need assistance with everyday tasks.
@@ -225,7 +225,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Consultancy Services</h4>
+                            <h4 class="mb-0 text-capitalize">Consultancy Services</h4>
                         </div>
                         <p class="mb-4">
                             Get help with your HR needs with the help of a professional Consultancy.
@@ -244,7 +244,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-5 text-primary">
+                    <h1 class="display-6 text-white mb-5 text-primary text-capitalize">
                     We're An Award Winning Service Company
 
                     </h1>
@@ -265,26 +265,26 @@
                                 <div class="col-sm-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                        <label for="gname">Your Name</label>
+                                        <label for="gname" class="text-capitalize">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="gmail"
                                             placeholder="Gurdian Email" />
-                                        <label for="gmail">Your Email</label>
+                                        <label for="gmail" class="text-capitalize"">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname" placeholder="Child Name" />
-                                        <label for="cname">Your Mobile</label>
+                                        <input type="number" class="form-control" id="cname" placeholder="Child Name" />
+                                        <label for="cname" class="text-capitalize">Your Mobile</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1">
                                                 <option>Section Types...</option>
                                                 <option>Home Assist</option>
                                                 <option>Chid Assist</option>
@@ -299,7 +299,7 @@
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
                                             style="height: 80px"></textarea>
-                                        <label for="message">Message</label>
+                                        <label for="message" class="text-capitalize">Message</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -328,11 +328,11 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-left h-100">
+                    <!-- <div class="testimonial-left h-100">
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="" />
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="" />
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="" />
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
@@ -370,11 +370,11 @@
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-right h-100">
+                    <!-- <div class="testimonial-right h-100">
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="" />
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="" />
                         <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="" />
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

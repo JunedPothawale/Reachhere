@@ -83,10 +83,10 @@
               </div>
               <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100">
-                  <h1 class="display-6 mb-5 text--color">
+                  <h1 class="display-6 mb-5 text--color text-capitalize">
                   Recruiting Solutions From Reach Here
                   </h1>
-                  <p class="fs-5 text-primary mb-4">
+                  <p class="fs-5 text-primary mb-4 text-capitalize">
                   Get the Support You Need with Professional Hr Services!
                   </p>
                   <p class="mb-4">
@@ -120,7 +120,7 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Right Jobs, Right People </h4>
+              <h4 class="mb-0 text-capitalize">Right Jobs, Right People </h4>
             </div>
             <p class="mb-4">
             We understand your hiring philosophy and are perfectly placed to undertake all your recruitment and staffing needs.
@@ -134,7 +134,7 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                   <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Right method to Assess</h4>
+              <h4 class="mb-0 text-capitalize">Right method to Assess</h4>
             </div>
             <p class="mb-4">
                 Companies trust recruiting agencies in India like us to evaluate candidates scientifically using advanced data sciences and assess organizational culture fitment to identify top talent.
@@ -149,7 +149,7 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Attracting the best Talent</h4>
+              <h4 class="mb-0 text-capitalize">Attracting the best Talent</h4>
             </div>
             <p class="mb-4">
             We understand the role context and advertise in online and offline channels to attract the best talent
@@ -163,10 +163,10 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Learning & Development</h4>
+              <h4 class="mb-0 text-capitalize">Learning & Development</h4>
             </div>
             <p class="mb-4">
-            <ul>
+            <ul class="text-capitalize">
 <li>Universal Competency Model</li>
 <li> Training and Workshops</li>
 <li>Leadership Development</li>
@@ -195,7 +195,7 @@
               <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                 <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
               </div>
-              <h4 class="mb-0">Career Transitions</h4>
+              <h4 class="mb-0 text-capitalize">Career Transitions</h4>
             </div>
             <p class="mb-4">
           Smooth employee transitions with counseling,search advisory and outplacement support
@@ -278,7 +278,7 @@
   <!-- Appointment Start -->
   <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
-      <div class="row g-5">
+      <div class="row g-5 text-capitalize">
         <!-- <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
           <h1 class="display-6 text-white mb-5 text-primary">
             We're Award Winning Service Company
@@ -312,6 +312,7 @@
                 <div class="form-floating">
                 <div class="form-group">
                   <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select</option>
                     <option>HR Consaltant</option>
                     
                   </select>
@@ -335,13 +336,13 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="cname" placeholder="Mobile Number" />
+                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
                     <label for="cname"> Mobile Number</label>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                     <label for="cage">Pincode</label>
                   </div>
                 </div>

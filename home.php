@@ -49,10 +49,10 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color">
+                        <h1 class="display-6 mb-5 text--color text-capitalize">
                             Choose a service to get started!
                         </h1>
-                        <p class="fs-5 text-primary mb-4">
+                        <p class="fs-5 text-primary mb-4 text-capitalize">
                             Home, Child, and Senior Assistance Plans
                         </p>
                         <p class="mb-4">
@@ -78,7 +78,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
-                <h1 class="display-6 mb-5 text--color">
+                <h1 class="display-6 mb-5 text--color text-capitalize">
                     Our Offerings
                 </h1>
             </div>
@@ -91,7 +91,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Home Assist</h4>
+                            <h4 class="mb-0 text-capitalize">Home Assist</h4>
                         </div>
                         <p class="mb-4">
                             Now, take care of your house the easy way! From home cleaning to plumbing, get the best home
@@ -115,7 +115,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\children.png" alt="" />
                             </div>
-                            <h4 class="mb-0">Child Assist</h4>
+                            <h4 class="mb-0 text-capitalize">Child Assist</h4>
                         </div>
                         <p class="mb-4">
                             Find trusted babysitters in your town who are empathetic and fun around your kids. With
@@ -124,7 +124,7 @@
 
                             <br> We are here to help. Want to learn more about our services
                         </p>
-                        <a class="btn btn-light px-3 position-absolute top-90 start-35" href="child-assist.php">More
+                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize" href="child-assist.php">More
                             Details</a>
                         <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
                     </div>
@@ -138,7 +138,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\medical-assistance.png" alt="" />
                             </div>
-                            <h4 class="mb-0"> Senior Assist</h4>
+                            <h4 class="mb-0 text-capitalize"> Senior Assist</h4>
                         </div>
                         <p class="mb-4">
                             Reach Here lends the support and empathy your elderly loved ones need while you look after
@@ -149,7 +149,7 @@
                             <br>
                             We are here to help. Want to learn more about our services
                         </p>
-                        <a class="btn btn-light px-3 position-absolute top-90 start-35" href="senior-assist.php">More
+                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize" href="senior-assist.php">More
                             Details</a>
                         <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
                     </div>
@@ -166,7 +166,7 @@
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded p-5 text-center">
                         <img src="img\cote.png" alt="" srcset="" class="m-auto">
-                        <H1 class=" text--color ">INDIA'S FIRST PROFESSIONAL COMPANY PROVIDING ASSISTANCE ON DEMAND</H1>
+                        <H1 class=" text--color text-uppercase">INDIA'S FIRST PROFESSIONAL COMPANY PROVIDING ASSISTANCE ON DEMAND</H1>
                         <p class="text-center">Reach Here is a unique concept providing assistance through REACHERS
                             (Assistants) on hourly / contract basis for senior assistance, home assistance (domestic
                             help) and child assistance.</p>
@@ -192,7 +192,7 @@
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded p-5">
                         <form>
-                            <div class="row g-3">
+                            <div class="row g-3 text-capitalize">
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
@@ -230,14 +230,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname"
+                                        <input type="number" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

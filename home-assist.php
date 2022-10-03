@@ -130,13 +130,13 @@
         <div class="row g-4 justify-content-between mt-5 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
                 <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
-                    <img src="./img/hiring-cleaning-services.png" alt="" class="rounded py-3 px-1">
+                    <img src="./img/hiring-cleaning-services.png" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
                 <div class="col-12 col-lg-6  my-5 px-5">
                     <h1 class="text--color text-uppercase">HOME ASSIST SERVICE</h1>
                     <p>A helpful hand for all your domestic help! Find the experienced home care service givers
                     </p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <ul class="list-group mt-4 ms-1 ms-sm-5 text-capitalize">
                         <li class="list-group-item">Mopping & Sweeping</li>
                         <li class="list-group-item">Washing vessels</li>
                         <li class="list-group-item">Laundry and Drying</li>
@@ -145,7 +145,7 @@
 
                     </ul>
                     <p>Choose from a pool of evaluated caregivers who,</p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <ul class="list-group mt-4 ms-1 ms-sm-5 text-capitalize">
                         <li class="list-group-item">Learn quickly and execute it in chores </li>
                         <li class="list-group-item">Are trustworthy enough to know basic values </li>
                         <li class="list-group-item">Committed to offering end-to-end service </li>
@@ -176,14 +176,14 @@
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹300</h1>
-                                <p class="text-center fw-bold fs-5">Per 1 Hour</p>
+                                <p class="text-center fw-bold fs-5 text-capitalize">Per 1 Hour</p>
                             </div>
                         </div>
                         <div>
                             <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">Book Now</a>
                             <p class="mt-3 text-center">
-                                Extra ₹250 Per Hours
+                                Extra ₹250 Per Hour
                             </p>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹550</h1>
-                                <p class="text-center fw-bold fs-5">Per 2 Hour</p>
+                                <p class="text-center fw-bold fs-5">Per 2 Hours</p>
 
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                             <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">Book Now</a>
                             <p class="mt-3 text-center">
-                                Extra ₹250 Per Hours
+                                Extra ₹250 Per Hour
                             </p>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹800</h1>
-                                <p class="text-center fw-bold fs-5">Per 3 Hour</p>
+                                <p class="text-center fw-bold fs-5">Per 3 Hours</p>
 
                             </div>
                         </div>
@@ -231,7 +231,7 @@
                             <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">Book Now</a>
                             <p class="mt-3 text-center">
-                                Extra ₹250 Per Hours
+                                Extra ₹250 Per Hour
                             </p>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹1000</h1>
-                                <p class="text-center fw-bold fs-5">Per 4 Hour</p>
+                                <p class="text-center fw-bold fs-5">Per 4 Hours</p>
 
                             </div>
                         </div>
@@ -255,14 +255,14 @@
                             <a class="btn btn-light px-3 text-center w-100" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">Book Now</a>
                             <p class="mt-3 text-center">
-                                Extra ₹250 Per Hours
+                                Extra ₹250 Per Hour
                             </p>
                         </div>
                     </div>
                 </div>
                 <p class="text-center"> The decision whether to accept the extension completely lies with the
                     Company.<br>
-                    Read our <a href="" class="fst-italic text-danger">terms & conditions*</a> </p>
+                    Read our <a href="terms-conditions.php" class="fst-italic text-danger">terms & conditions*</a> </p>
             </div>
         </div>
     </div>
@@ -316,13 +316,13 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
                                     <label for="cname"> Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                                     <label for="cage">Pincode</label>
                                 </div>
                             </div>
@@ -412,14 +412,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname"
+                                        <input type="number" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

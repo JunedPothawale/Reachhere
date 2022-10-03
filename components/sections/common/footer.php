@@ -8,7 +8,6 @@
           <div class="d-flex pt-2">
             <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
             <a class="btn btn-square me-1" href="https://www.facebook.com/Reach-Here-Pvt-Ltd-101334729053950"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
             <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
@@ -22,17 +21,17 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <h5 class="text-light display-6 mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="#">About Us</a>
-          <a class="btn btn-link" href="#">Contact Us</a>
+          <a class="btn btn-link" href="about.php">About Us</a>
+          <a class="btn btn-link" href="contact.php">Contact Us</a>
           <a class="btn btn-link" href="#">Our Services</a>
-          <a class="btn btn-link" href="#">Terms & Conditions</a>
+          <a class="btn btn-link" href="terms-conditions.php">Terms & Conditions</a>
           <a class="btn btn-link" href="#">Privacy Policy</a>
         </div>
       </div>
       <hr>
     </div>
     <div class="copy-right mt-1 mb-4">
-      <a class="btn btn-link text-center" href="http://www.whizzactsolutions.com/">	&#169;&nbsp;Design By Whizzact Solution</a>
+      <a class="btn btn-link text-center" href="http://www.whizzactsolutions.com/">	&#169;&nbsp;Design By WhizzAct Solutions</a>
     </div>
     
   </div>  
