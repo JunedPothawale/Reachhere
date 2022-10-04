@@ -136,7 +136,7 @@
                 <div class="col-12 col-lg-6  my-5 px-5">
                     <h1 class="text--color text-uppercase">SENIOR ASSIST SERVICE INCLUDES</h1>
                     <p>Need support with your elderly loved one? We do it with care and empathy as you would do! </p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <ul class="list-group mt-4 ms-1">
                         <li class="list-group-item">Accompany your parents</li>
                         <li class="list-group-item">Escort them to pathology</li>
                         <li class="list-group-item">Escort them to garden</li>
@@ -144,8 +144,8 @@
 
 
                     </ul>
-                    <p>Choose from a pool of evaluated caregivers who,</p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <p class="mt-3 text--color font-weight-bold fs-4 ms-2" style="font-family:'futurabold';">Choose from a pool of evaluated caregivers who,</p>
+                    <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Empathize </li>
                         <li class="list-group-item">Are committed and reliable </li>
                         <li class="list-group-item">Take charge when needed</li>
@@ -317,17 +317,19 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
-                                    <label for="cname"> Mobile Number</label>
+                                    <div class="form-floating">
+                                        <input type="text"
+                                         pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
+                                            placeholder="Mobile Number" />
+                                        <label for="cname"> Mobile Number</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
-                                    <label for="cage">Pincode</label>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
+                                        <label for="cage">Pincode</label>
+                                    </div>
                                 </div>
-                            </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
                                     <input type="date" class="form-control" id="cage" placeholder="Date" />
@@ -416,14 +418,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname"
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

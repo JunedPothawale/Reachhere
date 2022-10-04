@@ -132,16 +132,16 @@
                 <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
                     <img src="./img/Babysitting-Mobile.jpg" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
-                <div class="col-12 col-lg-6  my-5 px-5">
+                <div class="col-12 col-lg-6  my-5 px-2 ms-sm-4">
                     <h1 class="text--color text-uppercase">CHILD ASSIST SERVICE</h1>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <ul class="list-group mt-4 ms-1">
                         <li class="list-group-item">Baby sitting</li>
                         <li class="list-group-item">Safely pick and drop your kids </li>
                         <li class="list-group-item">Escorting to tutorials/tuitions</li>
                     </ul>
-                    Choose from the best babysitters in town <br>
-                    who,
-                    <ul class="list-group mt-4 ms-1 ms-sm-5">
+                    <p class="mt-3 text--color fs-4 ms-2" style="font-family:'futurabold';">Choose from the best babysitters in town 
+                    who,</p>
+                    <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Understand the comfort of kids </li>
                         <li class="list-group-item">Gentle and caring </li>
                         <li class="list-group-item">Prepared for active kids</li>
@@ -313,13 +313,13 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname" placeholder="Mobile Number" />
                                     <label for="cname"> Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                                     <label for="cage">Pincode</label>
                                 </div>
                             </div>
@@ -413,14 +413,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname"
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

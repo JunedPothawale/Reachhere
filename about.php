@@ -116,7 +116,7 @@ fill="rgba(255, 255, 255, 0.5)
            <h4 class="mb-0 text-uppercase">DIFFERENTIATOR </h4>
          </div>
          <p class="mb-4">
-         At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service
+         At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service. What makes us distinct is the pay-per-rate for all our home assistance services. With this, our clients get the required assistance in the nick of time, without worrying about quality and trust. 
          </p>
         
        </div>
@@ -132,6 +132,7 @@ fill="rgba(255, 255, 255, 0.5)
          <p class="mb-4">
          To reach and assist needful homes around the world with a smile. Be it home services or newly added consulting services, offering quality solutions is never compromised. Our vision is to be unparalleled in all our solutions. We aim to become the bridge for our clients, helping them reach a path that leads to a better life. 
 
+
          </p>
         
        </div>
@@ -144,8 +145,7 @@ fill="rgba(255, 255, 255, 0.5)
            <h4 class="mb-0 text-uppercase">OUR MISSION</h4>
          </div>
          <p class="mb-4">
-         Our mission is to build a strong foundation for hourly caregiver and home services. With trained Reachers coming to your loving home, we commit to offering the best assistance for you and your loved ones. 
-
+         Our mission is to build a strong foundation for hourly caregiver solutions and home services. Although we work with a simple notion to improve our customer’s life, it is not effortless. And hence, we ensure that quality is never compromised while we achieve our goal as envisioned. With trained Reachers coming to your loving home, we commit to offering the best assistance for you and your loved ones. 
          </p>
        </div>
      </div>
@@ -161,11 +161,13 @@ fill="rgba(255, 255, 255, 0.5)
           <div class="bg-white rounded p-3 p-md-5 ">
             <h1 class="text--color text-uppercase">OUR CORE VALUES</h1>
             <div class="mt-0 mt-md-3">
-                <p class="fs-2 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Earn Trust</p>
-                <p class="fs-2 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Committed to Operational Excellence</p>
-                <p class="fs-2 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Innovate and Simplify</p>
-                <p class="fs-2 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Safety First</p>
-                <p class="fs-2 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Building a caring community</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Earn Trust</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Committed to Operational Excellence</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Innovate and Simplify</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Safety First</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Building a caring community</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Delivering growth </p>
+               
               </div>
              
           </div>

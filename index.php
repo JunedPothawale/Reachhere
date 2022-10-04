@@ -140,7 +140,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-5 text--color text-capitalize">How are we different?</h1>
+                    <h1 class="display-6 mb-5 text--color">How are We different?</h1>
                     <p class="mb-4">
                         The promised security, safety and our imbibed values while lending support at a per-hour rate
                         make us stand tall in society.
@@ -160,7 +160,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                                    <h5 class="mb-0 text-capitalize">Pay as you require</h5>
+                                    <h5 class="mb-0">Pay as You Require</h5>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                                    <h5 class="mb-0 text-capitalize">Trusted by thousands</h5>
+                                    <h5 class="mb-0">Trusted by Thousands</h5>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                                    <h5 class="mb-0 text-capitalize">Dignified and trained professionals</h5>
+                                    <h5 class="mb-0 ">Dignified and Trained Professionals</h5>
                                 </div>
                             </div>
                         </div>
@@ -244,8 +244,8 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-5 text-primary text-capitalize">
-                    We're An Award Winning Service Company
+                    <h1 class="display-6 text-white mb-5 text-primary ">
+                    We're an Award Winning Service Company
 
                     </h1>
                     <p class="text-white mb-5">
@@ -277,7 +277,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname" placeholder="Child Name" />
+                                        <input type="text" class="form-control" id="cname" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Child Name" />
                                         <label for="cname" class="text-capitalize">Your Mobile</label>
                                     </div>
                                 </div>
@@ -290,7 +290,6 @@
                                                 <option>Chid Assist</option>
                                                 <option>Senior Assist</option>
                                                 <option>HR Consulant Services</option>
-
                                             </select>
                                         </div>
                                     </div>

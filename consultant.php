@@ -181,11 +181,7 @@
                                     <div class="d-flex flex-column flex-wrap px-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Vision</h3> <br>
                                         <p class="fs-6">
-                                            To reach and assist needful homes around the world with a smile. Be it home
-                                            services or newly added consulting services, offering quality solutions is
-                                            never compromised. Our vision is to be unparalleled in all our solutions. We
-                                            aim to become the bridge for our clients, helping them reach a path that
-                                            leads to a better life.
+                                        To reach and assist needful homes around the world with a smile. Be it home services or newly added consulting services, offering quality solutions is never compromised. Our vision is to be unparalleled in all our solutions. We aim to become the bridge for our clients, helping them reach a path that leads to a better life.
 
                                         </p>
                                     </div>
@@ -200,9 +196,7 @@
                                     <div class="d-flex flex-column px-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Mission</h3> <br>
                                         <p class="fs-6">
-                                            Our mission is to build a strong foundation for hourly caregiver and home
-                                            services. With trained Reachers coming to your loving home, we commit to
-                                            offering the best assistance for you and your loved ones.
+                                        At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service. What makes us distinct is the pay-per-rate for all our home assistance services. With this, our clients get the required assistance in the nick of time, without worrying about quality and trust.
                                         </p>
                                     </div>
                                 </div>
@@ -238,7 +232,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\consult.png" alt="" />
                             </div>
-                            <h4 class="mb-0 text-capitalize">Providing hiring experts for niche industries</h4>
+                            <h4 class="mb-0">Providing Hiring Experts for Niche Industries</h4>
                         </div>
                         <p class="mb-4">
                             The complex nature of niche-sector hiring demands smarter ways of hiring. Since our
@@ -276,7 +270,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\executive-recruitment.png" alt="" />
                             </div>
-                            <h4 class="mb-0 text-capitalize">Additions to existing staff & replacements </h4>
+                            <h4 class="mb-0">Additions to Existing Staff & Replacements </h4>
                         </div>
                         <p class="mb-4">
                             Finding replacements is like finding the missing pieces of business. As Reach Here experts
@@ -295,7 +289,7 @@
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\professionals.png" alt="" />
                             </div>
-                            <h4 class="mb-0 text-capitalize">Career coaching for professionals </h4>
+                            <h4 class="mb-0">Career Coaching for Frofessionals </h4>
                         </div>
                         <p class="mb-4">
                             With our career coaching and personalized assistance to candidates, we shape their
@@ -345,52 +339,43 @@
                     OUR INDUSTRY EXPERTISE
                 </h1>
             </div>
-            <div class="row industry-expertise d-flex justify-content-center">
-                <div class="col-lg-2 m-2">
-                    <div class="card ">
+            <div class="row industry-expertise d-flex flex-wrap justify-content-evenly">
+               
+                    <div class="card  my-2">
                         <img src="img\icon\it 2.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">INFORMATION TECHNOLOGY</h5>
                         </div>
-
                     </div>
-                </div>
-                <div class="col-lg-2 m-2">
-                    <div class="card justify-content-center">
+                    <div class="card  my-2">
                         <img src="img\icon\datascence1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">ANALYTICS/AI/ DATA SCIENCE</h5>
                         </div>
 
                     </div>
-                </div>
-                <div class="col-lg-2 m-2">
-                    <div class="card justify-content-center">
+                    <div class="card  my-2">
                         <img src="img\icon\news1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">MEDIA & ENTERTAINMENT</h5>
                         </div>
 
                     </div>
-                </div>
-                <div class="col-lg-2 m-2">
-                    <div class="card justify-content-center">
+                    <div class="card  my-2">
                         <img src="img\icon\bank1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">BANKING FINANCE</h5>
                         </div>
 
                     </div>
-                </div>
-                <div class="col-lg-2 m-2">
-                    <div class="card justify-content-center">
+                    <div class="card  my-2">
                         <img src="img\icon\industry1.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">LOGISTICS INDUSTRY</h5>
                         </div>
 
                     </div>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -523,14 +508,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname"
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

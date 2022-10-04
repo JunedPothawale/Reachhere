@@ -17,6 +17,8 @@
           <a class="text-white ms-4" href="https://www.facebook.com/profile.php?id=100076146793455"><i class="fab fa-facebook-f"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></i></a>
+
         </div>
       </div>
     </div>

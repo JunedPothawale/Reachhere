@@ -136,16 +136,17 @@
                     <h1 class="text--color text-uppercase">HOME ASSIST SERVICE</h1>
                     <p>A helpful hand for all your domestic help! Find the experienced home care service givers
                     </p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5 text-capitalize">
+                    <ul class="list-group mt-4 ms-1 ms-sm-2">
                         <li class="list-group-item">Mopping & Sweeping</li>
-                        <li class="list-group-item">Washing vessels</li>
+                        <li class="list-group-item">Washing Vessels</li>
                         <li class="list-group-item">Laundry and Drying</li>
                         <li class="list-group-item">Dusting & Cleaning</li>
                         <li class="list-group-item">Bathroom Cleaning</li>
 
                     </ul>
-                    <p>Choose from a pool of evaluated caregivers who,</p>
-                    <ul class="list-group mt-4 ms-1 ms-sm-5 text-capitalize">
+                    <p class="mt-4 text--color fs-4 ms-2" style="font-family:'futurabold';">Choose from a pool of Evaluated caregivers 
+                        who,</p>
+                    <ul class="list-group mt-1 ms-1 ms-sm-2">
                         <li class="list-group-item">Learn quickly and execute it in chores </li>
                         <li class="list-group-item">Are trustworthy enough to know basic values </li>
                         <li class="list-group-item">Committed to offering end-to-end service </li>
@@ -316,13 +317,13 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname" placeholder="Mobile Number" />
                                     <label for="cname"> Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                                     <label for="cage">Pincode</label>
                                 </div>
                             </div>
@@ -412,14 +413,15 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname"
+                                        <input type="text"
+                                         pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

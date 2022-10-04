@@ -13,10 +13,12 @@
       <div class="col-lg-5 px-5 text-end ">
         <div class="h-100 d-inline-flex align-items-center">
         <small class="far fa-envelope-open me-2"></small>
-          <small>taranjit@reachhere.in</small>
+          <small>info@reachhere.in</small>
           <a class="text-white ms-4" href="https://www.facebook.com/profile.php?id=100076146793455"><i class="fab fa-facebook-f"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></i></a>
+
         </div>
       </div>
     </div>

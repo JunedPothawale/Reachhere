@@ -50,9 +50,9 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
                         <h1 class="display-6 mb-5 text--color text-capitalize">
-                            Choose a service to get started!
+                            Choose a Service to get Started!
                         </h1>
-                        <p class="fs-5 text-primary mb-4 text-capitalize">
+                        <p class="fs-5 text-primary mb-4">
                             Home, Child, and Senior Assistance Plans
                         </p>
                         <p class="mb-4">
@@ -230,14 +230,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cname"
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
                                             placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>

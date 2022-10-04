@@ -69,6 +69,17 @@
                     <label for="email">Your Email</label>
                   </div>
                 </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      class="form-control"
+                      id="number"
+                      placeholder="Your Email"
+                    />
+                    <label for="number">Phone</label>
+                  </div>
+                </div>
                 <div class="col-12">
                   <div class="form-floating">
                     <input

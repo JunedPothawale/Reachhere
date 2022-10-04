@@ -336,13 +336,13 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="number" class="form-control" id="cname" placeholder="Mobile Number" />
+                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname" placeholder="Mobile Number" />
                     <label for="cname"> Mobile Number</label>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="number" class="form-control" id="cage" placeholder="Child Age" />
+                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
                     <label for="cage">Pincode</label>
                   </div>
                 </div>
