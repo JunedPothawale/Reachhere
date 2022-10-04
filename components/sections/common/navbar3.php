@@ -41,6 +41,7 @@
         <a href="home.php" class="nav-item nav-link">Home Services</a>
         <a href="consultant.php" class="nav-item nav-link">Consulting Services</a>
         <!-- <a href="activites.php" class="nav-item nav-link">Activites</a> -->
+        <a href="about.php" class="nav-item nav-link">About Us</a>
         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
       </div>
     </div>
