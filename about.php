@@ -50,7 +50,7 @@ fill="rgba(255, 255, 255, 0.5)
 0 240 -216 0 -216 0 4 -322z"/>
 </g>
 </svg></div>
-  <h1 class="text-center text-white">You have two hands. One to help yourself, and one to help others.”</h1>
+  <h1 class="text-center text-white text-capitalize">You have two hands. One to help yourself, and one to help others.”</h1>
   <p class="fst-italic text-end">By Audrey Hepburn</p>
 </div>
     <!-- About Start -->
@@ -85,7 +85,8 @@ fill="rgba(255, 255, 255, 0.5)
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="h-100">
               <p class="fs-5 text-primary mb-4">
-              Caregiving often calls us to lean into love we didn’t know possible. We as human beings, need care, assistance and backing, with compassion, at every stage of life. Reach Here is an inimitable concept providing instantaneous assistance through REACHERS (Assistants) on an hourly/contractual basis to address the requirements of senior citizens, domestic help and children.
+              There's nothing more humanly than one needing compassionate care, assistance and empathetic support at every stage of life. Reach Here is a one-of-a-kind concept providing quick assistance through REACHERS (Assistants) who offer hourly/contractual based services to your homes. We address the requirements of senior citizen care, domestic help, and children care.
+
               </p>
               <div class="border-top mt-4 pt-4">
                 <div class="d-flex align-items-center">
@@ -106,45 +107,46 @@ fill="rgba(255, 255, 255, 0.5)
 <!-- ------- -->
 <div class="row g-3 justify-content-center" style="overflow-x: hidden !important;">
      
-     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+     <div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
        <div class="service-item rounded h-100 p-5">
          <div class="d-flex align-items-center ms-n5 mb-4">
            <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
              <img class="img-fluid" src="img/icon/icons8-star-50.png" alt="" />
            </div>
-           <h4 class="mb-0">DIFFERENTIATOR </h4>
+           <h4 class="mb-0 text-uppercase">DIFFERENTIATOR </h4>
          </div>
          <p class="mb-4">
-         All our Reachers are trained to provide services in professional manner. Their backgrounds have been verified and have undergone requisite training
+         At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies the background of every Reacher to ensure our clients receive quality service. What makes us distinct is the pay-per-rate for all our home assistance services. With this, our clients get the required assistance in the nick of time, without worrying about quality and trust. 
          </p>
-         <a class="btn btn-light px-3" href="home.php">Read More</a>
+        
        </div>
      </div>
-     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+     <div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
        <div class="service-item rounded h-100 p-5">
          <div class="d-flex align-items-center ms-n5 mb-4">
            <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
              <img class="img-fluid" src="img/icon/icons8-vision-64.png" alt="" />
            </div>
-           <h4 class="mb-0">OUR VISION </h4>
+           <h4 class="mb-0 text-uppercase">OUR VISION </h4>
          </div>
          <p class="mb-4">
-         To Reach and assist every home on the globe with a Smile.
+         To reach and assist needful homes around the world with a smile. Be it home services or newly added consulting services, offering quality solutions is never compromised. Our vision is to be unparalleled in all our solutions. We aim to become the bridge for our clients, helping them reach a path that leads to a better life. 
+
+
          </p>
-         <a class="btn btn-light px-3" href="home.php">Read More</a>
+        
        </div>
-     </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+     </div><div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
        <div class="service-item rounded h-100 p-5">
          <div class="d-flex align-items-center ms-n5 mb-4">
            <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
              <img class="img-fluid" src="img/icon/icons8-aim-64.png" alt="" />
            </div>
-           <h4 class="mb-0">OUR MISSION</h4>
+           <h4 class="mb-0 text-uppercase">OUR MISSION</h4>
          </div>
          <p class="mb-4">
-         We strive to send trained Reachers to your loving home on hourly basis to assist senior citizens, young kids and for domestic help, at your doorstep
+         Our mission is to build a strong foundation for hourly caregiver solutions and home services. Although we work with a simple notion to improve our customer’s life, it is not effortless. And hence, we ensure that quality is never compromised while we achieve our goal as envisioned. With trained Reachers coming to your loving home, we commit to offering the best assistance for you and your loved ones. 
          </p>
-         <a class="btn btn-light px-3" href="home.php">Read More</a>
        </div>
      </div>
     
@@ -152,18 +154,20 @@ fill="rgba(255, 255, 255, 0.5)
 
 <!-- --------- -->
     <!-- Appointment Start -->
-    <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="row g-5">
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-          <div class="bg-white rounded p-5">
-            <h1 class="text--color">OUR CORE VALUES</h1>
-            <div class="mt-3">
-                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Earn Trust</p>
-                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Committed to Operational Excellence</p>
-                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Innovate and Simplify</p>
-                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Safety First</p>
-                <p class="fs-3 d-flex align-items-center"><img src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg" alt="" class="me-3">Building a caring community</p>
+          <div class="bg-white rounded p-3 p-md-5 ">
+            <h1 class="text--color text-uppercase">OUR CORE VALUES</h1>
+            <div class="mt-0 mt-md-3">
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Earn Trust</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Committed to Operational Excellence</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Innovate and Simplify</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Safety First</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Building a caring community</p>
+                <p class="fs-3 fs-md-5 d-flex align-items-center"><img src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Delivering growth </p>
+               
               </div>
              
           </div>
@@ -171,11 +175,15 @@ fill="rgba(255, 255, 255, 0.5)
         
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="bg-white rounded p-5">
-            <h1 class="text--color">About Company</h1>
+            <h1 class="text--color text-capitalize">About Company</h1>
             <div class="mt-3">
              
               </div>
-              <span class="fs-1 text--color">R</span>eachhere is a company that provides home assistance services for seniors, children, and families. They also offer HR consulting services to help businesses find and retain the best employees. Reachhere is a family-owned and operated business, and they take pride in their commitment to customer service. They believe that every family should have access to the best possible care, and they are dedicated to making their services affordable and accessible. Reachhere is a trusted resource for family.
+            <p>  Caring and offering care and assistance is the most human thing to exist. However, in the midst of the daily hustle, many of us struggle with finding the right help. While embracing and addressing it, Taranjit Kaur founded a platform for those in need. </p>
+            <p>  With her rich experience in human resources and people’s management of over a decade of experience and learning, she introduced her idea of “hourly home care services.” An approach we all needed but never existed. Taranjit has made it possible with Reach Here, where she today offers services at a pan-India level.  </p>
+            <p>“No matter what I am working on, or which role I play, I bring a breadth of experience and heart to every engagement. People matter to me and my top priority is their success.”
+</p>
+<p class="text-end gray">- Taranjit Kaur Oberoi, Founder & MD</p>
           </div>
         </div>
       </div>

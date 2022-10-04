@@ -6,17 +6,19 @@
           <small>+91 7777 80 3030</small>
         </div>
         <div class="h-100 d-inline-flex align-items-center me-4">
-          <small class="far fa-envelope-open me-2"></small>
-          <small>info@example.com</small>
+         
         </div>
        
       </div>
       <div class="col-lg-5 px-5 text-end ">
         <div class="h-100 d-inline-flex align-items-center">
-          <a class="text-white ms-4" href=""><i class="fab fa-facebook-f"></i></a>
+        <small class="far fa-envelope-open me-2"></small>
+          <small>info@reachhere.in</small>
+          <a class="text-white ms-4" href="https://www.facebook.com/profile.php?id=100076146793455"><i class="fab fa-facebook-f"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
-          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></a>
           <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
+          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></i></a>
+
         </div>
       </div>
     </div>
@@ -31,22 +33,18 @@
       </h1>
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon text-white"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarCollapse">
       <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
         <a href="index.php" class="nav-item nav-link active">Home</a>
+        <a href="home-assist.php" class="nav-item nav-link">Home Assist</a>
+        <a href="child-assist.php" class="nav-item nav-link">Child Assist</a>
+        <a href="senior-assist.php" class="nav-item nav-link">Senior Assist</a>
+        
+        
+        <!-- <a href="activites.php" class="nav-item nav-link">Activites</a> -->
         <a href="about.php" class="nav-item nav-link">About Us</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-          <div class="dropdown-menu bg-light border-0 m-0">
-
-            <a href="home.php" class="dropdown-item">Home</a>
-            <a href="consultant.php" class="dropdown-item">Consaltant</a>
-
-          </div>
-        </div>
-        <a href="activites.php" class="nav-item nav-link">Activites</a>
 
         <a href="contact.php" class="nav-item nav-link">Contact Us</a>
       </div>

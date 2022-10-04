@@ -8,7 +8,7 @@
 
  <!-- Favicon -->
  <link href="https://reachhere.in/public/uploads/setting_images/php26w9kV.png" rel="icon" type="image/gif" sizes="16x16">
-  <link href="https://reachhere.in/dist/front/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- <link href="https://reachhere.in/dist/front/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
  <!-- Google Web Fonts -->
  <link rel="preconnect" href="https://fonts.googleapis.com" />
