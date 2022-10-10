@@ -115,26 +115,18 @@
                     <div class="h-100 px-4 pe-lg-0">
                         <div class="row g-5 mx-auto d-flex">
                             <div class="col-sm-6 mx-auto text-center">
-                               <div class="col-sm-12">
-                              
+                               
                                 <h1 class="display-1" data-toggle="counter-up" >100</h1>
                                 <p class="fs-5 text-primary text-center text-capitalize">Seniors Helped</p>
-                               </div>
-                               <div class="col-sm-12">
-                               <h1 class="display-1" data-toggle="counter-up">45</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
-                               </div>
-                               <div class="col-sm-12">
-                               <h1 class="display-1" data-toggle="counter-up">42</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
-                               </div>
                             </div>
-                            <!-- <div class="col-sm-6 mx-auto text-center">
-                                
+                            <div class="col-sm-6 mx-auto text-center">
+                                <h1 class="display-1" data-toggle="counter-up">45</h1>
+                                <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
                             </div>
                             <div class="col-12 mx-auto text-center">
-                             
-                            </div> -->
+                                <h1 class="display-1" data-toggle="counter-up">42</h1>
+                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
+                            </div>
 
                         </div>
                     </div>
