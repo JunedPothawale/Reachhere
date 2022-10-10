@@ -50,9 +50,9 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color text-capitalize">
+                        <p class="display-6 mb-3 text--color text-capitalize">
                             Our Experience
-                        </h1>
+</p>
                         <p class="fs-5  mb-4">
                             With Reach Here, regain your better life through our quality services of senior assist,
                             child assist and home assist. With over 25+ years of rich experience supporting seniors and
@@ -114,18 +114,27 @@
                 <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
                     <div class="h-100 px-4 pe-lg-0">
                         <div class="row g-5 mx-auto d-flex">
-                            <div class="col-12 col-sm-6 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">100</h1>
+                            <div class="col-sm-6 mx-auto text-center">
+                               <div class="col-sm-12">
+                              
+                                <h1 class="display-1" data-toggle="counter-up" >100</h1>
                                 <p class="fs-5 text-primary text-center text-capitalize">Seniors Helped</p>
-                            </div>
-                            <div class="col-12 col-sm-6 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">45</h1>
+                               </div>
+                               <div class="col-sm-12">
+                               <h1 class="display-1" data-toggle="counter-up">45</h1>
                                 <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
+                               </div>
+                               <div class="col-sm-12">
+                               <h1 class="display-1" data-toggle="counter-up">42</h1>
+                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
+                               </div>
+                            </div>
+                            <!-- <div class="col-sm-6 mx-auto text-center">
+                                
                             </div>
                             <div class="col-12 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">42</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
-                            </div>
+                             
+                            </div> -->
 
                         </div>
                     </div>
@@ -184,7 +193,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp d-none d-sm-block" data-wow-delay="0.5s">
                     <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px">
                         <img class="position-absolute w-100 h-100" src="img/feature.jpg" alt=""
                             style="object-fit: cover" />
@@ -272,7 +281,7 @@
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="gmail"
                                             placeholder="Gurdian Email" />
-                                        <label for="gmail" class="text-capitalize"">Your Email</label>
+                                        <label for="gmail" class="text-capitalize">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">

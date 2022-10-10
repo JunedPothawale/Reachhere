@@ -81,7 +81,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     line-height: 1.2;
     color: #15233C
@@ -4506,7 +4506,7 @@ fieldset:disabled .btn {
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0 0 0 .25rem
+    /* box-shadow: 0 0 0 .25rem */
 }
 
 .navbar-toggler-icon {
@@ -4749,7 +4749,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.55);
-    border-color: rgba(0, 0, 0, 0.1)
+   
 }
 
 .navbar-light .navbar-toggler-icon {

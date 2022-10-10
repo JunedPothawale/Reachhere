@@ -133,10 +133,10 @@
                     <img src="./img/senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt=""
                         class="img-fluid py-1 py-sm-3 px-1">
                 </div>
-                <div class="col-12 col-lg-6  my-5 px-5">
-                    <h1 class="text--color text-uppercase">SENIOR ASSIST SERVICE INCLUDES</h1>
+                <div class="col-12 col-lg-6  my-2 px-5">
+                    <p class="text--color text-uppercase display-6">SENIOR ASSIST SERVICE INCLUDES</p>
                     <p>Need support with your elderly loved one? We do it with care and empathy as you would do! </p>
-                    <ul class="list-group mt-4 ms-1">
+                    <ul class="list-group mt-2 ms-1">
                         <li class="list-group-item">Accompany your parents</li>
                         <li class="list-group-item">Escort them to pathology</li>
                         <li class="list-group-item">Escort them to garden</li>
@@ -332,19 +332,19 @@
                                 </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                                     <label for="cage">Date</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                                     <label for="cage">Start Time</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
                                     <label for="cage">End Time</label>
                                 </div>
                             </div>
@@ -431,19 +431,19 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>

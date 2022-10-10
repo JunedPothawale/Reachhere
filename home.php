@@ -49,9 +49,9 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color text-capitalize">
+                        <p class="display-6 mb-3 text--color text-capitalize">
                             Choose a Service to get Started!
-                        </h1>
+</p>
                         <p class="fs-5 text-primary mb-4">
                             Home, Child, and Senior Assistance Plans
                         </p>
@@ -186,7 +186,7 @@
     <!-- Client Start -->
     <!-- Client End -->
     <!-- Appointment Start -->
-    <div class="container-fluid appointment mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid appointment pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
@@ -243,19 +243,19 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>

@@ -70,7 +70,7 @@
    
     <!-- Carousel End -->
 <div class="container terms-conditions">
-    <h1 class="text-center my-2">Terms & Conditions</h1>
+    <p class="text-center my-2 display-6">Terms & Conditions</p>
     <p>Will be updated soon</p>
 </div>
 

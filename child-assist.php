@@ -133,8 +133,8 @@
                     <img src="./img/Babysitting-Mobile.jpg" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
                 <div class="col-12 col-lg-6  my-5 px-2 ms-sm-4">
-                    <h1 class="text--color text-uppercase">CHILD ASSIST SERVICE</h1>
-                    <ul class="list-group mt-4 ms-1">
+                    <p class="text--color text-uppercase">CHILD ASSIST SERVICE</p>
+                    <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Baby sitting</li>
                         <li class="list-group-item">Safely pick and drop your kids </li>
                         <li class="list-group-item">Escorting to tutorials/tuitions</li>
@@ -325,19 +325,19 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                                     <label for="cage">Date</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Start Time" />
                                     <label for="cage">Start Time</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="End Time" />
                                     <label for="cage">End Time</label>
                                 </div>
                             </div>
@@ -426,19 +426,19 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>

@@ -108,9 +108,9 @@
   <div class="container-xxl py-5">
     <div class="container">
       <div class="text-center mx-auto" style="max-width: 500px">
-        <h1 class="display-6 mb-5 text--color">
+        <p class="display-6 mb-3 text--color">
         Our Offerings
-        </h1>
+</p>
       </div>
       <div class="row g-4 justify-content-center">
      
@@ -348,19 +348,19 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="form-floating">
-                    <input type="date" class="form-control" id="cage" placeholder="Date" />
+                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                     <label for="cage">Date</label>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="form-floating">
-                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                     <label for="cage">Start Time</label>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="form-floating">
-                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
                     <label for="cage">End Time</label>
                   </div>
                 </div>

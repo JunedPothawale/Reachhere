@@ -89,13 +89,10 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color">
-                            Consultancy Services From Reach Here
-                        </h1>
-                        <p class="fs-5 text-primary mb-4">
-                            Why choose us?
-
-                        </p>
+                        <p class="display-6 mb-3 text--color">
+                        Why choose us?
+</p>
+              
                         <p class="mb-4">
                             Started in 2022, Reach Here’s consulting services are tailored for today’s employers’ modern
                             hiring needs. Deep industry knowledge, global connections, fair price guarantee, security &
@@ -177,7 +174,7 @@
                             <div class="bg-light rounded h-100 p-3">
                                 <div
                                     class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center  text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-start my-auto vision" src="img\icon\vision1.png" alt="" />
+                                    <img class="align-self-start my-auto vision" src="img\icon\icons8-vision-64.png" alt="" />
                                     <div class="d-flex flex-column flex-wrap px-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Vision</h3> <br>
                                         <p class="fs-6">
@@ -192,7 +189,7 @@
                             <div class="bg-light rounded h-100 p-3">
                                 <div
                                     class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-start my-auto " src="img\icon\mission.png" alt="" />
+                                    <img class="align-self-start my-auto " src="img\icon\icons8-mission-100.png" alt="" />
                                     <div class="d-flex flex-column px-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Mission</h3> <br>
                                         <p class="fs-6">
@@ -266,7 +263,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                                <img class="img-fluid"
+                                <img class="img-fluid d-none d-sm-block"
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
                                     src="img\icon\executive-recruitment.png" alt="" />
                             </div>
@@ -341,7 +338,7 @@
             </div>
             <div class="row industry-expertise d-flex flex-wrap justify-content-evenly">
                
-                    <div class="card  my-2">
+                    <div class="card d-none d-sm-block my-2">
                         <img src="img\icon\it 2.png" class="card-img-top mx-auto my-4" alt="...">
                         <div class="card-body">
                             <h5 class="text--color text-center text-uppercase">INFORMATION TECHNOLOGY</h5>
@@ -521,19 +518,19 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()"id="cage" placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()"id="cage" placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>

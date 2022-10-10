@@ -40,10 +40,10 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-            <h1 class="display-6 mb-5">
+            <p class="display-6 mb-3">
             It’s okay to ask for help, to Reach Here. We’re with you!
 
-            </h1>
+</p>
          
             <form>
               <div class="row g-3">
@@ -80,7 +80,7 @@
                     <label for="number">Phone</label>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="col-md-6">
                   <div class="form-floating">
                     <input
                       type="text"
