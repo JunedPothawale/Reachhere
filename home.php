@@ -14,16 +14,47 @@
     <!-- Carousel Start -->
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
-            <div class="banner ">
-                <a href="home-assist.php"><img class="w-100" src="img\banners\Slice 8.png" alt="" srcset=""></a>
+     
+            <div class="banner position-relative">
+                <a href="home-assist.php"><img class="w-100" src="img\hiring-cleaning-services.png" alt=""
+                        srcset=""></a>
+
+                <div class="banner-container2">
+                    Home Assist
+
+                    <ul class="banner-text-container2">
+                        Click here to view more details
+                    </ul>
+
+                </div>
 
             </div>
-            <div class="banner">
-                <a href="child-assist.php"><img class="w-100" src="img\banners\Slice 11.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="child-assist.php"><img class="w-100" src="img\Babysitting-Mobile.jpg" alt=""
+                        srcset=""></a>
+
+                <div class="banner-container2">
+                    Child Assist
+
+                    <ul class="banner-text-container2">
+                    Click here to view more details
+                    </ul>
+
+                </div>
 
             </div>
-            <div class="banner">
-                <a href="senior-assist.php"><img class="w-100" src="img\banners\Slice 12.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="senior-assist.php"><img class="w-100" src="img\senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt=""
+                        srcset=""></a>
+
+                <div class="banner-container2">
+                   Senior Assist
+
+                    <ul class="banner-text-container2">
+                    Click here to view more details
+                    </ul>
+
+                </div>
 
             </div>
         </div>
@@ -32,12 +63,11 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                <div class="col-lg-6 wow fadeInUp d-none d-sm-block" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden rounded ps-sm-5 pt-sm-5 h-100" style="min-height: 400px">
+                        <img class="position-absolute w-100 h-100" src="img\banners\All-home-services.png" alt=""
                             style="object-fit: cover" />
-                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
-                            style="width: 200px; height: 200px">
+                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3 " style="width: 200px; height: 200px">
                             <div
                                 class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
                                 <h2 class="text-white mb-0">Legacy of</h2>
@@ -49,9 +79,9 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <p class="display-6 mb-3 text--color text-capitalize">
+                        <h1 class=" mb-3 text--color text-capitalize">
                             Choose a Service to get Started!
-</p>
+</h1>
                         <p class="fs-5 text-primary mb-4">
                             Home, Child, and Senior Assistance Plans
                         </p>
@@ -66,7 +96,7 @@
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                                <h5 class="mb-0">Call Us:+91 7777 80 3030</h5>
+                                <a href="tel:+917777803030"> <h5 class="mb-0">Call Us:+91 7777 80 3030</h5></a>
                             </div>
                         </div>
                     </div>
@@ -75,10 +105,10 @@
         </div>
     </div>
 
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-1">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
-                <h1 class="display-6 mb-5 text--color text-capitalize">
+                <h1 class="mb-5 text--color text-capitalize">
                     Our Offerings
                 </h1>
             </div>
@@ -93,7 +123,7 @@
                             </div>
                             <h4 class="mb-0 text-capitalize">Home Assist</h4>
                         </div>
-                        <p class="mb-4">
+                        <p class="mb-4 text-style">
                             Now, take care of your house the easy way! From home cleaning to plumbing, get the best home
                             services at your fingertips! The platform ensures a trouble-free experience while getting
                             reliable home services per hour.
@@ -117,7 +147,7 @@
                             </div>
                             <h4 class="mb-0 text-capitalize">Child Assist</h4>
                         </div>
-                        <p class="mb-4">
+                        <p class="mb-4 text-style">
                             Find trusted babysitters in your town who are empathetic and fun around your kids. With
                             Reach Here, your baby gets the best care and love they need. The platform offers reliable,
                             quick and quality childcare services in your comfort space and time.
@@ -140,7 +170,7 @@
                             </div>
                             <h4 class="mb-0 text-capitalize"> Senior Assist</h4>
                         </div>
-                        <p class="mb-4">
+                        <p class="mb-4 text-style">
                             Reach Here lends the support and empathy your elderly loved ones need while you look after
                             the other priorities in your day. The trained professionals cautiously accompany your loved
                             ones while respecting their dignity. From escorting them to pathology or garden to attending
@@ -160,39 +190,13 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="contactform">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5 text-center">
-                        <img src="img\cote.png" alt="" srcset="" class="m-auto">
-                        <H1 class=" text--color text-uppercase">INDIA'S FIRST PROFESSIONAL COMPANY PROVIDING ASSISTANCE ON DEMAND</H1>
-                        <p class="text-center">Reach Here is a unique concept providing assistance through REACHERS
-                            (Assistants) on hourly / contract basis for senior assistance, home assistance (domestic
-                            help) and child assistance.</p>
-                        <p class="text-center">All our Reachers are trained to provide services in professional manner.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Start -->
-    <!-- About End -->
-    <!-- Facts Start -->
-    <!-- Facts End -->
-    <!-- Features Start -->
-    <!-- Features End -->
-    <!-- Client Start -->
-    <!-- Client End -->
-    <!-- Appointment Start -->
-    <div class="container-fluid appointment pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5">
+                    <div class="bg-white rounded p-3 p-sm-5">
                         <form>
-                            <div class="row g-3 text-capitalize">
+                            <div class="row g-3">
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
@@ -200,14 +204,13 @@
                                         <label for="gname">Your Name</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-floating">
                                         <div class="form-group">
                                             <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>Home Assist</option>
-                                                <option>Child Assist</option>
-                                                <option>Senior Assist</option>
-
+                                                <option>HOME ASSIST</option>
+                                                <option>CHILD ASSIST</option>
+                                                <option>SENIOR ASSIST</option>
                                             </select>
 
                                         </div>
@@ -243,19 +246,19 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>
@@ -267,8 +270,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5" type="submit"
-                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline" type="submit">
                                         SUBMIT
                                     </button>
                                 </div>
@@ -279,6 +281,16 @@
             </div>
         </div>
     </div>
+    <!-- About Start -->
+    <!-- About End -->
+    <!-- Facts Start -->
+    <!-- Facts End -->
+    <!-- Features Start -->
+    <!-- Features End -->
+    <!-- Client Start -->
+    <!-- Client End -->
+    <!-- Appointment Start -->
+  
     <!-- Appointment End -->
 
     <!-- Team Start -->

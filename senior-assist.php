@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php $page = 'senior-assist'; include("components/header.php");?>
 
 <body>
     <!-- Spinner Start -->
@@ -67,7 +67,7 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid p-0 mb-1 mb-sm-4 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
@@ -127,14 +127,14 @@
 
     <!-- ----------- -->
     <div class="container  my-5">
-        <div class="row g-4 justify-content-between mt-5 rounded ">
+        <div class="row g-4 justify-content-between mt-0 mt-sm-3 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
-                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
+                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3 d-none d-sm-block" data-wow-delay="0.1s">
                     <img src="./img/senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt=""
                         class="img-fluid py-1 py-sm-3 px-1">
                 </div>
-                <div class="col-12 col-lg-6  my-2 px-5">
-                    <p class="text--color text-uppercase display-6">SENIOR ASSIST SERVICE INCLUDES</p>
+                <div class="col-12 col-lg-6  my-0 my-sm-2 px-2 px-sm-5">
+                    <h1 class="text--color text-uppercase">SENIOR ASSIST SERVICE INCLUDES</h1>
                     <p>Need support with your elderly loved one? We do it with care and empathy as you would do! </p>
                     <ul class="list-group mt-2 ms-1">
                         <li class="list-group-item">Accompany your parents</li>
@@ -144,7 +144,7 @@
 
 
                     </ul>
-                    <p class="mt-3 text--color font-weight-bold fs-4 ms-2" style="font-family:'futurabold';">Choose from a pool of evaluated caregivers who,</p>
+                    <p class="mt-3 text--color font-weight-bold fs-3 fw-bold">Choose from a pool of evaluated caregivers who,</p>
                     <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Empathize </li>
                         <li class="list-group-item">Are committed and reliable </li>
@@ -156,7 +156,7 @@
                 </div>
             </div>
         </div>
-        <div class="my-5">
+        <div class="my-3">
 
             <h2 class="text-center text--color text-uppercase"> Pay as required! Starting from INR 250* per hour!</h2>
             <p class="text-center"> A reliable source to support you with elderly care and healthy living<br>
@@ -360,7 +360,7 @@
                     <div class="modal-footer">
 
                         <div class="col-12">
-                            <button class="btn bg--primary text-white py-3 px-5 m-auto d-flex justify-content-center"
+                            <button class="btn bg--primary text-white py-3 px-5 m-auto d-block"
                                 type="submit">
                                 SUBMIT
                             </button>
@@ -375,11 +375,11 @@
     </div>
     </div>
     <!-- Appointment Start -->
-    <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="contactform">
+    <div class="container-fluid appointment mt-2 mt-sm-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="contactform">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5">
+                    <div class="bg-white rounded p-3 p-sm-5">
                         <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
@@ -389,7 +389,7 @@
                                         <label for="gname">Your Name</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-floating">
                                         <div class="form-group">
                                             <select class="form-control" id="exampleFormControlSelect1">
@@ -455,7 +455,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5" type="submit">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline" type="submit">
                                         SUBMIT
                                     </button>
                                 </div>

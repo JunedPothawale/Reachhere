@@ -10,3 +10,12 @@
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".home",{
+      strings:["Home Services"]
+      typeSpeed:150,
+      backSpeed:150,
+      loop:true
+    })
+  </script>

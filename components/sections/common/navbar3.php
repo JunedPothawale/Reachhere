@@ -2,8 +2,8 @@
 <div class="row gx-0 align-items-center">
       <div class="col-lg-7 px-5 text-start">
         <div class="h-100 d-inline-flex align-items-center me-4">
-          <small class="fa fa-phone-alt me-2"></small>
-          <small>+91 7777 80 3030</small>
+        <a href="tel:+919322243019" class="text-light"><small class="fa fa-phone-alt me-2"></small>
+          <small>+91 9322 243 019</small></a>
         </div>
         <div class="h-100 d-inline-flex align-items-center me-4">
          
@@ -31,7 +31,7 @@
         <img class="img-fluid me-3" src="img/logo.png" alt="" />
       </h1>
     </a>
-    <button type="button" class="navbar-toggler text-light" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button type="button" class="navbar-toggler text-light mt-1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
     <i class="bi bi-list text-light fs-1"></i>
     </button>
     <div class="collapse navbar-collapse " id="navbarCollapse">

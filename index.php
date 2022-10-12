@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php"); ?>
+<?php $page='home'; include("components/header.php"); ?>
 
 <body>
     <!-- Spinner Start -->
@@ -16,13 +16,30 @@
     <!-- Carousel Start -->
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
-            <div class="banner">
-                <a href="consultant.php"><img class="w-100" src="img\banners\consultingbanner-index.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="consultant.php"><img class="w-100" src="img\two-collegues-working-business-center.jpg" alt=""
+                        srcset=""></a>
+                <div class="banner-container1">
+                    Consulting Services
+                    <p class="banner-text-container1">From CXO Positions, Senior Management, Middle Management And
+                        Junior Management</p>
+                </div>
+
             </div>
-            <div class="banner">
-                <a href="home.php"><img class="w-100" src="img\banners\indexhome.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="home.php"><img class="w-100" src="img\people-taking-care-office-cleaning.jpg" alt=""
+                        srcset=""></a>
 
+                <div class="banner-container2">
+                    Home Service
 
+                    <ul class="banner-text-container2">
+                        <li>Senior Assist |</li>
+                        <li>Home Assist |</li>
+                        <li>Child Assist</li>
+                    </ul>
+
+                </div>
 
             </div>
         </div>
@@ -33,11 +50,11 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                <div class="col-lg-6 wow fadeInUp d-none d-sm-block" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden rounded ps-5 pt-3 h-100" style="min-height: 400px">
+                        <img class="position-absolute w-100 h-100 " src="img/about.jpg" alt=""
                             style="object-fit: cover" />
-                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
+                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3 d-none d-sm-block"
                             style="width: 200px; height: 200px">
                             <div
                                 class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
@@ -50,9 +67,9 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <p class="display-6 mb-3 text--color text-capitalize">
+                        <p class="fs-1 mb-3 text--color text-capitalize fw-bold">
                             Our Experience
-</p>
+                        </p>
                         <p class="fs-5  mb-4">
                             With Reach Here, regain your better life through our quality services of senior assist,
                             child assist and home assist. With over 25+ years of rich experience supporting seniors and
@@ -73,7 +90,10 @@
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
                                 <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                                <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
+                                <a href="tel:+919322243019" class="text-light">
+                                    <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -84,7 +104,7 @@
     <!-- About End -->
 
     <!-- Facts Start -->
-    <div class="container-fluid  overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid  overflow-hidden my-1 px-lg-0">
         <div class="container facts px-lg-0">
             <div class="row g-0 mx-lg-0 ">
                 <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
@@ -106,7 +126,7 @@
                             <li> Any day, any time*</li>
                             <li> Quality service in the least time</li>
                         </ul>
-                        <span class="fs-5 text-light text-end m-4">-- Business hours 9 am to 9 pm</span>
+                        <span class="fs-6 fs-sm-5 text-light text-sm-end m-4">-- Business hours 9 am to 9 pm</span>
                         </p>
 
                     </div>
@@ -114,18 +134,20 @@
                 <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
                     <div class="h-100 px-4 pe-lg-0">
                         <div class="row g-5 mx-auto d-flex">
-                            <div class="col-sm-6 mx-auto text-center">
-                               
-                                <h1 class="display-1" data-toggle="counter-up" >100</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Seniors Helped</p>
+                            <div class="col-6 mx-auto text-center">
+
+                                <h1 class="counter-number" data-toggle="counter-up">100</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Seniors Helped
+                                </p>
                             </div>
-                            <div class="col-sm-6 mx-auto text-center">
-                                <h1 class="display-1" data-toggle="counter-up">45</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
+                            <div class="col-6 mx-auto text-center">
+                                <h1 class="counter-number" data-toggle="counter-up">45</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Children Helped
+                                </p>
                             </div>
                             <div class="col-12 mx-auto text-center">
-                                <h1 class="display-1" data-toggle="counter-up">42</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
+                                <h1 class="counter-number" data-toggle="counter-up">42</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Recruitments</p>
                             </div>
 
                         </div>
@@ -147,17 +169,9 @@
                         make us stand tall in society.
                     </p>
                     <div class="row g-3">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="bg-light rounded h-100 p-3">
-                                <div
-                                    class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                                    <h5 class="mb-0 text-capitalize">Prompt, hassle-free hiring</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="bg-light rounded h-100 p-3">
+
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
@@ -165,8 +179,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="bg-light rounded h-100 p-3">
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
@@ -174,12 +188,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="bg-light rounded h-100 p-3">
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
                                     <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
                                     <h5 class="mb-0 ">Dignified and Trained Professionals</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
+                                <div
+                                    class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
+                                    <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
+                                    <h5 class="mb-0 text-capitalize">Prompt, hassle-free hiring</h5>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +220,7 @@
     <!-- Features End -->
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-1">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
                 <h1 class="display-6 mb-5 text--color text-capitalize">
@@ -241,12 +264,12 @@
     <!-- Service End -->
 
     <!-- Appointment Start -->
-    <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid appointment my-2 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-5 text-primary ">
-                    We're an Award Winning Service Company
+                    <h1 class="fs-1 text-white mb-5 text-primary ">
+                        We're an Award Winning Service Company
 
                     </h1>
                     <p class="text-white mb-5">
@@ -255,7 +278,9 @@
                     <div class="bg-white rounded p-3">
                         <div class="d-flex align-items-center bg--primary rounded p-3">
                             <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                            <h5 class="text-white mb-0">Call Us: +91 7777803030</h5>
+                            <a href="tel:+919322243019">
+                                <h5 class="mb-0 text-light">Call Us: +91 7777 80 3030</h5>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -278,7 +303,8 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Child Name" />
+                                        <input type="text" class="form-control" id="cname"
+                                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Child Name" />
                                         <label for="cname" class="text-capitalize">Your Mobile</label>
                                     </div>
                                 </div>

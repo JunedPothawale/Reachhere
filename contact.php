@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php $page='contact';include("components/header.php");?>
 
   <body>
     <!-- Spinner Start -->
@@ -40,7 +40,7 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-            <p class="display-6 mb-3">
+            <p class=" fs-1 mb-3">
             It’s okay to ask for help, to Reach Here. We’re with you!
 
 </p>

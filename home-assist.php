@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php $page = 'home-assist'; include("components/header.php");?>
 
 <body>
     <!-- Spinner Start -->
@@ -67,7 +67,7 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid p-0 mb-0 mb-sm-5 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
@@ -126,14 +126,14 @@
 
 
     <!-- ----------- -->
-    <div class="container  my-5">
-        <div class="row g-4 justify-content-between mt-5 rounded ">
+    <div class="container  my-0 my-sm-3">
+        <div class="row g-4 justify-content-between mt-0 mt-sm-5 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
-                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
+                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-0 mb-sm-3 d-none d-sm-block" data-wow-delay="0.1s">
                     <img src="./img/hiring-cleaning-services.png" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
-                <div class="col-12 col-lg-6  my-5 px-5">
-                    <p class="text--color text-uppercase display-6">HOME ASSIST SERVICE</p>
+                <div class="col-12 col-lg-6  my-0 my-sm-3 px-5">
+                    <h1 class="text--color text-uppercase ">HOME ASSIST SERVICE</h1>
                     <p>A helpful hand for all your domestic help! Find the experienced home care service givers
                     </p>
                     <ul class="list-group mt-4 ms-1 ms-sm-2">
@@ -144,8 +144,11 @@
                         <li class="list-group-item">Bathroom Cleaning</li>
 
                     </ul>
-                    <p class="mt-4 text--color fs-4 ms-2" style="font-family:'futurabold';">Choose from a pool of Evaluated caregivers 
-                        who,</p>
+                    <p class="mt-4 text--color fs-3 fw-bold ms-2">Choose from a pool of
+                        experienced home service providers.
+
+                        Who,
+                    </p>
                     <ul class="list-group mt-1 ms-1 ms-sm-2">
                         <li class="list-group-item">Learn quickly and execute it in chores </li>
                         <li class="list-group-item">Are trustworthy enough to know basic values </li>
@@ -159,12 +162,7 @@
 
             <h2 class="text-center text--color text-uppercase"> Pay as required! Starting from INR 250* per hour!</h2>
             <p class="text-center"> A reliable source to support you with Home and healthy living<br>
-               
-
             </p>
-
-
-
             <div class="row g-3 justify-content-center my-2 bg-transparent " yt3le="overflow-x: hidden !important;">
 
                 <div class="col-lg-3 col-md-6" style="height: 18rem !important;">
@@ -317,31 +315,36 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                        id="cname" placeholder="Mobile Number" />
                                     <label for="cname"> Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
+                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                        placeholder="Child Age" />
                                     <label for="cage">Pincode</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Date" />
+                                    <input type="date" class="form-control" id="cage" onfocus="this.showPicker()"
+                                        placeholder="Date" />
                                     <label for="cage">Date</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="Start Time" />
+                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()"
+                                        placeholder="Start Time" />
                                     <label for="cage">Start Time</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()" placeholder="End Time" />
+                                    <input type="time" class="form-control" id="cage" onfocus="this.showPicker()"
+                                        placeholder="End Time" />
                                     <label for="cage">End Time</label>
                                 </div>
                             </div>
@@ -374,7 +377,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5">
+                    <div class="bg-white rounded p-3 p-sm-5">
                         <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
@@ -384,7 +387,7 @@
                                         <label for="gname">Your Name</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-floating">
                                         <div class="form-group">
                                             <select class="form-control" id="exampleFormControlSelect1">
@@ -413,33 +416,36 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text"
-                                         pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
-                                            placeholder="Mobile Number" />
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                            id="cname" placeholder="Mobile Number" />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                            placeholder="Child Age" />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Date" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Start Time" />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="End Time" />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>
@@ -451,7 +457,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5" type="submit">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline"
+                                        type="submit">
                                         SUBMIT
                                     </button>
                                 </div>
