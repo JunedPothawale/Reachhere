@@ -128,8 +128,8 @@
     <!-- ----------- -->
     <div class="container  my-5">
         <div class="row g-4 justify-content-between mt-0 mt-sm-3 rounded ">
-            <div class="col-12 d-lg-flex justify-content-between align-items-center d-none d-sm-block">
-                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-0 mb-sm-3" data-wow-delay="0.1s">
+            <div class="col-12 d-lg-flex justify-content-between align-items-center ">
+                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-0 mb-sm-3 d-none d-sm-block" data-wow-delay="0.1s">
                     <img src="./img/Babysitting-Mobile.jpg" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
                 <div class="col-12 col-lg-6  my-0 my-sm-3 px-2 ">
@@ -139,7 +139,7 @@
                         <li class="list-group-item">Safely pick and drop your kids </li>
                         <li class="list-group-item">Escorting to tutorials/tuitions</li>
                     </ul>
-                    <p class="mt-3 text--color fs-3 fw-bold">Choose from the best babysitters in town 
+                    <p class="mt-3 text--color fs-5 fw-bold">Choose from the best babysitters in town 
                     who,</p>
                     <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Understand the comfort of kids </li>

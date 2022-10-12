@@ -142,7 +142,7 @@
                             <div class="bg-light rounded h-100 p-3">
                                 <div
                                     class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center  text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-start my-auto vision" src="img\icon\icons8-vision-64.png"
+                                    <img class="align-self-start my-auto vision" src="img\icons8-vision.png"
                                         alt="" />
                                     <div class="d-flex flex-column flex-wrap px-sm-1 px-sm-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Vision</h3> <br>
@@ -162,7 +162,7 @@
                             <div class="bg-light rounded h-100 p-3">
                                 <div
                                     class="bg-white d-flex flex-row flex-wrap flex-sm-nowrap  justify-content-center text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-start my-auto " src="img\icon\icons8-mission-100.png"
+                                    <img class="align-self-start my-auto " src="img\icons8-mission (2).png"
                                         alt="" />
                                     <div class="d-flex flex-column px-1 px-sm-5">
                                         <h3 class="mb-0 align-self-center align-self-sm-start">Mission</h3> <br>
@@ -218,7 +218,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid"
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
-                                    src="img\icon\interview.png" alt="" />
+                                    src="img\interview.png" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize"> Verifying candidate profiles & Interviewing </h4>
                         </div>
@@ -258,7 +258,7 @@
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid"
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
-                                    src="img\icon\professionals.png" alt="" />
+                                    src="img\professionals.png" alt="" />
                             </div>
                             <h4 class="mb-0">Career Coaching for Frofessionals </h4>
                         </div>

@@ -144,7 +144,7 @@
 
 
                     </ul>
-                    <p class="mt-3 text--color font-weight-bold fs-3 fw-bold">Choose from a pool of evaluated caregivers who,</p>
+                    <p class="mt-3 text--color font-weight-bold fs-5 fw-bold">Choose from a pool of evaluated caregivers who,</p>
                     <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Empathize </li>
                         <li class="list-group-item">Are committed and reliable </li>

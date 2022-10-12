@@ -144,7 +144,7 @@
                         <li class="list-group-item">Bathroom Cleaning</li>
 
                     </ul>
-                    <p class="mt-4 text--color fs-3 fw-bold ms-2">Choose from a pool of
+                    <p class="mt-4 text--color fs-5 fw-bold ">Choose from a pool of
                         experienced home service providers.
 
                         Who,

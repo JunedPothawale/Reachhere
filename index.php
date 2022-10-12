@@ -17,7 +17,7 @@
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
             <div class="banner position-relative">
-                <a href="consultant.php"><img class="w-100" src="img\two-collegues-working-business-center.jpg" alt=""
+                <a href="consultant.php"><img class="w-100" src="img\banners\two-collegues-working-business-center.jpg" alt=""
                         srcset=""></a>
                 <div class="banner-container1">
                     Consulting Services

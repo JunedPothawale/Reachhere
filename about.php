@@ -155,67 +155,76 @@
         </div>
     </div>
     <!-- ------- -->
-    <div class="row g-3 justify-content-center" style="overflow-x: hidden !important;">
+    <div class="container my-4">
+        <div class="row g-3 justify-content-center">
 
-        <div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-                <div class="d-flex align-items-center ms-n5 mb-4">
-                    <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                        <img class="img-fluid" src="img/icon/icons8-star-50.png" alt="" />
+            <div class="col-xl-4 col-md-6 col-lg-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
+
+                <div class="service-item rounded h-100 p-5">
+                    <div class="d-flex align-items-center ms-n5 mb-4">
+                        <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                            <img class="img-fluid" src="img\icon\star.png" alt="" />
+                        </div>
+                        <h4 class="mb-0 text-uppercase">DIFFERENTIATOR </h4>
                     </div>
-                    <h4 class="mb-0 text-uppercase">DIFFERENTIATOR </h4>
-                </div>
-                <p class="mb-4">
-                    At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here verifies
-                    the background of every Reacher to ensure our clients receive quality service. What makes us
-                    distinct is the pay-per-rate for all our home assistance services. With this, our clients get the
-                    required assistance in the nick of time, without worrying about quality and trust.
-                </p>
+                    <p class="mb-4">
+                        At Reach Here, all our Reachers are qualified to offer services professionally. Reach Here
+                        verifies
+                        the background of every Reacher to ensure our clients receive quality service. What makes us
+                        distinct is the pay-per-rate for all our home assistance services. With this, our clients get
+                        the
+                        required assistance in the nick of time, without worrying about quality and trust.
+                    </p>
 
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-                <div class="d-flex align-items-center ms-n5 mb-4">
-                    <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                        <img class="img-fluid" src="img\icons8-vision-64 (1).png" alt="" />
+            <div class="col-xl-4 col-md-6 col-lg-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded h-100 p-5">
+                    <div class="d-flex align-items-center ms-n5 mb-4">
+                        <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                            <img class="img-fluid" src="img\icon\vision.png" alt="" />
+                        </div>
+                        <h4 class="mb-0 text-uppercase">OUR VISION </h4>
                     </div>
-                    <h4 class="mb-0 text-uppercase">OUR VISION </h4>
+                    <p class="mb-4">
+                        To reach and assist needful homes around the world with a smile. Be it home services or newly
+                        added
+                        consulting services, offering quality solutions is never compromised. Our vision is to be
+                        unparalleled in all our solutions. We aim to become the bridge for our clients, helping them
+                        reach a
+                        path that leads to a better life.
+
+
+                    </p>
+
                 </div>
-                <p class="mb-4">
-                    To reach and assist needful homes around the world with a smile. Be it home services or newly added
-                    consulting services, offering quality solutions is never compromised. Our vision is to be
-                    unparalleled in all our solutions. We aim to become the bridge for our clients, helping them reach a
-                    path that leads to a better life.
-
-
-                </p>
-
             </div>
-        </div>
-        <div class="col-lg-3 col-md-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item rounded h-100 p-5">
-                <div class="d-flex align-items-center ms-n5 mb-4">
-                    <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                        <img class="img-fluid" src="img/icon/icons8-aim-64.png" alt="" />
+            <div class="col-xl-4 col-md-6 col-lg-6 my-2 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded h-100 p-5">
+                    <div class="d-flex align-items-center ms-n5 mb-4">
+                        <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
+                            <img class="img-fluid" src="img\aim.png" alt="" />
+                        </div>
+                        <h4 class="mb-0 text-uppercase">OUR MISSION</h4>
                     </div>
-                    <h4 class="mb-0 text-uppercase">OUR MISSION</h4>
+                    <p class="mb-4">
+                        Our mission is to build a strong foundation for hourly caregiver solutions and home services.
+                        Although we work with a simple notion to improve our customer’s life, it is not effortless. And
+                        hence, we ensure that quality is never compromised while we achieve our goal as envisioned. With
+                        trained Reachers coming to your loving home, we commit to offering the best assistance for you
+                        and
+                        your loved ones.
+                    </p>
                 </div>
-                <p class="mb-4">
-                    Our mission is to build a strong foundation for hourly caregiver solutions and home services.
-                    Although we work with a simple notion to improve our customer’s life, it is not effortless. And
-                    hence, we ensure that quality is never compromised while we achieve our goal as envisioned. With
-                    trained Reachers coming to your loving home, we commit to offering the best assistance for you and
-                    your loved ones.
-                </p>
             </div>
+
         </div>
 
     </div>
 
     <!-- --------- -->
     <!-- Appointment Start -->
-  
+
     <!-- Appointment End -->
 
     <!-- Footer Start -->
