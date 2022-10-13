@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php $page='contact';include("components/header.php");?>
 
   <body>
     <!-- Spinner Start -->
@@ -40,12 +40,12 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-            <h1 class="display-6 mb-5">
+            <p class=" fs-1 mb-3">
             It’s okay to ask for help, to Reach Here. We’re with you!
 
-            </h1>
+</p>
          
-            <form>
+  <form>
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
@@ -53,7 +53,7 @@
                       type="text"
                       class="form-control"
                       id="name"
-                      placeholder="Your Name"
+                      placeholder="Your Name" required
                     />
                     <label for="name">Your Name</label>
                   </div>
@@ -64,7 +64,7 @@
                       type="email"
                       class="form-control"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Your Email" required
                     />
                     <label for="email">Your Email</label>
                   </div>
@@ -75,18 +75,18 @@
                       type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                       class="form-control"
                       id="number"
-                      placeholder="Your Email"
+                      placeholder="Your Email" required
                     />
                     <label for="number">Phone</label>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="col-md-6">
                   <div class="form-floating">
                     <input
                       type="text"
                       class="form-control"
                       id="subject"
-                      placeholder="Subject"
+                      placeholder="Subject" required
                     />
                     <label for="subject">Subject</label>
                   </div>
@@ -97,7 +97,7 @@
                       class="form-control"
                       placeholder="Leave a message here"
                       id="message"
-                      style="height: 100px"
+                      style="height: 100px" required
                     ></textarea>
                     <label for="message">Message</label>
                   </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php $page = 'child-assist';include("components/header.php");?>
 
 <body>
     <!-- Spinner Start -->
@@ -67,11 +67,11 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid p-0 mb-0 mb-sm-5 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    <img class="w-100" src="img\banners\Child-assist.png" alt="Image" />
+                    <img class="w-100" src="img\Child-assist.webp" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img class="w-100" src="img\banners\Child-assist.png" alt="Image" />
+                    <img class="w-100 " src="img\Child-assist.webp" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -127,20 +127,21 @@
 
     <!-- ----------- -->
     <div class="container  my-5">
-        <div class="row g-4 justify-content-between mt-5 rounded ">
+        <div class="row g-4 justify-content-between mt-0 mt-sm-3 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
-                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3" data-wow-delay="0.1s">
-                    <img src="./img/Babysitting-Mobile.jpg" alt="" class="img-fluid py-1 py-sm-3 px-1">
+                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-0 mb-sm-3 d-none d-md-block"
+                    data-wow-delay="0.1s">
+                    <img src="img/Babysitting-Mobile.webp" alt="" class="img-fluid py-1 py-sm-3 px-1">
                 </div>
-                <div class="col-12 col-lg-6  my-5 px-2 ms-sm-4">
+                <div class="col-12 col-lg-6  my-0 my-sm-3 px-2 ">
                     <h1 class="text--color text-uppercase">CHILD ASSIST SERVICE</h1>
-                    <ul class="list-group mt-4 ms-1">
+                    <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Baby sitting</li>
                         <li class="list-group-item">Safely pick and drop your kids </li>
                         <li class="list-group-item">Escorting to tutorials/tuitions</li>
                     </ul>
-                    <p class="mt-3 text--color fs-4 ms-2" style="font-family:'futurabold';">Choose from the best babysitters in town 
-                    who,</p>
+                    <p class="mt-3 text--color fs-5 fw-bold">Choose from the best babysitters in town
+                        who,</p>
                     <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Understand the comfort of kids </li>
                         <li class="list-group-item">Gentle and caring </li>
@@ -151,7 +152,7 @@
                 </div>
             </div>
         </div>
-        <div class="my-5">
+        <div class="my-3">
 
             <h2 class="text-center text--color text-uppercase"> Pay as required! Starting from INR 250* per hour!</h2>
             <p class="text-center"> A reliable source to support you with childcare and healthy living<br>
@@ -167,9 +168,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹300</h1>
@@ -190,9 +189,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹550</h1>
@@ -214,9 +211,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹800</h1>
@@ -238,9 +233,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹1000</h1>
@@ -281,90 +274,97 @@
                             <div class="col-sm-6">
 
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                    <label for="gname">Your Name</label>
+                                    <input type="text" class="form-control" id="gname" placeholder="First Name"
+                                        required />
+                                    <label for="gname">First Name</label>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>HOME ASSIST</option>
-                                            <option>CHILD ASSIST</option>
-                                            <option>SENIOR ASSIST</option>
-                                        </select>
-
-                                    </div>
+                                <div class="form-group">
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1" required>
+                                                <option value="">Section Types...</option>
+                                                <option value="home-assist">Home Assist</option>
+                                                <option value="child-assist">Child Assist</option>
+                                                <option value="senior-assist">Senior Assist</option>
+                                                <option value="hr-consulting-services">HR Consulant Services</option>
+                                            </select>
+                                        </div>
                                 </div>
 
                             </div>
                             <div class="col-sm-6">
 
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                                    <label for="gname">Full Name</label>
+                                    <input type="text" class="form-control" id="gname" placeholder="Last Name"
+                                        required />
+                                    <label for="gname">Last Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="gmail" placeholder="Email Address" />
+                                    <input type="email" class="form-control" id="gmail" placeholder="Email Address"
+                                        required />
                                     <label for="gmail"> Email Address</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname" placeholder="Mobile Number" />
+                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                        id="cname" placeholder="Mobile Number" required />
                                     <label for="cname"> Mobile Number</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
+                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                        placeholder="Child Age" required />
                                     <label for="cage">Pincode</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="Date" min="1920-01-01" max="2022-01-01" required />
                                     <label for="cage">Date</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="Start Time" required />
                                     <label for="cage">Start Time</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="End Time"required />
                                     <label for="cage">End Time</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 80px"></textarea>
+                                        style="height: 80px" required></textarea>
                                     <label for="message">Address</label>
                                 </div>
+                            </div>   
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <div class="col-12">
+                                <button class="btn bg--primary text-white py-3 px-5 m-auto d-block" type="submit">
+                                    SUBMIT
+                                </button>
                             </div>
-                        </div>
-                    </form>
-                    <div class="modal-footer">
-
-                        <div class="col-12">
-                            <button class="btn bg--primary text-white py-3 px-5 m-auto d-flex justify-content-center"
-                                type="submit">
-                                SUBMIT
-                            </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
+
+
         </div>
-
-
-    </div>
     </div>
     </div>
 
@@ -374,25 +374,27 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5">
+                    <div class="bg-white rounded p-3 p-sm-5">
                         <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                        <label for="gname">Your Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="First Name"
+                                            required />
+                                        <label for="gname">First Name</label>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>HOME ASSIST</option>
-                                                <option>CHILD ASSIST</option>
-                                                <option>SENIOR ASSIST</option>
+                                    <div class="form-group">
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1" required>
+                                                <option value="">Section Types...</option>
+                                                <option value="home-assist">Home Assist</option>
+                                                <option value="child-assist">Child Assist</option>
+                                                <option value="senior-assist">Senior Assist</option>
+                                                <option value="hr-consulting-services">HR Consulant Services</option>
                                             </select>
-
                                         </div>
                                     </div>
 
@@ -400,57 +402,63 @@
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                                        <label for="gname">Full Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="Last Name"
+                                            required />
+                                        <label for="gname">Last Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="gmail"
-                                            placeholder="Email Address" />
+                                        <input type="email" class="form-control" id="gmail" placeholder="Email Address"
+                                            required />
                                         <label for="gmail"> Email Address</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
-                                            placeholder="Mobile Number" />
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                            id="cname" placeholder="Mobile Number" required />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                            placeholder="Child Age" required />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" required
+                                            placeholder="Date" min="1920-01-01" max="2022-01-01" />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Start Time" required/>
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="End Time" required />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 80px"></textarea>
+                                            style="height: 80px" required></textarea>
                                         <label for="message">Address</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5" type="submit">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline"
+                                        type="submit">
                                         SUBMIT
                                     </button>
                                 </div>

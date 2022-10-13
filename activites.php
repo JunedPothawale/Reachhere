@@ -37,9 +37,9 @@
     <div class="container-xxl py-5">
       <div class="container">
         <div class="text-center mx-auto" style="max-width: 500px">
-          <h1 class="display-6 mb-5 text--color">
+          <p class="display-6 mb-3 text--color">
            ALL Services Types Of We Provide 
-          </h1>
+</p>
         </div>
         <div class="row g-4 justify-content-start">
           <h3 class="text--color">Home Service</h3>
@@ -51,7 +51,7 @@
                 >
                 <img
                     class="img-fluid"
-                    src="img/icon/icon-05-light.png"
+                    src="img/icon-05-light.webp"
                     alt=""
                   />
                 </div>
@@ -73,7 +73,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-01-light.png"
+                    src="img/icon-01-light.webp"
                     alt=""
                   />
                 </div>
@@ -93,7 +93,7 @@
                
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-10-light.png"
+                    src="img/icon-10-light.webp"
                     alt=""
                   />
                 </div>
@@ -116,7 +116,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-08-light.png"
+                    src="img/icon-08-light.webp"
                     alt=""
                   />
                 </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php"); ?>
+<?php $page='home'; include("components/header.php"); ?>
 
 <body>
     <!-- Spinner Start -->
@@ -16,13 +16,31 @@
     <!-- Carousel Start -->
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
-            <div class="banner">
-                <a href="consultant.php"><img class="w-100" src="img\banners\consultingbanner-index.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="consultant.php"><img class="w-100" src="img\two-collegues-working-business-center.webp" alt=""
+                        srcset=""></a>
+                <div class="banner-container1">
+                    Consulting Services
+                    <a href="consultant.php"><p class="banner-text-container1 text-start">From CXO Positions, Senior Management, Middle Management And
+                        Junior Management</p></a>
+                    
+                </div>
+
             </div>
-            <div class="banner">
-                <a href="home.php"><img class="w-100" src="img\banners\indexhome.png" alt="" srcset=""></a>
+            <div class="banner position-relative">
+                <a href="home.php"><img class="w-100" src="img\people-taking-care-office-cleaning.webp" alt=""
+                        srcset=""></a>
 
+                <div class="banner-container2">
+                    <a href="home.php" class="text-white">Home Service</a>
 
+                    <ul class="banner-text-container2 ">
+                        <li><a href="senior-assist.php" class="text-white">Senior Assist |</a></li>
+                        <li><a href="home-assist.php" class="text-white">Home Assist |</a></li>
+                        <li><a href="child-assist.php" class="text-white">Child Assist</a></li>
+                    </ul>
+
+                </div>
 
             </div>
         </div>
@@ -33,11 +51,11 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                <div class="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden rounded ps-5 pt-3 h-100" style="min-height: 400px">
+                        <img class="position-absolute w-100 h-100 " src="img/about.webp" alt=""
                             style="object-fit: cover" />
-                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
+                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3 d-none d-md-block"
                             style="width: 200px; height: 200px">
                             <div
                                 class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
@@ -50,10 +68,10 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <h1 class="display-6 mb-5 text--color text-capitalize">
+                        <p class="fs-1 mb-3 text--color text-capitalize fw-bold">
                             Our Experience
-                        </h1>
-                        <p class="fs-5  mb-4">
+                        </p>
+                        <p class="fs-5 mb-4">
                             With Reach Here, regain your better life through our quality services of senior assist,
                             child assist and home assist. With over 25+ years of rich experience supporting seniors and
                             children, the platform carries forward the legacy of extending a trustworthy hand for all
@@ -72,8 +90,11 @@
                         </p>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                                <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
+                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.webp" alt="" />
+                                <a href="tel:+919322243019" class="text-light">
+                                    <h5 class="mb-0">Call Us: +91 7777 80 3030</h5>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -84,7 +105,7 @@
     <!-- About End -->
 
     <!-- Facts Start -->
-    <div class="container-fluid  overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid  overflow-hidden my-1 px-lg-0">
         <div class="container facts px-lg-0">
             <div class="row g-0 mx-lg-0 ">
                 <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
@@ -106,7 +127,7 @@
                             <li> Any day, any time*</li>
                             <li> Quality service in the least time</li>
                         </ul>
-                        <span class="fs-5 text-light text-end m-4">-- Business hours 9 am to 9 pm</span>
+                        <span class="fs-6 fs-sm-5 text-light text-sm-end m-4">-- Business hours 9 am to 9 pm</span>
                         </p>
 
                     </div>
@@ -114,17 +135,20 @@
                 <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
                     <div class="h-100 px-4 pe-lg-0">
                         <div class="row g-5 mx-auto d-flex">
-                            <div class="col-12 col-sm-6 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">100</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Seniors Helped</p>
+                            <div class="col-6 mx-auto text-center">
+
+                                <h1 class="counter-number" data-toggle="counter-up">100</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Seniors Helped
+                                </p>
                             </div>
-                            <div class="col-12 col-sm-6 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">45</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Children Helped</p>
+                            <div class="col-6 mx-auto text-center">
+                                <h1 class="counter-number" data-toggle="counter-up">45</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Children Helped
+                                </p>
                             </div>
                             <div class="col-12 mx-auto text-center">
-                                <h1 class="display-5" data-toggle="counter-up" style="font-size: 5rem;">42</h1>
-                                <p class="fs-5 text-primary text-center text-capitalize">Recruitments</p>
+                                <h1 class="counter-number" data-toggle="counter-up">42</h1>
+                                <p class="counter-number-text text-primary text-center text-capitalize">Recruitments</p>
                             </div>
 
                         </div>
@@ -146,47 +170,48 @@
                         make us stand tall in society.
                     </p>
                     <div class="row g-3">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="bg-light rounded h-100 p-3">
-                                <div
-                                    class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-center mb-3" src="img/icon/icon-06-primary.png" alt="" />
-                                    <h5 class="mb-0 text-capitalize">Prompt, hassle-free hiring</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="bg-light rounded h-100 p-3">
+
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
-                                    <img class="align-self-center mb-3" src="img/icon/icon-03-primary.png" alt="" />
-                                    <h5 class="mb-0">Pay as You Require</h5>
+                                    <img class="align-self-center mb-3" src="img/icon-03-primary.webp" alt="" />
+                                    <h5 class="mb-0 fs-6 fs-sm-5">Pay as You Require</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="bg-light rounded h-100 p-3">
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded py-4 px-3">
-                                    <img class="align-self-center mb-3" src="img/icon/icon-04-primary.png" alt="" />
-                                    <h5 class="mb-0">Trusted by Thousands</h5>
+                                    <img class="align-self-center mb-3" src="img/icon-04-primary.webp" alt="" />
+                                    <h5 class="mb-0 fs-6 fs-sm-5">Trusted by Thousands</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="bg-light rounded h-100 p-3">
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
                                 <div
                                     class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
-                                    <img class="align-self-center mb-3" src="img/icon/icon-07-primary.png" alt="" />
-                                    <h5 class="mb-0 ">Dignified and Trained Professionals</h5>
+                                    <img class="align-self-center mb-3" src="img/icon-07-primary.webp" alt="" />
+                                    <h5 class="mb-0 fs-6 fs-sm-5">Dignified and Trained Professionals</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="bg-light rounded h-100 p-1 p-sm-3">
+                                <div
+                                    class="bg-white d-flex flex-column justify-content-center text-center rounded h-100 py-4 px-3">
+                                    <img class="align-self-center mb-3" src="img/icon-06-primary.webp" alt="" />
+                                    <h5 class="mb-0 text-capitalize fs-6 fs-sm-5">Prompt, hassle-free hiring</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay="0.5s">
                     <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" alt=""
+                        <img class="position-absolute w-100 h-100" src="img/feature.webp" alt=""
                             style="object-fit: cover" />
                     </div>
                 </div>
@@ -196,7 +221,7 @@
     <!-- Features End -->
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-1">
         <div class="container">
             <div class="text-center mx-auto" style="max-width: 500px">
                 <h1 class="display-6 mb-5 text--color text-capitalize">
@@ -209,7 +234,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
+                                <img class="img-fluid" src="img/icon-05-light.webp" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize">Home Service </h4>
                         </div>
@@ -223,11 +248,11 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                                <img class="img-fluid" src="img/icon/icon-07-light.png" alt="" />
+                                <img class="img-fluid" src="img/icon-07-light.webp" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize">Consultancy Services</h4>
                         </div>
-                        <p class="mb-4">
+                        <p class="mb-4 text-start">
                             Get help with your HR needs with the help of a professional Consultancy.
                         </p>
                         <a class="btn btn-light px-3" href="consultant.php">More Details</a>
@@ -240,12 +265,12 @@
     <!-- Service End -->
 
     <!-- Appointment Start -->
-    <div class="container-fluid appointment my-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid appointment my-2 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-5 text-primary ">
-                    We're an Award Winning Service Company
+                    <h1 class="fs-1 text-white mb-5 text-primary ">
+                        We're an Award Winning Service Company
 
                     </h1>
                     <p class="text-white mb-5">
@@ -253,43 +278,46 @@
                     </p>
                     <div class="bg-white rounded p-3">
                         <div class="d-flex align-items-center bg--primary rounded p-3">
-                            <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                            <h5 class="text-white mb-0">Call Us: +91 7777803030</h5>
+                            <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.webp" alt="" />
+                            <a href="tel:+919322243019">
+                                <h5 class="mb-0 text-light">Call Us: +91 7777 80 3030</h5>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-5">
-                        <form>
+                <div class="col-lg-6 px-1  wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white rounded py-md-5 px-md-5 px-3 py-5">
+                     <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
+                                        <input type="text" class="form-control " id="gname" placeholder="Gurdian Name" required />
                                         <label for="gname" class="text-capitalize">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="gmail"
-                                            placeholder="Gurdian Email" />
-                                        <label for="gmail" class="text-capitalize"">Your Email</label>
+                                            placeholder="Gurdian Email"  required />
+                                        <label for="gmail" class="text-capitalize">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="cname" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Child Name" />
+                                        <input type="text" class="form-control" id="cname"
+                                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Child Name" required />
                                         <label for="cname" class="text-capitalize">Your Mobile</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <div class="form-group">
-                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1">
-                                                <option>Section Types...</option>
-                                                <option>Home Assist</option>
-                                                <option>Chid Assist</option>
-                                                <option>Senior Assist</option>
-                                                <option>HR Consulant Services</option>
+                                    <div class="form-group">
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1" required>
+                                                <option value="">Section Types...</option>
+                                                <option value="home-assist">Home Assist</option>
+                                                <option value="child-assist">Child Assist</option>
+                                                <option value="senior-assist">Senior Assist</option>
+                                                <option value="hr-consulting-services">HR Consulant Services</option>
                                             </select>
                                         </div>
                                     </div>
@@ -297,7 +325,7 @@
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 80px"></textarea>
+                                            style="height: 80px" required></textarea>
                                         <label for="message" class="text-capitalize">Message</label>
                                     </div>
                                 </div>
@@ -336,7 +364,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item text-center">
-                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.webp" alt="" />
                             <p class="fs-5 p-3 text-center">
                                 My parents are quite old needed a Reacher to escart them to pathology for sonography
                                 .The Reacher was on time and was with my parents from the time they left home for
@@ -347,7 +375,7 @@
                             <span>Mumbai ,India</span>
                         </div>
                         <div class="testimonial-item text-center">
-                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.webp" alt="" />
                             <p class="fs-5 p-3 text-center">
                                 Reachers reach on demand & that's what Liked about them. I booked their service time as
                                 always it has been great experience. </span>
@@ -356,7 +384,7 @@
                             <span>Khar, Mumbai, India</span>
                         </div>
                         <div class="testimonial-item text-center">
-                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.jpeg" alt="" />
+                            <img class="img-fluid rounded mx-auto mb-4" src="img\demo.webp" alt="" />
                             <p class="fs-5 p-3 text-center">
                                 <span>On hearing of this new concept, we booked for Home Assist service in the month of
                                     June for 2 hours and were super happy with Reacher coming on time and executing the
