@@ -3,20 +3,23 @@
       <div class="row g-5">
         <div class="col-lg-4 col-md-6">
           <h1 class="text-white mb-4">
-            <img class="img-fluid me-3" src="img\footer_logo.png" alt="" />
+            <img class="img-fluid me-3" src="img\footer_logo.webp" alt="" />
           </h1>
           <div class="d-flex pt-2">
-            <a class="btn btn-square me-1 text-light" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square me-1 text-light" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
             <a class="btn btn-square me-1 text-light" href="https://www.facebook.com/Reach-Here-Pvt-Ltd-101334729053950"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square me-1 text-light" href=""><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-square me-1 text-light" href=""><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-square me-1 text-light" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-square me-1 text-light" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <h5 class="text-light display-6 mb-4">Address</h5>
           <address class="text-light">
-            <i class="fa fa-map-marker-alt me-3"></i>Yashodeep Heights, Amrut Dham, Gothivali Village, Sector 30, Rabale, Navi Mumbai, Maharashtra 400701
-          </address>
+          <a class="text-white" href="http://maps.google.com/?q= Yashodeep Heights, Amrut Dham, Gothivali Village, Sector 30, Rabale, Navi Mumbai, Maharashtra 400701"> 
+          <i class="fa fa-map-marker-alt me-3"></i>Yashodeep Heights, Amrut Dham, Gothivali Village, Sector 30, Rabale, Navi Mumbai, Maharashtra 400701
+          </a>  
+        </address>
+
           </p>
           <a href="tel:+919322243019" class="text-light"><p><i class="fa fa-phone-alt me-3"></i> +91 9322 243 019</p></a>
           <a href="mailto:taranjit@reachhere.in" class="text-light"><p><i class="fa fa-envelope me-3"></i> taranjit@reachhere.in</p></a>

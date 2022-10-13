@@ -54,7 +54,7 @@
             <div class="row jutify-content-center align-items-center g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden rounded ps-5 pt-5 h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" alt=""
+                        <img class="position-absolute w-100 h-100" src="img/carousel-2.webp" alt=""
                             style="object-fit: cover" />
                         <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
                             style="width: 200px; height: 200px">
@@ -78,7 +78,7 @@
                         </p>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
+                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.webp" alt="" />
                                 <a href="tel:+917777803030">
                                     <h5 class="mb-0">Call Us:+91 7777 80 3030</h5>
                                 </a>
@@ -90,16 +90,16 @@
         </div>
     </div>
     <!-- About End -->
-    <div class="container-fluid appointment wow fadeIn" data-wow-delay="0.1s">
-        <div class="container-fluid  overflow-hidden my-3 px-lg-0">
-            <div class="container facts px-lg-0">
-                <div class="row g-0 mx-lg-0 ">
+    <div class="container-fluid appointment wow fadeIn px-0" data-wow-delay="0.1s">
+        <div class="container-fluid  overflow-hidden py-5 py-md-0 px-lg-0">
+            <div class="container facts px-lg-0 ">
+                <div class="row g-0 mx-lg-0 mb-0">
                     <div class="col-lg-6 facts-text wow fadeIn" data-wow-delay="0.1s">
-                        <div class="h-100 px-1 px-sm-4 ps-lg-0">
+                        <div class="h-100 px-1 px-sm-4 ps-lg-0 ">
                             <div class="p-2">
                                 <h1 class="text-capitalize text-light">About Company</h1>
 
-                                <p class="text-light"> Caring and offering care and assistance is the most human thing
+                                <p class="text-light "> Caring and offering care and assistance is the most human thing
                                     to exist. However, in the
                                     midst of the daily hustle, many of us struggle with finding the right help. While
                                     embracing
@@ -120,32 +120,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 facts-counter wow fadeIn" data-wow-delay="0.5s">
-                        <div class="h-100 px-1 px-sm-4 pe-lg-0">
-                            <div class="row g-5 mx-auto">
-
+                    <div class="col-lg-6 px-0 facts-counter fact-sm-counter wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100 py-5 px-sm-4 pe-lg-0">
+                            <div class="row g-5 mx-auto ">
                                 <h1 class="text--color text-uppercase">OUR CORE VALUES</h1>
                                 <div class="mt-0 mt-md-3">
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Earn Trust</p>
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Committed to
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img\reach-icon-logo copy 4.svg" alt="" class="me-3">Earn Trust</p>
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img/reach-icon-logo copy 4.svg" alt="" class="me-3 ">Committed to
                                         Operational Excellence</p>
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Innovate and
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img/reach-icon-logo copy 4.svg" alt="" class="me-3">Innovate and
                                         Simplify</p>
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Safety First
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img/reach-icon-logo copy 4.svg" alt="" class="me-3">Safety First
                                     </p>
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Building a
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img/reach-icon-logo copy 4.svg" alt="" class="me-3">Building a
                                         caring community</p>
-                                    <p class="font-2 d-flex align-items-center"><img
-                                            src="img\icon\reach-icon-logo copy 4.svg" alt="" class="me-3">Delivering
+                                    <p class="font-2 d-flex align-items-center text-start"><img
+                                            src="img/reach-icon-logo copy 4.svg" alt="" class="me-3">Delivering
                                         growth </p>
-
-
-
                                 </div>
                             </div>
                         </div>
@@ -163,7 +159,7 @@
                 <div class="service-item rounded h-100 p-5">
                     <div class="d-flex align-items-center ms-n5 mb-4">
                         <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                            <img class="img-fluid" src="img\icon\star.png" alt="" />
+                            <img class="img-fluid" src="img/icons8-star-50.webp" alt="" />
                         </div>
                         <h4 class="mb-0 text-uppercase">DIFFERENTIATOR </h4>
                     </div>
@@ -182,7 +178,7 @@
                 <div class="service-item rounded h-100 p-5">
                     <div class="d-flex align-items-center ms-n5 mb-4">
                         <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                            <img class="img-fluid" src="img\icon\vision.png" alt="" />
+                            <img class="img-fluid" src="img/vision_about.webp" alt="" />
                         </div>
                         <h4 class="mb-0 text-uppercase">OUR VISION </h4>
                     </div>
@@ -203,7 +199,7 @@
                 <div class="service-item rounded h-100 p-5">
                     <div class="d-flex align-items-center ms-n5 mb-4">
                         <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                            <img class="img-fluid" src="img\aim.png" alt="" />
+                            <img class="img-fluid" src="img\aim.webp" alt="" />
                         </div>
                         <h4 class="mb-0 text-uppercase">OUR MISSION</h4>
                     </div>

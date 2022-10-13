@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("components/header.php");?>
+<?php include("components/header.php"); ?>
 
 <body>
     <!-- Spinner Start -->
@@ -14,48 +14,40 @@
     <!-- Carousel Start -->
     <div class="container-fluid banner_con">
         <div class="banner_container d-flex justify-content-center">
-     
-            <div class="banner position-relative">
-                <a href="home-assist.php"><img class="w-100" src="img\hiring-cleaning-services.png" alt=""
-                        srcset=""></a>
-
-                <div class="banner-container2">
-                    Home Assist
-
-                    <ul class="banner-text-container2">
-                        Click here to view more details
-                    </ul>
-
-                </div>
-
+            <div class="banner position-relative w-100">
+                <a href="home-assist.php" class="text-white">
+                    <img class="w-100" src="img\hiring-cleaning-services.webp" alt="" srcset="">
+                    <div class="banner-container2">
+                        Home Assist
+                        <ul class="banner-text-container2">
+                            Click here to view more details
+                        </ul>
+                    </div>
+                </a>
             </div>
-            <div class="banner position-relative">
-                <a href="child-assist.php"><img class="w-100" src="img\Babysitting-Mobile.jpg" alt=""
-                        srcset=""></a>
-
-                <div class="banner-container2">
-                    Child Assist
-
-                    <ul class="banner-text-container2">
-                    Click here to view more details
-                    </ul>
-
-                </div>
-
+            <div class="banner position-relative w-100">
+                <a href="child-assist.php" class="text-white"><img class="w-100" src="img\Babysitting-Mobile.webp"
+                        alt="" srcset="">
+                    <div class="banner-container2">
+                        Child Assist
+                        <ul class="banner-text-container2">
+                            Click here to view more details
+                        </ul>
+                    </div>
+                </a>
             </div>
-            <div class="banner position-relative">
-                <a href="senior-assist.php"><img class="w-100" src="img\senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt=""
-                        srcset=""></a>
+            <div class="banner position-relative w-100">
+                <a href="senior-assist.php" class="text-white">
+                    <img class="w-100" src="img\senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.webp" alt=""
+                        srcset="">
+                    <div class="banner-container2">
+                        Senior Assist
 
-                <div class="banner-container2">
-                   Senior Assist
-
-                    <ul class="banner-text-container2">
-                    Click here to view more details
-                    </ul>
-
-                </div>
-
+                        <ul class="banner-text-container2">
+                            Click here to view more details
+                        </ul>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -63,11 +55,13 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp d-none d-sm-block" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden rounded ps-sm-5 pt-sm-5 h-100" style="min-height: 400px">
-                        <img class="position-absolute w-100 h-100" src="img\banners\All-home-services.png" alt=""
+                <div class="col-lg-6 wow fadeInUp d-none d-md-block" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden rounded ps-sm-5 pt-sm-5 h-100"
+                        style="min-height: 400px">
+                        <img class="position-absolute w-100 h-100" src="img\All-home-services.webp" alt=""
                             style="object-fit: cover" />
-                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3 " style="width: 200px; height: 200px">
+                        <div class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3 "
+                            style="width: 200px; height: 200px">
                             <div
                                 class="d-flex flex-column justify-content-center text-center bg--primary rounded h-100 p-3">
                                 <h2 class="text-white mb-0">Legacy of</h2>
@@ -81,7 +75,7 @@
                     <div class="h-100">
                         <h1 class=" mb-3 text--color text-capitalize">
                             Choose a Service to get Started!
-</h1>
+                        </h1>
                         <p class="fs-5 text-primary mb-4">
                             Home, Child, and Senior Assistance Plans
                         </p>
@@ -91,12 +85,14 @@
                             assistance is always a bonus in such times. That’s when Reach Here reaches your doorstep
                             with all the assistance you need.
                             <br>
-                            All services, a few clicks away.
+                            All services, Just Few <a href="activites.php">clicks</a> away.
                         </p>
                         <div class="border-top mt-4 pt-4">
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.jpg" alt="" />
-                                <a href="tel:+917777803030"> <h5 class="mb-0">Call Us:+91 7777 80 3030</h5></a>
+                                <img class="flex-shrink-0 rounded-circle me-3" src="img/profile.webp" alt="" />
+                                <a href="tel:+917777803030">
+                                    <h5 class="mb-0">Call Us:+91 7777 80 3030</h5>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -116,14 +112,14 @@
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
 
-                    <div class="service-item rounded h-100 p-5 po">
+                    <div class="service-item rounded p-5 po">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
-                                <img class="img-fluid" src="img/icon/icon-05-light.png" alt="" />
+                                <img class="img-fluid" src="img/icon-05-light.webp" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize">Home Assist</h4>
                         </div>
-                        <p class="mb-4 text-style">
+                        <p class="mb-5 text-style">
                             Now, take care of your house the easy way! From home cleaning to plumbing, get the best home
                             services at your fingertips! The platform ensures a trouble-free experience while getting
                             reliable home services per hour.
@@ -138,35 +134,36 @@
 
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded h-100 p-5">
+                    <div class="service-item rounded  p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid"
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
-                                    src="img\icon\children.png" alt="" />
+                                    src="img\children.webp" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize">Child Assist</h4>
                         </div>
-                        <p class="mb-4 text-style">
+                        <p class="mb-5 text-style">
                             Find trusted babysitters in your town who are empathetic and fun around your kids. With
                             Reach Here, your baby gets the best care and love they need. The platform offers reliable,
                             quick and quality childcare services in your comfort space and time.
 
                             <br> We are here to help. Want to learn more about our services
                         </p>
-                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize" href="child-assist.php">More
+                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize"
+                            href="child-assist.php">More
                             Details</a>
                         <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp position-relative" data-wow-delay="0.3s">
-                    <div class="service-item rounded h-100 p-5">
+                    <div class="service-item rounded  p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary rounded-end me-4">
                                 <img class="img-fluid"
                                     style="filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(244deg) brightness(107%) contrast(100%);"
-                                    src="img\icon\medical-assistance.png" alt="" />
+                                    src="img\medical-assistance.webp" alt="" />
                             </div>
                             <h4 class="mb-0 text-capitalize"> Senior Assist</h4>
                         </div>
@@ -174,12 +171,10 @@
                             Reach Here lends the support and empathy your elderly loved ones need while you look after
                             the other priorities in your day. The trained professionals cautiously accompany your loved
                             ones while respecting their dignity. From escorting them to pathology or garden to attending
-                            them home, our Reachers get you covered right in time.
-
-                            <br>
-                            We are here to help. Want to learn more about our services
+                            them home, our Reachers get you covered right in time
                         </p>
-                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize" href="senior-assist.php">More
+                        <a class="btn btn-light px-3 position-absolute top-90 start-35 text-capitalize"
+                            href="senior-assist.php">More
                             Details</a>
                         <!-- <a class="btn btn-light px-3" href="consaltant.php">Read More</a> -->
                     </div>
@@ -191,28 +186,29 @@
         </div>
     </div>
     <div class="container-fluid appointment mt-5 py-5 wow fadeIn" data-wow-delay="0.1s" id="contactform">
-        <div class="container py-5">
+        <div class="container px-1 ">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="bg-white rounded p-3 p-sm-5">
+                    <div class="bg-white rounded py-md-5 px-md-5 px-3 py-5">
                         <form>
                             <div class="row g-3">
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                        <label for="gname">Your Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="First Name" required/>
+                                        <label for="gname">First Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>HOME ASSIST</option>
-                                                <option>CHILD ASSIST</option>
-                                                <option>SENIOR ASSIST</option>
+                                    <div class="form-group">
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1" required>
+                                                <option value="">Section Types...</option>
+                                                <option value="home-assist">Home Assist</option>
+                                                <option value="child-assist">Child Assist</option>
+                                                <option value="senior-assist">Senior Assist</option>
+                                                <option value="hr-consulting-services">HR Consulant Services</option>
                                             </select>
-
                                         </div>
                                     </div>
 
@@ -220,57 +216,63 @@
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                                        <label for="gname">Full Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="Last Name"
+                                            required />
+                                        <label for="gname">Last Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="gmail"
-                                            placeholder="Email Address" />
+                                        <input type="email" class="form-control" id="gmail" placeholder="Email Address"
+                                            required />
                                         <label for="gmail"> Email Address</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
-                                            placeholder="Mobile Number" />
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                            id="cname" placeholder="Mobile Number" required />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                            placeholder="Child Age" required />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Date" min="1920-01-01" max="2022-01-01" required />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Start Time" required />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="End Time" required />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 80px"></textarea>
+                                            style="height: 80px" required></textarea>
                                         <label for="message">Address</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline" type="submit">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline"
+                                        type="submit">
                                         SUBMIT
                                     </button>
                                 </div>
@@ -290,7 +292,7 @@
     <!-- Client Start -->
     <!-- Client End -->
     <!-- Appointment Start -->
-  
+
     <!-- Appointment End -->
 
     <!-- Team Start -->

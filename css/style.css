@@ -334,7 +334,7 @@
         position: relative;
         min-height: 200px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -346,7 +346,7 @@
     }   
 }
 .page-header {
-    background: url(../img/carousel-1.jpg) center center no-repeat;
+    background: url(../img/carousel-1.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -405,12 +405,12 @@
 } 
 
 .container.facts .facts-text {
-    background: linear-gradient(rgba(62, 72, 152,.9), rgba(62, 72, 152,.9)), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(rgba(62, 72, 152,.9), rgba(62, 72, 152,.9)), url(../img/carousel-1.webp) center right no-repeat;
     background-size: cover;
 }
 
 .container.facts .facts-counter {
-    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-2.jpg) center right no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/carousel-2.webp) center right no-repeat;
     background-size: cover;
 }
 
@@ -421,6 +421,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 
 
 /*** Service ***/
@@ -466,7 +467,7 @@
 
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(62, 72, 152,.9), rgba(62, 72, 152,.9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(62, 72, 152,.9), rgba(62, 72, 152,.9)), url(../img/carousel-1.webp) center center no-repeat;
     background-size: cover;
     background-color: rgba(62, 72, 152,.9);
 }
@@ -658,7 +659,7 @@ a{
 }
 .footer .copyright a:hover {
     color: #FFFFFF;
-    backdrop-filter: 
+    /* backdrop-filter:  */
 }
 .counter-number{font-size: 70px;}
 .counter-number-text{font-size: 22px;}

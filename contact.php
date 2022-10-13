@@ -45,7 +45,7 @@
 
 </p>
          
-            <form>
+  <form>
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
@@ -53,7 +53,7 @@
                       type="text"
                       class="form-control"
                       id="name"
-                      placeholder="Your Name"
+                      placeholder="Your Name" required
                     />
                     <label for="name">Your Name</label>
                   </div>
@@ -64,7 +64,7 @@
                       type="email"
                       class="form-control"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Your Email" required
                     />
                     <label for="email">Your Email</label>
                   </div>
@@ -75,7 +75,7 @@
                       type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
                       class="form-control"
                       id="number"
-                      placeholder="Your Email"
+                      placeholder="Your Email" required
                     />
                     <label for="number">Phone</label>
                   </div>
@@ -86,7 +86,7 @@
                       type="text"
                       class="form-control"
                       id="subject"
-                      placeholder="Subject"
+                      placeholder="Subject" required
                     />
                     <label for="subject">Subject</label>
                   </div>
@@ -97,7 +97,7 @@
                       class="form-control"
                       placeholder="Leave a message here"
                       id="message"
-                      style="height: 100px"
+                      style="height: 100px" required
                     ></textarea>
                     <label for="message">Message</label>
                   </div>

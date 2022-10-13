@@ -71,7 +71,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    <img class="w-100" src="img\banners\Senior-assist.png" alt="Image" />
+                    <img class="w-100" src="img\Senior-assist.webp" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
                 <div class="carousel-item active">
-                    <img class="w-100" src="img\banners\Senior-assist.png" alt="Image" />
+                    <img class="w-100" src="img\Senior-assist.webp" alt="Image" />
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row">
@@ -129,8 +129,8 @@
     <div class="container  my-5">
         <div class="row g-4 justify-content-between mt-0 mt-sm-3 rounded ">
             <div class="col-12 d-lg-flex justify-content-between align-items-center ">
-                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3 d-none d-sm-block" data-wow-delay="0.1s">
-                    <img src="./img/senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.jpg" alt=""
+                <div class="col-12 col-lg-6  home-service-img wow fadeIn mb-3 d-none d-md-block" data-wow-delay="0.1s">
+                    <img src="img/senior-man-with-helpful-volunteer-in-the-garden-LMJAN27.webp" alt=""
                         class="img-fluid py-1 py-sm-3 px-1">
                 </div>
                 <div class="col-12 col-lg-6  my-0 my-sm-2 px-2 px-sm-5">
@@ -144,7 +144,8 @@
 
 
                     </ul>
-                    <p class="mt-3 text--color font-weight-bold fs-5 fw-bold">Choose from a pool of evaluated caregivers who,</p>
+                    <p class="mt-3 text--color font-weight-bold fs-5 fw-bold">Choose from a pool of evaluated caregivers
+                        who,</p>
                     <ul class="list-group mt-1 ms-1">
                         <li class="list-group-item">Empathize </li>
                         <li class="list-group-item">Are committed and reliable </li>
@@ -172,9 +173,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹300</h1>
@@ -195,9 +194,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹550</h1>
@@ -219,9 +216,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹800</h1>
@@ -243,9 +238,7 @@
                     <div class="service-item rounded h-100 p-5">
                         <div class="d-flex align-items-center ms-n5 mb-4">
                             <div class="service-icon flex-shrink-0 bg-primary bg-white  rounded-end me-4">
-                                <img class="img-fluid"
-                                    src="https://reachhere.in/public/dist/front/assets/img/reach-icon-logo.svg"
-                                    alt="" />
+                                <img class="img-fluid" src="img/reach-icon-logo copy 4.svg" alt="" />
                             </div>
                             <div>
                                 <h1 style="color: #E95197;">₹1000</h1>
@@ -286,19 +279,22 @@
                             <div class="col-sm-6">
 
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                    <label for="gname">Your Name</label>
+                                    <input type="text" class="form-control" id="gname" placeholder="First Name"
+                                        required />
+                                    <label for="gname">First Name</label>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="form-floating">
                                     <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>HOME ASSIST</option>
-                                            <option>CHILD ASSIST</option>
-                                            <option>SENIOR ASSIST</option>
+                                        <select class="form-control text-capitalize" id="exampleFormControlSelect1"
+                                            required>
+                                            <option value="">Section Types...</option>
+                                            <option value="home-assist">Home Assist</option>
+                                            <option value="child-assist">Child Assist</option>
+                                            <option value="senior-assist">Senior Assist</option>
+                                            <option value="hr-consulting-services">HR Consulant Services</option>
                                         </select>
-
                                     </div>
                                 </div>
 
@@ -306,65 +302,70 @@
                             <div class="col-sm-6">
 
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                                    <label for="gname">Full Name</label>
+                                    <input type="text" class="form-control" id="gname" placeholder="Last Name"
+                                        required />
+                                    <label for="gname">Last Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="gmail" placeholder="Email Address" />
+                                    <input type="email" class="form-control" id="gmail" placeholder="Email Address"
+                                        required />
                                     <label for="gmail"> Email Address</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="text"
-                                         pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
-                                            placeholder="Mobile Number" />
-                                        <label for="cname"> Mobile Number</label>
-                                    </div>
+                                <div class="form-floating">
+                                    <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                        id="cname" placeholder="Mobile Number" required />
+                                    <label for="cname"> Mobile Number</label>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Pincode" />
-                                        <label for="cage">Pincode</label>
-                                    </div>
-                                </div>
+                            </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
+                                    <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                        placeholder="Child Age" required />
+                                    <label for="cage">Pincode</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="Date" min="1920-01-01" max="2022-01-01" required />
                                     <label for="cage">Date</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="Start Time" required />
                                     <label for="cage">Start Time</label>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-floating">
-                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
+                                    <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                        placeholder="End Time" required />
                                     <label for="cage">End Time</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 80px"></textarea>
+                                        style="height: 80px" required></textarea>
                                     <label for="message">Address</label>
                                 </div>
                             </div>
-                        </div>
-                    </form>
-                    <div class="modal-footer">
 
-                        <div class="col-12">
-                            <button class="btn bg--primary text-white py-3 px-5 m-auto d-block"
-                                type="submit">
-                                SUBMIT
-                            </button>
                         </div>
+                        <div class="modal-footer">
+                            
+                            <div class="col-12">
+                                <button class="btn bg--primary text-white py-3 px-5 m-auto d-block" type="submit">
+                                    SUBMIT
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -385,19 +386,22 @@
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Gurdian Name" />
-                                        <label for="gname">Your Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="First Name"
+                                            required />
+                                        <label for="gname">First Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
                                         <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>HOME ASSIST</option>
-                                                <option>CHILD ASSIST</option>
-                                                <option>SENIOR ASSIST</option>
+                                            <select class="form-control text-capitalize" id="exampleFormControlSelect1"
+                                                required>
+                                                <option value="">Section Types...</option>
+                                                <option value="home-assist">Home Assist</option>
+                                                <option value="child-assist">Child Assist</option>
+                                                <option value="senior-assist">Senior Assist</option>
+                                                <option value="hr-consulting-services">HR Consulant Services</option>
                                             </select>
-
                                         </div>
                                     </div>
 
@@ -405,57 +409,63 @@
                                 <div class="col-sm-6">
 
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="gname" placeholder="Full Name" />
-                                        <label for="gname">Full Name</label>
+                                        <input type="text" class="form-control" id="gname" placeholder="Last Name"
+                                            required />
+                                        <label for="gname">Last Name</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="gmail"
-                                            placeholder="Email Address" />
+                                        <input type="email" class="form-control" id="gmail" placeholder="Email Address"
+                                            required />
                                         <label for="gmail"> Email Address</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control" id="cname"
-                                            placeholder="Mobile Number" />
+                                        <input type="text" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" class="form-control"
+                                            id="cname" placeholder="Mobile Number" required />
                                         <label for="cname"> Mobile Number</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage" placeholder="Child Age" />
+                                        <input type="text" pattern="[0-9]{6}" class="form-control" id="cage"
+                                            placeholder="Child Age" required />
                                         <label for="cage">Pincode</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Date" />
+                                        <input type="date" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Date" min="1920-01-01" max="2022-01-01" required />
                                         <label for="cage">Date</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="Start Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="Start Time" required />
                                         <label for="cage">Start Time</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="form-floating">
-                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage" placeholder="End Time" />
+                                        <input type="time" class="form-control" onfocus="this.showPicker()" id="cage"
+                                            placeholder="End Time" required />
                                         <label for="cage">End Time</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 80px"></textarea>
+                                            style="height: 80px" required></textarea>
                                         <label for="message">Address</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline" type="submit">
+                                    <button class="btn bg--primary text-white py-3 px-5 m-auto d-block d-sm-inline"
+                                        type="submit">
                                         SUBMIT
                                     </button>
                                 </div>

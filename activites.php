@@ -51,7 +51,7 @@
                 >
                 <img
                     class="img-fluid"
-                    src="img/icon/icon-05-light.png"
+                    src="img/icon-05-light.webp"
                     alt=""
                   />
                 </div>
@@ -73,7 +73,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-01-light.png"
+                    src="img/icon-01-light.webp"
                     alt=""
                   />
                 </div>
@@ -93,7 +93,7 @@
                
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-10-light.png"
+                    src="img/icon-10-light.webp"
                     alt=""
                   />
                 </div>
@@ -116,7 +116,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/icon-08-light.png"
+                    src="img/icon-08-light.webp"
                     alt=""
                   />
                 </div>

@@ -15,9 +15,9 @@
         <small class="far fa-envelope-open me-2"></small>
         <a href="mailto:info@reachhere.in" class="text-light"><small>info@reachhere.in</small></a>
           <a class="text-white ms-4" href="https://www.facebook.com/profile.php?id=100076146793455"><i class="fab fa-facebook-f"></i></a>
-          <a class="text-white ms-4" href=""><i class="fab fa-twitter"></i></a>
-          <a class="text-white ms-4" href=""><i class="fab fa-instagram"></i></a>
-          <a class="text-white ms-4" href=""><i class="fab fa-linkedin-in"></i></i></a>
+          <a class="text-white ms-4" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a class="text-white ms-4" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a class="text-white ms-4" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></i></a>
 
         </div>
       </div>
@@ -28,7 +28,7 @@
   <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top px-4 px-lg-5">
     <a href="index.php" class="navbar-brand d-flex align-items-center">
       <h1 class="m-0">
-        <img class="img-fluid me-3" src="img/logo.png" alt="" />
+        <img class="img-fluid me-3" src="img/logo.webp" alt="" />
       </h1>
     </a>
     <button type="button" class="navbar-toggler text-light mt-1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
